@@ -1,0 +1,14 @@
+command_id: 7C0.221022|fc=1
+test_cases:
+- expected_values:
+    TOYOTA_FLV: 7.04
+  response: 7C80562102202C0
+- expected_values:
+    TOYOTA_FLV: 15.35
+  response: 7C80562102205FF
+- expected_values:
+    TOYOTA_FLV: 15.36
+  response: 7C8056210220600
+- expected_values:
+    TOYOTA_FLV: 38.4
+  response: 7C8056210220F00
