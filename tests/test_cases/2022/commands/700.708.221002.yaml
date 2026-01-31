@@ -1,8 +1,11 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    TOYOTA_12V_V: 13.34469
-  response: 708056210022AB4
+    TOYOTA_12V_V: 12.26559
+  response: '708056210022740'
 - expected_values:
-    TOYOTA_12V_V: 13.47653
-  response: 708056210022B20
+    TOYOTA_12V_V: 13.40329
+  response: 708056210022AE4
+- expected_values:
+    TOYOTA_12V_V: 13.44235
+  response: 708056210022B04
