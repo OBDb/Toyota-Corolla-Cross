@@ -4,8 +4,29 @@ test_cases:
     TOYOTA_EOP_CONTROL_VALVE: 99.94501
   response: 70805622848051E
 - expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 529.78484
+  response: 708056228481B20
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 570.22061
+  response: 708056228481D32
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 588.14968
+  response: 708056228481E1D
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 591.96437
+  response: 708056228481E4F
+- expected_values:
     TOYOTA_EOP_CONTROL_VALVE: 652.08396
   response: '708056228482163'
 - expected_values:
     TOYOTA_EOP_CONTROL_VALVE: 663.90952
   response: 7080562284821FE
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 687.10286
+  response: 70805622848232E
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 721.74029
+  response: 7080562284824F4
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 722.42694
+  response: 7080562284824FD
