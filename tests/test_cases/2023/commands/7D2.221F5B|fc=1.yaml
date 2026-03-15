@@ -4044,3 +4044,8 @@ test_cases:
     7EA03410D27
     7EE03410D27
     7E803410D27
+- expected_values:
+    TOYOTA_SOC: 33.72549
+  response: |-
+    SEARCHING...
+    7DA04621F5B56
