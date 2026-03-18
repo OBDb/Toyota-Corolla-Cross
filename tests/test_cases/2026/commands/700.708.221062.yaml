@@ -1,5 +1,17 @@
 command_id: 700.708.221062
 test_cases:
 - expected_values:
+    TOYOTA_EXHAUST_VVT_OCV_CONTROL_DUTY: 11.87152
+  response: '708056210620799'
+- expected_values:
+    TOYOTA_EXHAUST_VVT_OCV_CONTROL_DUTY: 22.60166
+  response: '708056210620E77'
+- expected_values:
+    TOYOTA_EXHAUST_VVT_OCV_CONTROL_DUTY: 22.67491
+  response: '708056210620E83'
+- expected_values:
+    TOYOTA_EXHAUST_VVT_OCV_CONTROL_DUTY: 22.96788
+  response: 708056210620EB3
+- expected_values:
     TOYOTA_EXHAUST_VVT_OCV_CONTROL_DUTY: 22.98009
   response: 708056210620EB5
