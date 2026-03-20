@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.214B
 test_cases:
 - expected_values:
-    TOYOTA_EVAP_FIN_THERMISTOR: 7.4
-  response: 7CC03614B6A
+    TOYOTA_EVAP_FIN_THERMISTOR: 3.2
+  response: 7CC03614B5E
 - expected_values:
-    TOYOTA_EVAP_FIN_THERMISTOR: 14.05
-  response: 7CC03614B7D
+    TOYOTA_EVAP_FIN_THERMISTOR: 15.1
+  response: 7CC03614B80
