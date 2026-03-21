@@ -14,10 +14,10 @@ test_cases:
     7C8046210217F
     7C8046210411F
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE_V2: 12.7
+    TOYOTA_BATTERY_VOLTAGE_V2: 13.8
   response: |-
-    7C8046210217F
-    7C80462104147
+    7C8046210218A
+    7C80462104155
 - expected_values:
     TOYOTA_BATTERY_VOLTAGE_V2: 14
   response: |-
