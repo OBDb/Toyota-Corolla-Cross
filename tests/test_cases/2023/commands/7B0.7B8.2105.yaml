@@ -13,9 +13,9 @@ test_cases:
     TOYOTA_DECEL_2: 0.49906
   response: 7B80561057F8322
 - expected_values:
-    TOYOTA_DECEL: 0.21388
-    TOYOTA_DECEL_2: 1.92494
-  response: 7B8056105818D2B
+    TOYOTA_DECEL: 0.49906
+    TOYOTA_DECEL_2: 2.63788
+  response: 7B805610583923E
 - expected_values:
     TOYOTA_DECEL: 1.212
     TOYOTA_DECEL_2: 0.92682
