@@ -1,0 +1,18 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    TOYOTA_ENG_OIL_PRESS: 53.82812
+    TOYOTA_EOP: 689
+  response: 7080562107402B1
+- expected_values:
+    TOYOTA_ENG_OIL_PRESS: 99.92188
+    TOYOTA_EOP: 1279
+  response: 7080562107404FF
+- expected_values:
+    TOYOTA_ENG_OIL_PRESS: 100.54688
+    TOYOTA_EOP: 1287
+  response: '708056210740507'
+- expected_values:
+    TOYOTA_ENG_OIL_PRESS: 320.625
+    TOYOTA_EOP: 4104
+  response: '708056210741008'
