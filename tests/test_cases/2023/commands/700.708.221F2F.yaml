@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_FLI: 45.4902
   response: 70804621F2F74
 - expected_values:
-    TOYOTA_FLI: 80.78431
-  response: 70804621F2FCE
+    TOYOTA_FLI: 82.7451
+  response: 70804621F2FD3
