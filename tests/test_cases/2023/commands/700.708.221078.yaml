@@ -9,9 +9,9 @@ test_cases:
 - expected_values:
     TOYOTA_IDLE_SAC_CYL_1: 0
     TOYOTA_IDLE_SAC_CYL_2: 2
-    TOYOTA_IDLE_SAC_CYL_3: 1
+    TOYOTA_IDLE_SAC_CYL_3: 0
     TOYOTA_IDLE_SAC_CYL_4: 1
-  response: '7080762107800201010'
+  response: '7080762107800200010'
 - expected_values:
     TOYOTA_IDLE_SAC_CYL_1: 0
     TOYOTA_IDLE_SAC_CYL_2: 2
