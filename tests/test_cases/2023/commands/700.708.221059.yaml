@@ -13,6 +13,11 @@ test_cases:
 - expected_values:
     TOYOTA_ACCEL_PEDAL: 0
   response: |-
+    708100A621059285229
+    7082153000000000000
+- expected_values:
+    TOYOTA_ACCEL_PEDAL: 0
+  response: |-
     708100A621059386129
     7082152074F00000000
 - expected_values:
