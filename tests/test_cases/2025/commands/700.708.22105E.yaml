@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_ECU_INTERNAL_T: 19
   response: 7080462105E3B
 - expected_values:
-    TOYOTA_ECU_INTERNAL_T: 47
-  response: '7080462105E57'
+    TOYOTA_ECU_INTERNAL_T: 56
+  response: '7080462105E60'
