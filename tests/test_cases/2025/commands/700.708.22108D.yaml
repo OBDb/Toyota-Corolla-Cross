@@ -7,6 +7,9 @@ test_cases:
     TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 38.72069
   response: 7080562108D0F7D
 - expected_values:
+    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 38.74022
+  response: 7080562108D0F7F
+- expected_values:
     TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 38.916
   response: 7080562108D0F91
 - expected_values:
