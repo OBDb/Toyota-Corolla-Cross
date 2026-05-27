@@ -10,5 +10,5 @@ test_cases:
     TOYOTA_ATF_T_PAN_V3: 26.875
   response: '7080562162742E0'
 - expected_values:
-    TOYOTA_ATF_T_PAN_V3: 81.25
-  response: '708056216277940'
+    TOYOTA_ATF_T_PAN_V3: 94.375
+  response: '708056216278660'
