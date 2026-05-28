@@ -1,8 +1,8 @@
 command_id: 700.708.221F2F
 test_cases:
 - expected_values:
-    TOYOTA_FLI: 29.41176
-  response: 70804621F2F4B
+    TOYOTA_FLI: 27.05882
+  response: 70804621F2F45
 - expected_values:
     TOYOTA_FLI: 94.90196
   response: 70804621F2FF2
