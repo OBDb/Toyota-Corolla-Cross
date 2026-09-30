@@ -1,14 +1,14 @@
 command_id: 700.708.221F3C
 test_cases:
 - expected_values:
-    TOYOTA_CAT_T_11: 124.4
+    COROLLA_CROSS_CAT_T_11: 124.4
   response: 70805621F3C066C
 - expected_values:
-    TOYOTA_CAT_T_11: 625.5
+    COROLLA_CROSS_CAT_T_11: 625.5
   response: 70805621F3C19FF
 - expected_values:
-    TOYOTA_CAT_T_11: 625.6
+    COROLLA_CROSS_CAT_T_11: 625.6
   response: 70805621F3C1A00
 - expected_values:
-    TOYOTA_CAT_T_11: 754.4
+    COROLLA_CROSS_CAT_T_11: 754.4
   response: 70805621F3C1F08

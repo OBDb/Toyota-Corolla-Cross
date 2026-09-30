@@ -1,14 +1,14 @@
-command_id: 7D2.7DA.2215F7
+command_id: 7D2.7DA.2215F7|f=2023-
 test_cases:
 - expected_values:
-    TOYOTA_12V_C: -28.35458
+    COROLLA_CROSS_12V_C: -28.35458
   response: 7DA056215F762F7
 - expected_values:
-    TOYOTA_12V_C: -4.88273
+    COROLLA_CROSS_12V_C: -4.88273
   response: 7DA056215F77B00
 - expected_values:
-    TOYOTA_12V_C: -2.93341
+    COROLLA_CROSS_12V_C: -2.93341
   response: 7DA056215F77CFF
 - expected_values:
-    TOYOTA_12V_C: 19.93571
+    COROLLA_CROSS_12V_C: 19.93571
   response: 7DA056215F7946A

@@ -1,18 +1,14 @@
 command_id: 701.709.221627
 test_cases:
 - expected_values:
-    TOYOTA_ATF_T_PAN: 13.125
-    TOYOTA_TF1_PAN: 55.625
+    COROLLA_CROSS_TF1_PAN: 55.625
   response: '709056216273520'
 - expected_values:
-    TOYOTA_ATF_T_PAN: 15
-    TOYOTA_TF1_PAN: 59
+    COROLLA_CROSS_TF1_PAN: 59
   response: '709056216273700'
 - expected_values:
-    TOYOTA_ATF_T_PAN: 16.875
-    TOYOTA_TF1_PAN: 62.375
+    COROLLA_CROSS_TF1_PAN: 62.375
   response: '7090562162738E0'
 - expected_values:
-    TOYOTA_ATF_T_PAN: 99.375
-    TOYOTA_TF1_PAN: 210.875
+    COROLLA_CROSS_TF1_PAN: 210.875
   response: 709056216278B60

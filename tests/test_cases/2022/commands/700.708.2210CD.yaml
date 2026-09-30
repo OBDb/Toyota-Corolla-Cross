@@ -1,18 +1,14 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
-    TOYOTA_LFP: 271.8
-    TOYOTA_LFPS: -3005
+    COROLLA_CROSS_LFP: 271.8
   response: 708056210CD8A9E
 - expected_values:
-    TOYOTA_LFP: 280.8
-    TOYOTA_LFPS: -2996
+    COROLLA_CROSS_LFP: 280.8
   response: 708056210CD8AF8
 - expected_values:
-    TOYOTA_LFP: 333.3
-    TOYOTA_LFPS: -2943.5
+    COROLLA_CROSS_LFP: 333.3
   response: 708056210CD8D05
 - expected_values:
-    TOYOTA_LFP: 615.6
-    TOYOTA_LFPS: -2661.2
+    COROLLA_CROSS_LFP: 615.6
   response: 708056210CD980C
