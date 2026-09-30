@@ -1,14 +1,14 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    COROLLA_CROSS_12V_V: 11.95798
+    CCROSS_12V_V: 11.95798
   response: '708056210022644'
 - expected_values:
-    COROLLA_CROSS_12V_V: 12.49997
+    CCROSS_12V_V: 12.49997
   response: '708056210022800'
 - expected_values:
-    COROLLA_CROSS_12V_V: 13.43258
+    CCROSS_12V_V: 13.43258
   response: 708056210022AFC
 - expected_values:
-    COROLLA_CROSS_12V_V: 14.99996
+    CCROSS_12V_V: 14.99996
   response: '708056210023000'

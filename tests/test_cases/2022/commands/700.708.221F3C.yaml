@@ -1,11 +1,11 @@
 command_id: 700.708.221F3C
 test_cases:
 - expected_values:
-    COROLLA_CROSS_CAT_T_11: 313
+    CCROSS_CAT_T_11: 313
   response: 70805621F3C0DCA
 - expected_values:
-    COROLLA_CROSS_CAT_T_11: 528.1
+    CCROSS_CAT_T_11: 528.1
   response: 70805621F3C1631
 - expected_values:
-    COROLLA_CROSS_CAT_T_11: 648.1
+    CCROSS_CAT_T_11: 648.1
   response: 70805621F3C1AE1

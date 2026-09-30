@@ -1,7 +1,7 @@
 command_id: 7C4.7CC.214C
 test_cases:
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.22
+    CCROSS_EVAP_TARGET_T: 7.22
   response: |-
     7C003221041
     7C80462104100
@@ -15,7 +15,7 @@ test_cases:
     7E803410D00
     7EA03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7C003221041
     7C80462104115
@@ -32,7 +32,7 @@ test_cases:
     7EA0741870109300000
     7E80741870109240000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.76
+    CCROSS_EVAP_TARGET_T: 7.76
   response: |-
     7C003221041
     7C80462104123
@@ -46,7 +46,7 @@ test_cases:
     7EA0441314CBC
     7EE0441314D58
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.63
+    CCROSS_EVAP_TARGET_T: 4.63
   response: |-
     7C003221041
     7C80462104124
@@ -55,7 +55,7 @@ test_cases:
     7EA074187010C830000
     7E8074187010C830000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.04
+    CCROSS_EVAP_TARGET_T: 9.04
   response: |-
     7C003221041
     7C80462104124
@@ -67,7 +67,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.32
+    CCROSS_EVAP_TARGET_T: 8.32
   response: |-
     7C003221041
     7C80462104127
@@ -85,7 +85,7 @@ test_cases:
     7EA0441314B51
     7EE0441314BEA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7C003221041
     7C80462104127
@@ -114,7 +114,7 @@ test_cases:
     7C003221041
     7C80462104127
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.02
+    CCROSS_EVAP_TARGET_T: 9.02
   response: |-
     7C003221041
     7C8046210412A
@@ -124,7 +124,7 @@ test_cases:
     7EE03410580
     7E803410580
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7C003221041
     7C8046210412C
@@ -137,7 +137,7 @@ test_cases:
     7EA0741870105A00000
     7E80741870106F10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C003221041
     7C8046210412F
@@ -155,7 +155,7 @@ test_cases:
     7E803410F48
     7EE03410F48
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7C003221041
     7C80462104131
@@ -169,13 +169,13 @@ test_cases:
     7EE03410D31
     7E803410D31
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C003221041
     7C80462104131
     7CC04614C83F2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.37
+    CCROSS_EVAP_TARGET_T: 7.37
   response: |-
     7C003221041
     7C80462104133
@@ -193,7 +193,7 @@ test_cases:
     7EE03410F4C
     7E803410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.28
+    CCROSS_EVAP_TARGET_T: 7.28
   response: |-
     7C003221041
     7C80462104134
@@ -203,7 +203,7 @@ test_cases:
     7E804410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.67
+    CCROSS_EVAP_TARGET_T: 8.67
   response: |-
     7C003221041
     7C80462104136
@@ -217,7 +217,7 @@ test_cases:
     7EA0441314C1B
     7EE0441314CB6
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.11
+    CCROSS_EVAP_TARGET_T: 9.11
   response: |-
     7C003221041
     7C80462104136
@@ -234,7 +234,7 @@ test_cases:
     7E8074187010BFE0000
     7EA074187010BD70000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.33
+    CCROSS_EVAP_TARGET_T: 8.33
   response: |-
     7C003221041
     7C80462104143
@@ -244,7 +244,7 @@ test_cases:
     7E804410C1408
     7EE04410C1400
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7C003221041
     7C80462104148
@@ -261,7 +261,7 @@ test_cases:
     7E80741870106B00000
     7EA07418701066B0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7C003221041
     7CC04614C8289
@@ -270,7 +270,7 @@ test_cases:
     7E8074187010C9C0000
     7EA074187010C9C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7C003221041
     7CC04614C828A
@@ -290,7 +290,7 @@ test_cases:
     7DF020110
     7E80441100054
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7C003221041
     7CC04614C82BC
@@ -310,7 +310,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7C003221041
     7CC04614C82BC
@@ -322,7 +322,7 @@ test_cases:
     7EE04411F089F
     7EA04411F0892
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.61
+    CCROSS_EVAP_TARGET_T: 7.61
   response: |-
     7C003221041
     7CC04614C82F9
@@ -334,7 +334,7 @@ test_cases:
     7E804411F13DC
     7EE04411F13FE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.71
+    CCROSS_EVAP_TARGET_T: 8.71
   response: |-
     7C003221041
     7CC04614C8367
@@ -371,7 +371,7 @@ test_cases:
     7EA074187010C800000
     7E8074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.17
+    CCROSS_EVAP_TARGET_T: 9.17
   response: |-
     7C003221041
     7CC04614C8395
@@ -387,7 +387,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7C003221041
     7CC04614C83BB
@@ -401,13 +401,13 @@ test_cases:
     7EE03410D38
     7EA03410D38
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C003221041
     7CC04614C83F2
     7C80462104100
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C003221041
     7CC04614C83F2
@@ -424,7 +424,7 @@ test_cases:
     7E8074187010CA60000
     7EA074187010CA50000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C003221041
     7CC04614C83F2
@@ -454,7 +454,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7C003221041
     7EE0441314C76
@@ -466,7 +466,7 @@ test_cases:
     7EA074187010C9F0000
     7E8074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7C8046210410E
     7CC04614C83C2
@@ -502,7 +502,7 @@ test_cases:
     7E8074187010BFE0000
     7EA074187010B920000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7C80462104113
     7CC04614C828B
@@ -513,7 +513,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.93
+    CCROSS_EVAP_TARGET_T: 8.93
   response: |-
     7C8046210411C
     7CC04614C837D
@@ -521,7 +521,7 @@ test_cases:
     7E8074187010C7C0000
     7EA074187010C7C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.05
+    CCROSS_EVAP_TARGET_T: 8.05
   response: |-
     7C80462104126
     7CC04614C8325
@@ -534,7 +534,7 @@ test_cases:
     7EA0441314B51
     7EE0441314BEB
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7C80462104126
     7CC04614C83F2
@@ -570,7 +570,7 @@ test_cases:
     7EA0741870108C70000
     7E80741870108F20000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7C80462104128
     7CC04614C8288
@@ -586,7 +586,7 @@ test_cases:
     7E8074187010C910000
     7EA074187010C910000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.98
+    CCROSS_EVAP_TARGET_T: 8.98
   response: |-
     7C80462104128
     7DF02010D
@@ -599,7 +599,7 @@ test_cases:
     7EE03410F51
     7E803410F52
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7C8046210412A
     7CC04614C83BF
@@ -615,14 +615,14 @@ test_cases:
     7EA074187010C960000
     7E8074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.12
+    CCROSS_EVAP_TARGET_T: 9.12
   response: |-
     7C8046210412B
     7CC04614C8390
     7DF020110
     7E80441100547
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.92
+    CCROSS_EVAP_TARGET_T: 8.92
   response: |-
     7C8046210412C
     7CC04614C837C
@@ -641,7 +641,7 @@ test_cases:
     7DF020110
     7E80441100620
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.26
+    CCROSS_EVAP_TARGET_T: 8.26
   response: |-
     7C80462104132
     7CC04614C833A
@@ -656,7 +656,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7C80462104132
     7CC04614C83BF
@@ -668,7 +668,7 @@ test_cases:
     7EA074187010B930000
     7E8074187010B570000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7C80462104137
     7CC04614C8287
@@ -677,7 +677,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.58
+    CCROSS_EVAP_TARGET_T: 8.58
   response: |-
     7C80462104139
     7CC04614C835A
@@ -685,7 +685,7 @@ test_cases:
     7EA074187010BE60000
     7E8074187010BC60000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7C8046210413F
     7CC04614C82BC
@@ -698,7 +698,7 @@ test_cases:
     7EA0441314BFE
     7EE0441314C99
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.75
+    CCROSS_EVAP_TARGET_T: 8.75
   response: |-
     7C80462104148
     7CC04614C836B
@@ -734,7 +734,7 @@ test_cases:
     7EA074187010C990000
     7E8074187010C990000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.39
+    CCROSS_EVAP_TARGET_T: 8.39
   response: |-
     7C80462104153
     7CC04614C8347
@@ -751,7 +751,7 @@ test_cases:
     7EE03410D52
     7E803410D52
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 3.8
+    CCROSS_EVAP_TARGET_T: 3.8
   response: |-
     7CC04614C817C
     7DF020121
@@ -763,10 +763,10 @@ test_cases:
     7E80441314BB8
     7EA0441314BB8
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 3.82
+    CCROSS_EVAP_TARGET_T: 3.82
   response: 7CC04614C817E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 3.85
+    CCROSS_EVAP_TARGET_T: 3.85
   response: |-
     7CC04614C8181
     7DF02010F
@@ -778,7 +778,7 @@ test_cases:
     7DF020110
     7E804411001C2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 3.92
+    CCROSS_EVAP_TARGET_T: 3.92
   response: |-
     7CC04614C8188
     7C003221041
@@ -788,7 +788,7 @@ test_cases:
     7EA04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 3.98
+    CCROSS_EVAP_TARGET_T: 3.98
   response: |-
     7CC04614C818E
     7DF02011F
@@ -796,7 +796,7 @@ test_cases:
     7EE04411F01B3
     7E804411F01B0
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.03
+    CCROSS_EVAP_TARGET_T: 4.03
   response: |-
     7CC04614C8193
     7DF02011F
@@ -821,7 +821,7 @@ test_cases:
     7EE0341057D
     7E80341057D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.1
+    CCROSS_EVAP_TARGET_T: 4.1
   response: |-
     7CC04614C819A
     7DF02011F
@@ -833,7 +833,7 @@ test_cases:
     7EE0441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.14
+    CCROSS_EVAP_TARGET_T: 4.14
   response: |-
     7CC04614C819E
     7DF02010C
@@ -868,7 +868,7 @@ test_cases:
     7E8074187010B1B0000
     7EA074187010B260000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.15
+    CCROSS_EVAP_TARGET_T: 4.15
   response: |-
     7CC04614C819F
     7DF020105
@@ -880,7 +880,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.17
+    CCROSS_EVAP_TARGET_T: 4.17
   response: |-
     7CC04614C81A1
     7DF020187
@@ -905,7 +905,7 @@ test_cases:
     7E803410F50
     7EE03410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.2
+    CCROSS_EVAP_TARGET_T: 4.2
   response: |-
     7CC04614C81A4
     7DF02010C
@@ -942,13 +942,13 @@ test_cases:
     7E8074187010BD30000
     7EA074187010BC50000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.21
+    CCROSS_EVAP_TARGET_T: 4.21
   response: |-
     7CC04614C81A5
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.28
+    CCROSS_EVAP_TARGET_T: 4.28
   response: |-
     7CC04614C81AC
     7DF020131
@@ -961,7 +961,7 @@ test_cases:
     7EA074187010C7F0000
     7E8074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.81
+    CCROSS_EVAP_TARGET_T: 4.81
   response: |-
     7CC04614C81E1
     7DF02010F
@@ -971,7 +971,7 @@ test_cases:
     7DF020110
     7E804411004CA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.86
+    CCROSS_EVAP_TARGET_T: 4.86
   response: |-
     7CC04614C81E6
     7DF02010C
@@ -991,14 +991,14 @@ test_cases:
     7DF020110
     7E804411003E0
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 4.98
+    CCROSS_EVAP_TARGET_T: 4.98
   response: |-
     7CC04614C81F2
     7DF020187
     7E80741870104CA0000
     7EA0741870105300000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 5.5
+    CCROSS_EVAP_TARGET_T: 5.5
   response: |-
     7CC04614C8226
     7C003221041
@@ -1014,7 +1014,7 @@ test_cases:
     7E804411F03C4
     7EA04411F03C5
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.14
+    CCROSS_EVAP_TARGET_T: 6.14
   response: |-
     7CC04614C8266
     7C003221041
@@ -1026,7 +1026,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.28
+    CCROSS_EVAP_TARGET_T: 6.28
   response: |-
     7CC04614C8274
     7DF02010C
@@ -1044,7 +1044,7 @@ test_cases:
     7EE03410F4B
     7E803410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.44
+    CCROSS_EVAP_TARGET_T: 6.44
   response: |-
     7CC04614C8284
     7DF02011F
@@ -1062,7 +1062,7 @@ test_cases:
     7EA0441314BC3
     7EE0441314C5D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7CC04614C8285
     7C003221041
@@ -1076,7 +1076,7 @@ test_cases:
     7EE03410D33
     7E803410D33
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7CC04614C8285
     7C003221041
@@ -1090,7 +1090,7 @@ test_cases:
     7E80441314BC4
     7EE0441314C5E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7CC04614C8285
     7DF02010C
@@ -1098,7 +1098,7 @@ test_cases:
     7EE04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7CC04614C8285
     7DF020121
@@ -1115,7 +1115,7 @@ test_cases:
     7EA074187010C890000
     7E8074187010C890000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7CC04614C8285
     7DF020131
@@ -1126,7 +1126,7 @@ test_cases:
     7EA074187010C800000
     7E8074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7C003221041
@@ -1136,7 +1136,7 @@ test_cases:
     7EA04411F0DEA
     7EE04411F0DFF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF020105
@@ -1150,7 +1150,7 @@ test_cases:
     7EE04410C1780
     7EA04410C1780
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF020105
@@ -1158,7 +1158,7 @@ test_cases:
     7EA0341057F
     7E80341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF02010C
@@ -1176,7 +1176,7 @@ test_cases:
     7EA03410F4B
     7EE03410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF02010D
@@ -1207,7 +1207,7 @@ test_cases:
     7EA074187010C7D0000
     7E8074187010C7E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF02010D
@@ -1215,7 +1215,7 @@ test_cases:
     7EE03410D2D
     7E803410D2D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF02010D
@@ -1231,7 +1231,7 @@ test_cases:
     7DF020110
     7E80441100057
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF020110
@@ -1247,7 +1247,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF02011F
@@ -1255,7 +1255,7 @@ test_cases:
     7E804411F0404
     7EE04411F040C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF020121
@@ -1270,7 +1270,7 @@ test_cases:
     7E807418701092B0000
     7EA0741870109500000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7CC04614C8286
     7DF020131
@@ -1278,7 +1278,7 @@ test_cases:
     7E80441314BEA
     7EE0441314C84
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7C003221041
@@ -1295,7 +1295,7 @@ test_cases:
     7E80741870109FB0000
     7EA0741870109E80000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF020105
@@ -1303,7 +1303,7 @@ test_cases:
     7E80341057E
     7EE0341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010C
@@ -1311,7 +1311,7 @@ test_cases:
     7EE04410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010C
@@ -1331,7 +1331,7 @@ test_cases:
     7DF020110
     7E80441100428
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010C
@@ -1351,7 +1351,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010D
@@ -1365,7 +1365,7 @@ test_cases:
     7E803410F4F
     7EE03410F4F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010D
@@ -1377,7 +1377,7 @@ test_cases:
     7E803410F50
     7EE03410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010F
@@ -1404,7 +1404,7 @@ test_cases:
     7E8074187010C9A0000
     7EA074187010C9A0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02010F
@@ -1412,7 +1412,7 @@ test_cases:
     7E803410F4E
     7EE03410F4D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02011F
@@ -1433,7 +1433,7 @@ test_cases:
     7EA074187010C7B0000
     7E8074187010C7C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02011F
@@ -1454,7 +1454,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02011F
@@ -1472,7 +1472,7 @@ test_cases:
     7EE0441314C6E
     7EA0441314BD3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02011F
@@ -1484,7 +1484,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF02011F
@@ -1505,7 +1505,7 @@ test_cases:
     7EA0741870102F70000
     7E80741870102FD0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF020121
@@ -1513,7 +1513,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.47
+    CCROSS_EVAP_TARGET_T: 6.47
   response: |-
     7CC04614C8287
     7DF020131
@@ -1526,7 +1526,7 @@ test_cases:
     7E8074187010C9E0000
     7EA074187010C9E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF02010C
@@ -1538,7 +1538,7 @@ test_cases:
     7EE03410D2B
     7EA03410D2B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF020110
@@ -1554,7 +1554,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF020121
@@ -1575,7 +1575,7 @@ test_cases:
     7EA0341057D
     7E80341057D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF020121
@@ -1583,7 +1583,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF020121
@@ -1604,7 +1604,7 @@ test_cases:
     7EE03410581
     7E803410581
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.48
+    CCROSS_EVAP_TARGET_T: 6.48
   response: |-
     7CC04614C8288
     7DF020121
@@ -1656,7 +1656,7 @@ test_cases:
     7E8074187010B1D0000
     7EA074187010AFF0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7C003221041
@@ -1693,7 +1693,7 @@ test_cases:
     7EA074187010BC50000
     7E8074187010BDF0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7C003221041
@@ -1703,7 +1703,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF02010C
@@ -1719,7 +1719,7 @@ test_cases:
     7E803410F4E
     7EA03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF02010C
@@ -1737,7 +1737,7 @@ test_cases:
     7E803410F4C
     7EE03410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF02010C
@@ -1769,7 +1769,7 @@ test_cases:
     7EA0441314BCF
     7E80441314BCF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF02010F
@@ -1779,7 +1779,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF02011F
@@ -1800,7 +1800,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF020121
@@ -1821,7 +1821,7 @@ test_cases:
     7EE0341057F
     7E80341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF020121
@@ -1835,7 +1835,7 @@ test_cases:
     7EE0441314C78
     7E80441314BDD
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7CC04614C8289
     7DF020131
@@ -1848,7 +1848,7 @@ test_cases:
     7EA074187010C7B0000
     7E8074187010C790000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7C003221041
@@ -1862,7 +1862,7 @@ test_cases:
     7EA03410D16
     7EE03410D16
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7C003221041
@@ -1871,7 +1871,7 @@ test_cases:
     7E8074187010C920000
     7EA074187010C920000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7C003221041
@@ -1891,7 +1891,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF02010C
@@ -1909,7 +1909,7 @@ test_cases:
     7EA03410F51
     7EE03410F51
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF02010C
@@ -1946,7 +1946,7 @@ test_cases:
     7EA074187010CA00000
     7E8074187010CA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF02010D
@@ -1962,7 +1962,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF02010F
@@ -1989,7 +1989,7 @@ test_cases:
     7EA074187010BE60000
     7E8074187010BD10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF02011F
@@ -2007,7 +2007,7 @@ test_cases:
     7EE0441314C61
     7EA0441314BC7
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF020187
@@ -2024,17 +2024,17 @@ test_cases:
     7E804410C1712
     7EE04410C1700
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7CC04614C828A
     7DF020187
     7E8074187010CA10000
     7EA074187010CA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: 7CC04614C828B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7C003221041
@@ -2054,7 +2054,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF020105
@@ -2068,7 +2068,7 @@ test_cases:
     7E804410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02010C
@@ -2088,7 +2088,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02010C
@@ -2100,7 +2100,7 @@ test_cases:
     7E803410D00
     7EA03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02010C
@@ -2137,7 +2137,7 @@ test_cases:
     7E8074187010C9F0000
     7EA074187010C9E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02010D
@@ -2149,7 +2149,7 @@ test_cases:
     7EE03410F4C
     7E803410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02010F
@@ -2157,7 +2157,7 @@ test_cases:
     7EE03410F51
     7E803410F52
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF02011F
@@ -2178,7 +2178,7 @@ test_cases:
     7E8074187010CA10000
     7EA074187010CA00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF020121
@@ -2195,7 +2195,7 @@ test_cases:
     7E80741870104060000
     7EA0741870104100000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF020121
@@ -2212,7 +2212,7 @@ test_cases:
     7EA074187010C960000
     7E8074187010C950000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF020121
@@ -2229,7 +2229,7 @@ test_cases:
     7EA074187010C9F0000
     7E8074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7CC04614C828B
     7DF020187
@@ -2250,7 +2250,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7CC04614C828C
     7C003221041
@@ -2260,7 +2260,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7CC04614C828C
     7DF020105
@@ -2274,7 +2274,7 @@ test_cases:
     7E804410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7CC04614C828C
     7DF02011F
@@ -2292,14 +2292,14 @@ test_cases:
     7E80441314BDB
     7EE0441314C75
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7CC04614C828C
     7DF020187
     7E8074187010C9F0000
     7EA074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.54
+    CCROSS_EVAP_TARGET_T: 6.54
   response: |-
     7CC04614C828E
     7DF02010C
@@ -2336,7 +2336,7 @@ test_cases:
     7EA0741870105BC0000
     7E80741870106A00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.54
+    CCROSS_EVAP_TARGET_T: 6.54
   response: |-
     7CC04614C828E
     7DF02010D
@@ -2352,7 +2352,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.61
+    CCROSS_EVAP_TARGET_T: 6.61
   response: |-
     7CC04614C8295
     7DF020105
@@ -2393,7 +2393,7 @@ test_cases:
     7E8074187010C9F0000
     7EA074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.69
+    CCROSS_EVAP_TARGET_T: 6.69
   response: |-
     7CC04614C829D
     7DF02011F
@@ -2407,7 +2407,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.7
+    CCROSS_EVAP_TARGET_T: 6.7
   response: |-
     7CC04614C829E
     7C003221041
@@ -2417,7 +2417,7 @@ test_cases:
     7EA03410F4C
     7EE03410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.76
+    CCROSS_EVAP_TARGET_T: 6.76
   response: |-
     7CC04614C82A4
     7DF02010D
@@ -2431,7 +2431,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.78
+    CCROSS_EVAP_TARGET_T: 6.78
   response: |-
     7CC04614C82A6
     7DF02010D
@@ -2445,7 +2445,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.89
+    CCROSS_EVAP_TARGET_T: 6.89
   response: |-
     7CC04614C82B1
     7DF020131
@@ -2458,7 +2458,7 @@ test_cases:
     7C003221041
     7C80462104136
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7CC04614C82BB
     7DF020105
@@ -2476,7 +2476,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7CC04614C82BB
     7DF020110
@@ -2488,7 +2488,7 @@ test_cases:
     7EE04411F05EB
     7EA04411F05E2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7CC04614C82BB
     7DF020121
@@ -2505,7 +2505,7 @@ test_cases:
     7E80741870106670000
     7EA07418701065C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7CC04614C82BB
     7DF020131
@@ -2553,7 +2553,7 @@ test_cases:
     7EA074187010C980000
     7E8074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7C003221041
@@ -2567,7 +2567,7 @@ test_cases:
     7EE03410D27
     7E803410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7C003221041
@@ -2604,7 +2604,7 @@ test_cases:
     7E8074187010CA60000
     7EA074187010CA60000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7C003221041
@@ -2613,7 +2613,7 @@ test_cases:
     7E8074187010BD80000
     7EA074187010C090000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7C003221041
@@ -2623,7 +2623,7 @@ test_cases:
     7EA03410580
     7EE03410580
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020105
@@ -2635,7 +2635,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020105
@@ -2657,7 +2657,7 @@ test_cases:
     7C8046210414A
     7E803410F44
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2671,7 +2671,7 @@ test_cases:
     7E803410D1C
     7EA03410D1C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2691,7 +2691,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2703,7 +2703,7 @@ test_cases:
     7EA03410D41
     7EE03410D41
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2711,7 +2711,7 @@ test_cases:
     7EA04410C1600
     7EE04410C1600
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2731,7 +2731,7 @@ test_cases:
     7DF020110
     7E80441100740
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2768,7 +2768,7 @@ test_cases:
     7E8074187010C960000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2803,7 +2803,7 @@ test_cases:
     7EA074187010CA40000
     7E8074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2823,7 +2823,7 @@ test_cases:
     7DF020110
     7E80441100614
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2860,7 +2860,7 @@ test_cases:
     7EA074187010BFC0000
     7E8074187010BDF0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2897,7 +2897,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2909,7 +2909,7 @@ test_cases:
     7EA03410D2B
     7EE03410D2B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010C
@@ -2944,7 +2944,7 @@ test_cases:
     7E8074187010B4A0000
     7EA074187010B0F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010D
@@ -2958,7 +2958,7 @@ test_cases:
     7E803410F4A
     7EA03410F49
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010D
@@ -2978,7 +2978,7 @@ test_cases:
     7EE04411F03BB
     7E804411F03B4
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010D
@@ -2992,7 +2992,7 @@ test_cases:
     7E803410F4C
     7EE03410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010F
@@ -3002,7 +3002,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02010F
@@ -3014,7 +3014,7 @@ test_cases:
     7DF020110
     7E8044110067E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02011F
@@ -3028,7 +3028,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02011F
@@ -3046,7 +3046,7 @@ test_cases:
     7E80441314C3B
     7EA0441314C3B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02011F
@@ -3060,7 +3060,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF02011F
@@ -3072,7 +3072,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020121
@@ -3089,7 +3089,7 @@ test_cases:
     7E8074187010CA10000
     7EA074187010CA20000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020121
@@ -3101,7 +3101,7 @@ test_cases:
     7E80441314BF9
     7EE0441314C94
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020121
@@ -3126,7 +3126,7 @@ test_cases:
     7EE04410C1580
     7E804410C15EF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020121
@@ -3138,7 +3138,7 @@ test_cases:
     7E80441314CAF
     7EE0441314D4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020131
@@ -3149,7 +3149,7 @@ test_cases:
     7E8074187010CA20000
     7EA074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020131
@@ -3157,7 +3157,7 @@ test_cases:
     7EE0441314CD6
     7EA0441314C3B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020131
@@ -3168,7 +3168,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C980000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020131
@@ -3179,7 +3179,7 @@ test_cases:
     7EA074187010CA10000
     7E8074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020131
@@ -3192,7 +3192,7 @@ test_cases:
     7EA074187010BF80000
     7E8074187010BFE0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7CC04614C82BC
     7DF020187
@@ -3205,7 +3205,7 @@ test_cases:
     7EE0341057F
     7E80341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.01
+    CCROSS_EVAP_TARGET_T: 7.01
   response: |-
     7CC04614C82BD
     7DF02010F
@@ -3225,7 +3225,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.04
+    CCROSS_EVAP_TARGET_T: 7.04
   response: |-
     7CC04614C82C0
     7DF020121
@@ -3240,7 +3240,7 @@ test_cases:
     7EA074187010CA20000
     7E8074187010CA20000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.05
+    CCROSS_EVAP_TARGET_T: 7.05
   response: |-
     7CC04614C82C1
     7DF02010C
@@ -3258,7 +3258,7 @@ test_cases:
     7DF020110
     7E80441100552
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.05
+    CCROSS_EVAP_TARGET_T: 7.05
   response: |-
     7CC04614C82C1
     7DF02010F
@@ -3268,7 +3268,7 @@ test_cases:
     7DF020110
     7E80441100635
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.06
+    CCROSS_EVAP_TARGET_T: 7.06
   response: |-
     7CC04614C82C2
     7DF02010C
@@ -3305,7 +3305,7 @@ test_cases:
     7E8074187010A030000
     7C80462104123
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.08
+    CCROSS_EVAP_TARGET_T: 7.08
   response: |-
     7CC04614C82C4
     7DF020131
@@ -3316,7 +3316,7 @@ test_cases:
     7E8074187010C9E0000
     7EA074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.1
+    CCROSS_EVAP_TARGET_T: 7.1
   response: |-
     7CC04614C82C6
     7DF020131
@@ -3329,7 +3329,7 @@ test_cases:
     7C003221041
     7C8046210412B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.11
+    CCROSS_EVAP_TARGET_T: 7.11
   response: |-
     7CC04614C82C7
     7DF020105
@@ -3347,7 +3347,7 @@ test_cases:
     7E803410D27
     7EE03410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.13
+    CCROSS_EVAP_TARGET_T: 7.13
   response: |-
     7CC04614C82C9
     7DF02010C
@@ -3361,7 +3361,7 @@ test_cases:
     7EE03410D0F
     7E803410D0F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.14
+    CCROSS_EVAP_TARGET_T: 7.14
   response: |-
     7CC04614C82CA
     7DF02010C
@@ -3381,7 +3381,7 @@ test_cases:
     7DF020110
     7E804411000D2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.14
+    CCROSS_EVAP_TARGET_T: 7.14
   response: |-
     7CC04614C82CA
     7DF02010D
@@ -3412,7 +3412,7 @@ test_cases:
     7E8074187010CA30000
     7EA074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.16
+    CCROSS_EVAP_TARGET_T: 7.16
   response: |-
     7CC04614C82CC
     7DF02010C
@@ -3449,7 +3449,7 @@ test_cases:
     7E8074187010C9A0000
     7EA074187010C990000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.16
+    CCROSS_EVAP_TARGET_T: 7.16
   response: |-
     7CC04614C82CC
     7DF02011F
@@ -3468,7 +3468,7 @@ test_cases:
     7E8074187010C8F0000
     7EA074187010C900000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.17
+    CCROSS_EVAP_TARGET_T: 7.17
   response: |-
     7CC04614C82CD
     7DF02010F
@@ -3495,7 +3495,7 @@ test_cases:
     7E8074187010BD90000
     7EA074187010BE50000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.18
+    CCROSS_EVAP_TARGET_T: 7.18
   response: |-
     7CC04614C82CE
     7DF02010C
@@ -3515,7 +3515,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.18
+    CCROSS_EVAP_TARGET_T: 7.18
   response: |-
     7CC04614C82CE
     7DF020110
@@ -3538,7 +3538,7 @@ test_cases:
     7E8074187010C990000
     7EA074187010C980000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.19
+    CCROSS_EVAP_TARGET_T: 7.19
   response: |-
     7CC04614C82CF
     7DF020105
@@ -3550,7 +3550,7 @@ test_cases:
     7E804410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.2
+    CCROSS_EVAP_TARGET_T: 7.2
   response: |-
     7CC04614C82D0
     7DF02010D
@@ -3564,7 +3564,7 @@ test_cases:
     7E803410F46
     7EA03410F46
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.2
+    CCROSS_EVAP_TARGET_T: 7.2
   response: |-
     7CC04614C82D0
     7DF02011F
@@ -3585,7 +3585,7 @@ test_cases:
     7E80741870108F60000
     7EA0741870108EB0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.21
+    CCROSS_EVAP_TARGET_T: 7.21
   response: |-
     7CC04614C82D1
     7DF020110
@@ -3601,7 +3601,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.22
+    CCROSS_EVAP_TARGET_T: 7.22
   response: |-
     7CC04614C82D2
     7DF02010C
@@ -3619,7 +3619,7 @@ test_cases:
     7EA03410F46
     7EE03410F46
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.22
+    CCROSS_EVAP_TARGET_T: 7.22
   response: |-
     7CC04614C82D2
     7DF020121
@@ -3633,7 +3633,7 @@ test_cases:
     7EA0441314BFF
     7EE0441314C9A
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.24
+    CCROSS_EVAP_TARGET_T: 7.24
   response: |-
     7CC04614C82D4
     7DF02011F
@@ -3654,7 +3654,7 @@ test_cases:
     7EA074187010C980000
     7E8074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.24
+    CCROSS_EVAP_TARGET_T: 7.24
   response: |-
     7CC04614C82D4
     7DF02011F
@@ -3662,7 +3662,7 @@ test_cases:
     7E804411F06FB
     7EA04411F06FD
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.24
+    CCROSS_EVAP_TARGET_T: 7.24
   response: |-
     7CC04614C82D4
     7DF020121
@@ -3676,7 +3676,7 @@ test_cases:
     7E80441314C30
     7EE0441314CCB
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.26
+    CCROSS_EVAP_TARGET_T: 7.26
   response: |-
     7CC04614C82D6
     7DF02010C
@@ -3696,7 +3696,7 @@ test_cases:
     7DF020110
     7E804411004F3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.26
+    CCROSS_EVAP_TARGET_T: 7.26
   response: |-
     7CC04614C82D6
     7DF02010F
@@ -3716,7 +3716,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.26
+    CCROSS_EVAP_TARGET_T: 7.26
   response: |-
     7CC04614C82D6
     7DF020110
@@ -3732,7 +3732,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.27
+    CCROSS_EVAP_TARGET_T: 7.27
   response: |-
     7CC04614C82D7
     7DF02010D
@@ -3748,7 +3748,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.29
+    CCROSS_EVAP_TARGET_T: 7.29
   response: |-
     7CC04614C82D9
     7DF02010C
@@ -3764,7 +3764,7 @@ test_cases:
     7E803410F51
     7EA03410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.3
+    CCROSS_EVAP_TARGET_T: 7.3
   response: |-
     7CC04614C82DA
     7DF02010C
@@ -3784,7 +3784,7 @@ test_cases:
     7DF020110
     7E80441100300
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.3
+    CCROSS_EVAP_TARGET_T: 7.3
   response: |-
     7CC04614C82DA
     7DF02011F
@@ -3805,7 +3805,7 @@ test_cases:
     7EA074187010C960000
     7E8074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.31
+    CCROSS_EVAP_TARGET_T: 7.31
   response: |-
     7CC04614C82DB
     7C003221041
@@ -3815,7 +3815,7 @@ test_cases:
     7EE04411F08CF
     7EA04411F08C2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.31
+    CCROSS_EVAP_TARGET_T: 7.31
   response: |-
     7CC04614C82DB
     7DF02010F
@@ -3842,7 +3842,7 @@ test_cases:
     7E8074187010BBA0000
     7EA074187010BE10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.32
+    CCROSS_EVAP_TARGET_T: 7.32
   response: |-
     7CC04614C82DC
     7DF020105
@@ -3856,7 +3856,7 @@ test_cases:
     7E804410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.32
+    CCROSS_EVAP_TARGET_T: 7.32
   response: |-
     7CC04614C82DC
     7DF020121
@@ -3871,7 +3871,7 @@ test_cases:
     7EA074187010CA00000
     7E8074187010C9F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.34
+    CCROSS_EVAP_TARGET_T: 7.34
   response: |-
     7CC04614C82DE
     7DF02010F
@@ -3887,7 +3887,7 @@ test_cases:
     7E804411F18E8
     7EA04411F18F1
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.37
+    CCROSS_EVAP_TARGET_T: 7.37
   response: |-
     7CC04614C82E1
     7DF02010C
@@ -3903,7 +3903,7 @@ test_cases:
     7EA03410F51
     7EE03410F51
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.38
+    CCROSS_EVAP_TARGET_T: 7.38
   response: |-
     7CC04614C82E2
     7DF02011F
@@ -3924,7 +3924,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C990000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.39
+    CCROSS_EVAP_TARGET_T: 7.39
   response: |-
     7CC04614C82E3
     7DF02010F
@@ -3951,7 +3951,7 @@ test_cases:
     7E8074187010CA40000
     7EA074187010CA60000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.4
+    CCROSS_EVAP_TARGET_T: 7.4
   response: |-
     7CC04614C82E4
     7DF02010F
@@ -3967,7 +3967,7 @@ test_cases:
     7EE04411F068A
     7E804411F067F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.4
+    CCROSS_EVAP_TARGET_T: 7.4
   response: |-
     7CC04614C82E4
     7DF020131
@@ -3984,7 +3984,7 @@ test_cases:
     7EE0341057E
     7E80341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.41
+    CCROSS_EVAP_TARGET_T: 7.41
   response: |-
     7CC04614C82E5
     7DF020121
@@ -3998,7 +3998,7 @@ test_cases:
     7EE0441314CC2
     7E80441314C27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.41
+    CCROSS_EVAP_TARGET_T: 7.41
   response: |-
     7CC04614C82E5
     7DF020121
@@ -4010,7 +4010,7 @@ test_cases:
     7EE0441314B86
     7E80441314AEE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.42
+    CCROSS_EVAP_TARGET_T: 7.42
   response: |-
     7CC04614C82E6
     7DF02010C
@@ -4030,7 +4030,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.45
+    CCROSS_EVAP_TARGET_T: 7.45
   response: |-
     7CC04614C82E9
     7DF02010C
@@ -4048,7 +4048,7 @@ test_cases:
     7EA03410F4E
     7EE03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.46
+    CCROSS_EVAP_TARGET_T: 7.46
   response: |-
     7CC04614C82EA
     7DF02010C
@@ -4085,7 +4085,7 @@ test_cases:
     7EA074187010CA10000
     7E8074187010CA20000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.46
+    CCROSS_EVAP_TARGET_T: 7.46
   response: |-
     7CC04614C82EA
     7DF020121
@@ -4100,7 +4100,7 @@ test_cases:
     7E8074187010AAE0000
     7EA074187010A580000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.47
+    CCROSS_EVAP_TARGET_T: 7.47
   response: |-
     7CC04614C82EB
     7C003221041
@@ -4114,7 +4114,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.47
+    CCROSS_EVAP_TARGET_T: 7.47
   response: |-
     7CC04614C82EB
     7DF020105
@@ -4136,7 +4136,7 @@ test_cases:
     7E803410F4A
     7EE03410F49
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.47
+    CCROSS_EVAP_TARGET_T: 7.47
   response: |-
     7CC04614C82EB
     7DF02010C
@@ -4152,7 +4152,7 @@ test_cases:
     7EE03410F4D
     7E803410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.47
+    CCROSS_EVAP_TARGET_T: 7.47
   response: |-
     7CC04614C82EB
     7DF02010D
@@ -4172,14 +4172,14 @@ test_cases:
     7EA04411F1D6D
     7EE04411F1D9A
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.47
+    CCROSS_EVAP_TARGET_T: 7.47
   response: |-
     7CC04614C82EB
     7DF020187
     7E8074187010C0C0000
     7EA074187010BCA0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.48
+    CCROSS_EVAP_TARGET_T: 7.48
   response: |-
     7CC04614C82EC
     7DF02011F
@@ -4195,7 +4195,7 @@ test_cases:
     7EE0441314C7A
     7E80441314BE0
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.48
+    CCROSS_EVAP_TARGET_T: 7.48
   response: |-
     7CC04614C82EC
     7DF020121
@@ -4216,7 +4216,7 @@ test_cases:
     7EE03410581
     7E803410581
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.49
+    CCROSS_EVAP_TARGET_T: 7.49
   response: |-
     7CC04614C82ED
     7DF020131
@@ -4237,7 +4237,7 @@ test_cases:
     7EE04410C0F00
     7E804410C0E83
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.51
+    CCROSS_EVAP_TARGET_T: 7.51
   response: |-
     7CC04614C82EF
     7DF02010C
@@ -4253,7 +4253,7 @@ test_cases:
     7EE03410F50
     7E803410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.52
+    CCROSS_EVAP_TARGET_T: 7.52
   response: |-
     7CC04614C82F0
     7DF020121
@@ -4305,13 +4305,13 @@ test_cases:
     7EA0741870109C90000
     7E80741870109BB0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.54
+    CCROSS_EVAP_TARGET_T: 7.54
   response: |-
     7CC04614C82F2
     7DF020110
     7E804411003F2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.55
+    CCROSS_EVAP_TARGET_T: 7.55
   response: |-
     7CC04614C82F3
     7DF020121
@@ -4363,7 +4363,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.55
+    CCROSS_EVAP_TARGET_T: 7.55
   response: |-
     7CC04614C82F3
     7DF020131
@@ -4374,7 +4374,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.56
+    CCROSS_EVAP_TARGET_T: 7.56
   response: |-
     7CC04614C82F4
     7DF02010C
@@ -4394,7 +4394,7 @@ test_cases:
     7DF020110
     7E80441100418
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.57
+    CCROSS_EVAP_TARGET_T: 7.57
   response: |-
     7CC04614C82F5
     7C003221041
@@ -4408,7 +4408,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.57
+    CCROSS_EVAP_TARGET_T: 7.57
   response: |-
     7CC04614C82F5
     7DF02011F
@@ -4420,7 +4420,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.57
+    CCROSS_EVAP_TARGET_T: 7.57
   response: |-
     7CC04614C82F5
     7DF020121
@@ -4435,7 +4435,7 @@ test_cases:
     7E8074187010C1A0000
     7EA074187010BBA0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.59
+    CCROSS_EVAP_TARGET_T: 7.59
   response: |-
     7CC04614C82F7
     7C003221041
@@ -4449,7 +4449,7 @@ test_cases:
     7EA0441314C00
     7E80441314C00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.59
+    CCROSS_EVAP_TARGET_T: 7.59
   response: |-
     7CC04614C82F7
     7DF02010C
@@ -4484,7 +4484,7 @@ test_cases:
     7EA074187010C920000
     7E8074187010C940000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.59
+    CCROSS_EVAP_TARGET_T: 7.59
   response: |-
     7CC04614C82F7
     7DF02010F
@@ -4504,7 +4504,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.6
+    CCROSS_EVAP_TARGET_T: 7.6
   response: |-
     7CC04614C82F8
     7DF02010C
@@ -4520,7 +4520,7 @@ test_cases:
     7EE03410F4D
     7E803410F4D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.6
+    CCROSS_EVAP_TARGET_T: 7.6
   response: |-
     7CC04614C82F8
     7DF02010D
@@ -4544,7 +4544,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.6
+    CCROSS_EVAP_TARGET_T: 7.6
   response: |-
     7CC04614C82F8
     7DF02011F
@@ -4562,7 +4562,7 @@ test_cases:
     7EA0441314B57
     7EE0441314BF1
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.61
+    CCROSS_EVAP_TARGET_T: 7.61
   response: |-
     7CC04614C82F9
     7C003221041
@@ -4576,7 +4576,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.63
+    CCROSS_EVAP_TARGET_T: 7.63
   response: |-
     7CC04614C82FB
     7DF02010C
@@ -4596,7 +4596,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.64
+    CCROSS_EVAP_TARGET_T: 7.64
   response: |-
     7CC04614C82FC
     7DF020110
@@ -4619,7 +4619,7 @@ test_cases:
     7E8074187010C850000
     7EA074187010C860000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.64
+    CCROSS_EVAP_TARGET_T: 7.64
   response: |-
     7CC04614C82FC
     7DF02011F
@@ -4637,7 +4637,7 @@ test_cases:
     7EE0441314BF2
     7E80441314B59
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.65
+    CCROSS_EVAP_TARGET_T: 7.65
   response: |-
     7CC04614C82FD
     7C003221041
@@ -4654,7 +4654,7 @@ test_cases:
     7EA074187010C950000
     7E8074187010C950000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.65
+    CCROSS_EVAP_TARGET_T: 7.65
   response: |-
     7CC04614C82FD
     7DF02010C
@@ -4682,7 +4682,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF02010C
@@ -4754,7 +4754,7 @@ test_cases:
     7EA074187010C9F0000
     7E8074187010CA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF02010C
@@ -4768,7 +4768,7 @@ test_cases:
     7E803410D36
     7EE03410D36
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF02010C
@@ -4786,13 +4786,13 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF020110
     7E80441100617
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF020131
@@ -4813,14 +4813,14 @@ test_cases:
     7EA04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.66
+    CCROSS_EVAP_TARGET_T: 7.66
   response: |-
     7CC04614C82FE
     7DF020187
     7EA074187010B5D0000
     7E8074187010B370000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF02010C
@@ -4836,7 +4836,7 @@ test_cases:
     7E803410F4B
     7EA03410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF02010D
@@ -4844,7 +4844,7 @@ test_cases:
     7EA03410D12
     7EE03410D12
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF02010D
@@ -4860,7 +4860,7 @@ test_cases:
     7DF020110
     7E804411007B5
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF02010F
@@ -4887,7 +4887,7 @@ test_cases:
     7EA074187010C0C0000
     7E8074187010BF00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF020121
@@ -4895,7 +4895,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.67
+    CCROSS_EVAP_TARGET_T: 7.67
   response: |-
     7CC04614C82FF
     7DF020121
@@ -4909,7 +4909,7 @@ test_cases:
     7E80441314C2E
     7EE0441314CC9
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.68
+    CCROSS_EVAP_TARGET_T: 7.68
   response: |-
     7CC04614C8300
     7DF020105
@@ -4917,13 +4917,13 @@ test_cases:
     7E803410580
     7EE03410580
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.68
+    CCROSS_EVAP_TARGET_T: 7.68
   response: |-
     7CC04614C8300
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.68
+    CCROSS_EVAP_TARGET_T: 7.68
   response: |-
     7CC04614C8300
     7DF02011F
@@ -4944,14 +4944,14 @@ test_cases:
     7E8074187010C190000
     7EA074187010BF00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.68
+    CCROSS_EVAP_TARGET_T: 7.68
   response: |-
     7CC04614C8300
     7DF020187
     7E8074187010CA30000
     7EA074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.69
+    CCROSS_EVAP_TARGET_T: 7.69
   response: |-
     7CC04614C8301
     7DF020105
@@ -4969,7 +4969,7 @@ test_cases:
     7E803410D27
     7EA03410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.69
+    CCROSS_EVAP_TARGET_T: 7.69
   response: |-
     7CC04614C8301
     7DF02010C
@@ -5006,7 +5006,7 @@ test_cases:
     7EA074187010AAF0000
     7E8074187010ACD0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.69
+    CCROSS_EVAP_TARGET_T: 7.69
   response: |-
     7CC04614C8301
     7DF02011F
@@ -5024,7 +5024,7 @@ test_cases:
     7E80441314CBB
     7EA0441314CBB
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.69
+    CCROSS_EVAP_TARGET_T: 7.69
   response: |-
     7CC04614C8301
     7DF020131
@@ -5037,10 +5037,10 @@ test_cases:
     7EA074187010C950000
     7E8074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.7
+    CCROSS_EVAP_TARGET_T: 7.7
   response: 7CC04614C8302
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.7
+    CCROSS_EVAP_TARGET_T: 7.7
   response: |-
     7CC04614C8302
     7DF02010C
@@ -5060,7 +5060,7 @@ test_cases:
     7DF020110
     7E804411006B6
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.7
+    CCROSS_EVAP_TARGET_T: 7.7
   response: |-
     7CC04614C8302
     7DF02011F
@@ -5081,7 +5081,7 @@ test_cases:
     7E8074187010CA60000
     7EA074187010CA50000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.71
+    CCROSS_EVAP_TARGET_T: 7.71
   response: |-
     7CC04614C8303
     7C003221041
@@ -5094,7 +5094,7 @@ test_cases:
     7EA074187010C9E0000
     7E8074187010C9E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.71
+    CCROSS_EVAP_TARGET_T: 7.71
   response: |-
     7CC04614C8303
     7C003221041
@@ -5112,7 +5112,7 @@ test_cases:
     7EA03410F4C
     7E803410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.71
+    CCROSS_EVAP_TARGET_T: 7.71
   response: |-
     7CC04614C8303
     7DF020110
@@ -5122,7 +5122,7 @@ test_cases:
     7E804411F0D0B
     7EE04411F0D21
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.71
+    CCROSS_EVAP_TARGET_T: 7.71
   response: |-
     7CC04614C8303
     7DF020110
@@ -5132,7 +5132,7 @@ test_cases:
     7E804411F14BA
     7EE04411F14DE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.72
+    CCROSS_EVAP_TARGET_T: 7.72
   response: |-
     7CC04614C8304
     7DF020105
@@ -5152,7 +5152,7 @@ test_cases:
     7EA03410F50
     7E803410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.72
+    CCROSS_EVAP_TARGET_T: 7.72
   response: |-
     7CC04614C8304
     7DF020121
@@ -5160,7 +5160,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.72
+    CCROSS_EVAP_TARGET_T: 7.72
   response: |-
     7CC04614C8304
     7DF020131
@@ -5177,7 +5177,7 @@ test_cases:
     7EA03410581
     7E803410581
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.73
+    CCROSS_EVAP_TARGET_T: 7.73
   response: |-
     7CC04614C8305
     7DF02010D
@@ -5193,7 +5193,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.73
+    CCROSS_EVAP_TARGET_T: 7.73
   response: |-
     7CC04614C8305
     7DF020121
@@ -5210,7 +5210,7 @@ test_cases:
     7EA074187010A880000
     7E80741870109600000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.74
+    CCROSS_EVAP_TARGET_T: 7.74
   response: |-
     7CC04614C8306
     7C003221041
@@ -5219,7 +5219,7 @@ test_cases:
     7E8074187010CA20000
     7EA074187010CA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.76
+    CCROSS_EVAP_TARGET_T: 7.76
   response: |-
     7CC04614C8308
     7DF020121
@@ -5234,7 +5234,7 @@ test_cases:
     7EA074187010C950000
     7E8074187010C950000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.78
+    CCROSS_EVAP_TARGET_T: 7.78
   response: |-
     7CC04614C830A
     7DF02010C
@@ -5246,7 +5246,7 @@ test_cases:
     7EE03410D3B
     7E803410D3B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.78
+    CCROSS_EVAP_TARGET_T: 7.78
   response: |-
     7CC04614C830A
     7DF020121
@@ -5260,7 +5260,7 @@ test_cases:
     7EA0441314C26
     7E80441314C26
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.8
+    CCROSS_EVAP_TARGET_T: 7.8
   response: |-
     7CC04614C830C
     7DF02011F
@@ -5281,7 +5281,7 @@ test_cases:
     7EA074187010C960000
     7E8074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.82
+    CCROSS_EVAP_TARGET_T: 7.82
   response: |-
     7CC04614C830E
     7DF020105
@@ -5305,7 +5305,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.82
+    CCROSS_EVAP_TARGET_T: 7.82
   response: |-
     7CC04614C830E
     7DF020110
@@ -5317,7 +5317,7 @@ test_cases:
     7E804411F1415
     7EA04411F141C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.83
+    CCROSS_EVAP_TARGET_T: 7.83
   response: |-
     7CC04614C830F
     7DF02010F
@@ -5333,7 +5333,7 @@ test_cases:
     7E804411F0BF6
     7EA04411F0BFA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.83
+    CCROSS_EVAP_TARGET_T: 7.83
   response: |-
     7CC04614C830F
     7DF02010F
@@ -5397,7 +5397,7 @@ test_cases:
     7E8074187010C910000
     7EA074187010C910000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.87
+    CCROSS_EVAP_TARGET_T: 7.87
   response: |-
     7CC04614C8313
     7DF020105
@@ -5419,7 +5419,7 @@ test_cases:
     7EE03410F4B
     7E803410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.87
+    CCROSS_EVAP_TARGET_T: 7.87
   response: |-
     7CC04614C8313
     7DF020105
@@ -5441,7 +5441,7 @@ test_cases:
     7EE03410F4E
     7EA03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.87
+    CCROSS_EVAP_TARGET_T: 7.87
   response: |-
     7CC04614C8313
     7DF02010C
@@ -5455,7 +5455,7 @@ test_cases:
     7EA03410D16
     7EE03410D16
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.89
+    CCROSS_EVAP_TARGET_T: 7.89
   response: |-
     7CC04614C8315
     7DF020121
@@ -5467,7 +5467,7 @@ test_cases:
     7EE0441314C8D
     7E80441314BF2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.9
+    CCROSS_EVAP_TARGET_T: 7.9
   response: |-
     7CC04614C8316
     7DF02010C
@@ -5504,7 +5504,7 @@ test_cases:
     7EA074187010C200000
     7E8074187010C0F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.91
+    CCROSS_EVAP_TARGET_T: 7.91
   response: |-
     7CC04614C8317
     7DF02011F
@@ -5525,7 +5525,7 @@ test_cases:
     7E8074187010C090000
     7EA074187010BE20000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.92
+    CCROSS_EVAP_TARGET_T: 7.92
   response: |-
     7CC04614C8318
     7DF02010C
@@ -5553,7 +5553,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.93
+    CCROSS_EVAP_TARGET_T: 7.93
   response: |-
     7CC04614C8319
     7C003221041
@@ -5563,7 +5563,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.93
+    CCROSS_EVAP_TARGET_T: 7.93
   response: |-
     7CC04614C8319
     7C003221041
@@ -5581,7 +5581,7 @@ test_cases:
     7EA03410F45
     7EE03410F45
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.94
+    CCROSS_EVAP_TARGET_T: 7.94
   response: |-
     7CC04614C831A
     7DF02010F
@@ -5591,7 +5591,7 @@ test_cases:
     7DF020110
     7E8044110009F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.95
+    CCROSS_EVAP_TARGET_T: 7.95
   response: |-
     7CC04614C831B
     7DF020187
@@ -5612,7 +5612,7 @@ test_cases:
     7EE03410D00
     7E803410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.97
+    CCROSS_EVAP_TARGET_T: 7.97
   response: |-
     7CC04614C831D
     7DF02010C
@@ -5649,7 +5649,7 @@ test_cases:
     7E80741870104750000
     7EA0741870104710000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.98
+    CCROSS_EVAP_TARGET_T: 7.98
   response: |-
     7CC04614C831E
     7DF02010C
@@ -5669,7 +5669,7 @@ test_cases:
     7DF020110
     7E804411004DD
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.98
+    CCROSS_EVAP_TARGET_T: 7.98
   response: |-
     7CC04614C831E
     7DF020121
@@ -5686,7 +5686,7 @@ test_cases:
     7EA074187010C290000
     7E8074187010BF40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.99
+    CCROSS_EVAP_TARGET_T: 7.99
   response: |-
     7CC04614C831F
     7DF020110
@@ -5709,7 +5709,7 @@ test_cases:
     7E8074187010C9E0000
     7EA074187010C9E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8
+    CCROSS_EVAP_TARGET_T: 8
   response: |-
     7CC04614C8320
     7DF02011F
@@ -5730,7 +5730,7 @@ test_cases:
     7EA074187010AB60000
     7E8074187010ABE0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.02
+    CCROSS_EVAP_TARGET_T: 8.02
   response: |-
     7CC04614C8322
     7DF02010D
@@ -5746,7 +5746,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.03
+    CCROSS_EVAP_TARGET_T: 8.03
   response: |-
     7CC04614C8323
     7DF02010C
@@ -5766,7 +5766,7 @@ test_cases:
     7C80462104138
     7E804411001A7
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.04
+    CCROSS_EVAP_TARGET_T: 8.04
   response: |-
     7CC04614C8324
     7DF02010C
@@ -5778,7 +5778,7 @@ test_cases:
     7EA03410D00
     7E803410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.12
+    CCROSS_EVAP_TARGET_T: 8.12
   response: |-
     7CC04614C832C
     7C003221041
@@ -5792,7 +5792,7 @@ test_cases:
     7EE03410F57
     7E803410F57
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.13
+    CCROSS_EVAP_TARGET_T: 8.13
   response: |-
     7CC04614C832D
     7DF02010C
@@ -5824,7 +5824,7 @@ test_cases:
     7EA0441314B3F
     7E80441314B3F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.13
+    CCROSS_EVAP_TARGET_T: 8.13
   response: |-
     7CC04614C832D
     7DF02010D
@@ -5836,7 +5836,7 @@ test_cases:
     7E803410F4F
     7EE03410F4F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.13
+    CCROSS_EVAP_TARGET_T: 8.13
   response: |-
     7CC04614C832D
     7DF020110
@@ -5852,7 +5852,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.14
+    CCROSS_EVAP_TARGET_T: 8.14
   response: |-
     7CC04614C832E
     7DF020131
@@ -5863,7 +5863,7 @@ test_cases:
     7EA074187010A2E0000
     7E8074187010A310000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.18
+    CCROSS_EVAP_TARGET_T: 8.18
   response: |-
     7CC04614C8332
     7C003221041
@@ -5871,7 +5871,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.18
+    CCROSS_EVAP_TARGET_T: 8.18
   response: |-
     7CC04614C8332
     7C003221041
@@ -5887,7 +5887,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.18
+    CCROSS_EVAP_TARGET_T: 8.18
   response: |-
     7CC04614C8332
     7DF020121
@@ -5904,7 +5904,7 @@ test_cases:
     7E8074187010C6A0000
     7EA074187010BEB0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.2
+    CCROSS_EVAP_TARGET_T: 8.2
   response: |-
     7CC04614C8334
     7DF02010D
@@ -5916,7 +5916,7 @@ test_cases:
     7EE03410F49
     7E803410F49
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.21
+    CCROSS_EVAP_TARGET_T: 8.21
   response: |-
     7CC04614C8335
     7DF02010F
@@ -5928,7 +5928,7 @@ test_cases:
     7DF020110
     7E8044110064E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.22
+    CCROSS_EVAP_TARGET_T: 8.22
   response: |-
     7CC04614C8336
     7DF02010F
@@ -5944,7 +5944,7 @@ test_cases:
     7EE04411F16F9
     7EA04411F16D7
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.24
+    CCROSS_EVAP_TARGET_T: 8.24
   response: |-
     7CC04614C8338
     7DF020121
@@ -5961,7 +5961,7 @@ test_cases:
     7EA074187010C800000
     7E8074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.29
+    CCROSS_EVAP_TARGET_T: 8.29
   response: |-
     7CC04614C833D
     7DF020105
@@ -5983,7 +5983,7 @@ test_cases:
     7E803410F4C
     7EE03410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.29
+    CCROSS_EVAP_TARGET_T: 8.29
   response: |-
     7CC04614C833D
     7DF02010C
@@ -6003,7 +6003,7 @@ test_cases:
     7DF020110
     7E804411009DE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.32
+    CCROSS_EVAP_TARGET_T: 8.32
   response: |-
     7CC04614C8340
     7C003221041
@@ -6021,7 +6021,7 @@ test_cases:
     7E80441314C9F
     7EE0441314D3B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.32
+    CCROSS_EVAP_TARGET_T: 8.32
   response: |-
     7CC04614C8340
     7DF02010D
@@ -6045,7 +6045,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.33
+    CCROSS_EVAP_TARGET_T: 8.33
   response: |-
     7CC04614C8341
     7DF020131
@@ -6058,7 +6058,7 @@ test_cases:
     7C8046210412F
     7EA074187010CA00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.34
+    CCROSS_EVAP_TARGET_T: 8.34
   response: |-
     7CC04614C8342
     7DF02011F
@@ -6072,7 +6072,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.34
+    CCROSS_EVAP_TARGET_T: 8.34
   response: |-
     7CC04614C8342
     7DF020131
@@ -6080,7 +6080,7 @@ test_cases:
     7E80441314C1F
     7EE0441314CBA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.35
+    CCROSS_EVAP_TARGET_T: 8.35
   response: |-
     7CC04614C8343
     7DF02010F
@@ -6092,7 +6092,7 @@ test_cases:
     7C80462104135
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.38
+    CCROSS_EVAP_TARGET_T: 8.38
   response: |-
     7CC04614C8346
     7DF020105
@@ -6104,7 +6104,7 @@ test_cases:
     7EE04410C0F00
     7E804410C0DBE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.4
+    CCROSS_EVAP_TARGET_T: 8.4
   response: |-
     7CC04614C8348
     7DF02010C
@@ -6132,7 +6132,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.43
+    CCROSS_EVAP_TARGET_T: 8.43
   response: |-
     7CC04614C834B
     7DF020121
@@ -6173,7 +6173,7 @@ test_cases:
     7E804411F131D
     7EE04411F1340
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.44
+    CCROSS_EVAP_TARGET_T: 8.44
   response: |-
     7CC04614C834C
     7DF02011F
@@ -6191,7 +6191,7 @@ test_cases:
     7E80441314CC4
     7EA0441314CC5
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.46
+    CCROSS_EVAP_TARGET_T: 8.46
   response: |-
     7CC04614C834E
     7DF02010F
@@ -6224,7 +6224,7 @@ test_cases:
     7EE0341057E
     7E80341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.46
+    CCROSS_EVAP_TARGET_T: 8.46
   response: |-
     7CC04614C834E
     7DF020110
@@ -6247,7 +6247,7 @@ test_cases:
     7EA074187010C7E0000
     7E8074187010C7E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.48
+    CCROSS_EVAP_TARGET_T: 8.48
   response: |-
     7CC04614C8350
     7DF020105
@@ -6269,7 +6269,7 @@ test_cases:
     7EE03410F45
     7E803410F45
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.51
+    CCROSS_EVAP_TARGET_T: 8.51
   response: |-
     7CC04614C8353
     7DF02010C
@@ -6304,7 +6304,7 @@ test_cases:
     7EA074187010BF20000
     7E8074187010BF40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.51
+    CCROSS_EVAP_TARGET_T: 8.51
   response: |-
     7CC04614C8353
     7DF02010D
@@ -6332,7 +6332,7 @@ test_cases:
     7EE0441314BEA
     7EA0441314B50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.56
+    CCROSS_EVAP_TARGET_T: 8.56
   response: |-
     7CC04614C8358
     7DF020131
@@ -6380,7 +6380,7 @@ test_cases:
     7EA074187010C7D0000
     7E8074187010C7E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.57
+    CCROSS_EVAP_TARGET_T: 8.57
   response: |-
     7CC04614C8359
     7DF020110
@@ -6396,7 +6396,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.57
+    CCROSS_EVAP_TARGET_T: 8.57
   response: |-
     7CC04614C8359
     7DF02011F
@@ -6412,7 +6412,7 @@ test_cases:
     7E80441314B40
     7EE0441314BDA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.6
+    CCROSS_EVAP_TARGET_T: 8.6
   response: |-
     7CC04614C835C
     7DF020105
@@ -6434,7 +6434,7 @@ test_cases:
     7E803410F50
     7EE03410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.62
+    CCROSS_EVAP_TARGET_T: 8.62
   response: |-
     7CC04614C835E
     7C003221041
@@ -6448,7 +6448,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.62
+    CCROSS_EVAP_TARGET_T: 8.62
   response: |-
     7CC04614C835E
     7DF020121
@@ -6469,7 +6469,7 @@ test_cases:
     7EE0341057E
     7E80341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.62
+    CCROSS_EVAP_TARGET_T: 8.62
   response: |-
     7CC04614C835E
     7DF020121
@@ -6481,7 +6481,7 @@ test_cases:
     7E80441314B41
     7EE0441314BDA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.64
+    CCROSS_EVAP_TARGET_T: 8.64
   response: |-
     7CC04614C8360
     7DF020187
@@ -6490,7 +6490,7 @@ test_cases:
     7C003221041
     7C80462104139
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.65
+    CCROSS_EVAP_TARGET_T: 8.65
   response: |-
     7CC04614C8361
     7DF02010C
@@ -6518,7 +6518,7 @@ test_cases:
     7EE0441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.65
+    CCROSS_EVAP_TARGET_T: 8.65
   response: |-
     7CC04614C8361
     7DF020187
@@ -6559,7 +6559,7 @@ test_cases:
     7E80441314C15
     7EE0441314CB0
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.66
+    CCROSS_EVAP_TARGET_T: 8.66
   response: |-
     7CC04614C8362
     7DF020105
@@ -6581,7 +6581,7 @@ test_cases:
     7EA03410F53
     7EE03410F53
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.67
+    CCROSS_EVAP_TARGET_T: 8.67
   response: |-
     7CC04614C8363
     7DF02010F
@@ -6595,7 +6595,7 @@ test_cases:
     7E804411F0F2C
     7EA04411F0F2F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.67
+    CCROSS_EVAP_TARGET_T: 8.67
   response: |-
     7CC04614C8363
     7DF020121
@@ -6607,7 +6607,7 @@ test_cases:
     7EA0441314DA8
     7E80441314DA8
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.68
+    CCROSS_EVAP_TARGET_T: 8.68
   response: |-
     7CC04614C8364
     7DF02010C
@@ -6625,7 +6625,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.68
+    CCROSS_EVAP_TARGET_T: 8.68
   response: |-
     7CC04614C8364
     7DF02010F
@@ -6645,7 +6645,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.69
+    CCROSS_EVAP_TARGET_T: 8.69
   response: |-
     7CC04614C8365
     7DF02010C
@@ -6677,7 +6677,7 @@ test_cases:
     7E80441314B3A
     7EE0441314BD3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.7
+    CCROSS_EVAP_TARGET_T: 8.7
   response: |-
     7CC04614C8366
     7DF020110
@@ -6693,7 +6693,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.71
+    CCROSS_EVAP_TARGET_T: 8.71
   response: |-
     7CC04614C8367
     7DF020187
@@ -6714,7 +6714,7 @@ test_cases:
     7E803410D22
     7EE03410D22
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.79
+    CCROSS_EVAP_TARGET_T: 8.79
   response: |-
     7CC04614C836F
     7DF02010C
@@ -6751,7 +6751,7 @@ test_cases:
     7EA074187010C9C0000
     7E8074187010C9D0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.79
+    CCROSS_EVAP_TARGET_T: 8.79
   response: |-
     7CC04614C836F
     7DF020131
@@ -6768,7 +6768,7 @@ test_cases:
     7E80341057F
     7EA0341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.82
+    CCROSS_EVAP_TARGET_T: 8.82
   response: |-
     7CC04614C8372
     7DF02010C
@@ -6786,7 +6786,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.82
+    CCROSS_EVAP_TARGET_T: 8.82
   response: |-
     7CC04614C8372
     7DF02010D
@@ -6798,7 +6798,7 @@ test_cases:
     7EA03410F55
     7E803410F55
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.83
+    CCROSS_EVAP_TARGET_T: 8.83
   response: |-
     7CC04614C8373
     7DF020110
@@ -6814,7 +6814,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.84
+    CCROSS_EVAP_TARGET_T: 8.84
   response: |-
     7CC04614C8374
     7DF020105
@@ -6855,7 +6855,7 @@ test_cases:
     7E8074187010C7E0000
     7EA074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.87
+    CCROSS_EVAP_TARGET_T: 8.87
   response: |-
     7CC04614C8377
     7DF020105
@@ -6877,7 +6877,7 @@ test_cases:
     7E803410F4D
     7EA03410F4D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.87
+    CCROSS_EVAP_TARGET_T: 8.87
   response: |-
     7CC04614C8377
     7DF020131
@@ -6888,7 +6888,7 @@ test_cases:
     7EA074187010C9E0000
     7E8074187010C9E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.88
+    CCROSS_EVAP_TARGET_T: 8.88
   response: |-
     7CC04614C8378
     7DF02010D
@@ -6919,7 +6919,7 @@ test_cases:
     7E8074187010BA20000
     7EA074187010BCA0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.88
+    CCROSS_EVAP_TARGET_T: 8.88
   response: |-
     7CC04614C8378
     7DF020131
@@ -6944,7 +6944,7 @@ test_cases:
     7E803410D27
     7EE03410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.9
+    CCROSS_EVAP_TARGET_T: 8.9
   response: |-
     7CC04614C837A
     7DF020187
@@ -6957,7 +6957,7 @@ test_cases:
     7EA0341057E
     7EE0341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.94
+    CCROSS_EVAP_TARGET_T: 8.94
   response: |-
     7CC04614C837E
     7C003221041
@@ -6975,7 +6975,7 @@ test_cases:
     7EA03410F55
     7E803410F56
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.94
+    CCROSS_EVAP_TARGET_T: 8.94
   response: |-
     7CC04614C837E
     7DF02010D
@@ -7006,7 +7006,7 @@ test_cases:
     7E8074187010B370000
     7EA074187010ACD0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.94
+    CCROSS_EVAP_TARGET_T: 8.94
   response: |-
     7CC04614C837E
     7DF02010D
@@ -7034,7 +7034,7 @@ test_cases:
     7E80441314B5B
     7EE0441314BF4
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.96
+    CCROSS_EVAP_TARGET_T: 8.96
   response: |-
     7CC04614C8380
     7DF02010C
@@ -7069,7 +7069,7 @@ test_cases:
     7EA074187010C7D0000
     7E8074187010C7E0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.97
+    CCROSS_EVAP_TARGET_T: 8.97
   response: |-
     7CC04614C8381
     7C003221041
@@ -7081,7 +7081,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.97
+    CCROSS_EVAP_TARGET_T: 8.97
   response: |-
     7CC04614C8381
     7DF02010D
@@ -7095,7 +7095,7 @@ test_cases:
     7E803410F4E
     7EE03410F4D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.98
+    CCROSS_EVAP_TARGET_T: 8.98
   response: |-
     7CC04614C8382
     7DF020110
@@ -7118,7 +7118,7 @@ test_cases:
     7E8074187010BFA0000
     7EA074187010BDD0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.98
+    CCROSS_EVAP_TARGET_T: 8.98
   response: |-
     7CC04614C8382
     7DF02011F
@@ -7130,7 +7130,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9
+    CCROSS_EVAP_TARGET_T: 9
   response: |-
     7CC04614C8384
     7DF02010D
@@ -7146,7 +7146,7 @@ test_cases:
     7DF020110
     7E80441100032
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9
+    CCROSS_EVAP_TARGET_T: 9
   response: |-
     7CC04614C8384
     7DF020131
@@ -7159,7 +7159,7 @@ test_cases:
     7E8074187010C800000
     7EA074187010C810000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.01
+    CCROSS_EVAP_TARGET_T: 9.01
   response: |-
     7CC04614C8385
     7C003221041
@@ -7176,7 +7176,7 @@ test_cases:
     7E8074187010BD70000
     7EA074187010BD40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.02
+    CCROSS_EVAP_TARGET_T: 9.02
   response: |-
     7CC04614C8386
     7C003221041
@@ -7196,7 +7196,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.05
+    CCROSS_EVAP_TARGET_T: 9.05
   response: |-
     7CC04614C8389
     7DF02010D
@@ -7212,7 +7212,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.06
+    CCROSS_EVAP_TARGET_T: 9.06
   response: |-
     7CC04614C838A
     7DF02010D
@@ -7226,14 +7226,14 @@ test_cases:
     7DF020110
     7E8044110053B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.06
+    CCROSS_EVAP_TARGET_T: 9.06
   response: |-
     7CC04614C838A
     7DF020187
     7E8074187010BF90000
     7EA074187010BC00000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.07
+    CCROSS_EVAP_TARGET_T: 9.07
   response: |-
     7CC04614C838B
     7DF02010C
@@ -7253,7 +7253,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.07
+    CCROSS_EVAP_TARGET_T: 9.07
   response: |-
     7CC04614C838B
     7DF020121
@@ -7274,7 +7274,7 @@ test_cases:
     7EE0341057E
     7E80341057E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.08
+    CCROSS_EVAP_TARGET_T: 9.08
   response: |-
     7CC04614C838C
     7DF020121
@@ -7288,7 +7288,7 @@ test_cases:
     7E80441314B4E
     7EE0441314BE8
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.09
+    CCROSS_EVAP_TARGET_T: 9.09
   response: |-
     7CC04614C838D
     7DF02010D
@@ -7296,7 +7296,7 @@ test_cases:
     7EA03410D03
     7EE03410D03
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.11
+    CCROSS_EVAP_TARGET_T: 9.11
   response: |-
     7CC04614C838F
     7C003221041
@@ -7306,7 +7306,7 @@ test_cases:
     7EE04410C1800
     7EA04410C1800
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.11
+    CCROSS_EVAP_TARGET_T: 9.11
   response: |-
     7CC04614C838F
     7C003221041
@@ -7320,7 +7320,7 @@ test_cases:
     7EE04410C1780
     7EA04410C1780
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.15
+    CCROSS_EVAP_TARGET_T: 9.15
   response: |-
     7CC04614C8393
     7DF020121
@@ -7337,7 +7337,7 @@ test_cases:
     7EA074187010B050000
     7E8074187010B0F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.16
+    CCROSS_EVAP_TARGET_T: 9.16
   response: |-
     7CC04614C8394
     7DF02010C
@@ -7365,7 +7365,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.16
+    CCROSS_EVAP_TARGET_T: 9.16
   response: |-
     7CC04614C8394
     7DF02011F
@@ -7414,7 +7414,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.16
+    CCROSS_EVAP_TARGET_T: 9.16
   response: |-
     7CC04614C8394
     7DF02011F
@@ -7435,7 +7435,7 @@ test_cases:
     7E8074187010C7F0000
     7EA074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.16
+    CCROSS_EVAP_TARGET_T: 9.16
   response: |-
     7CC04614C8394
     7DF020131
@@ -7456,7 +7456,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.17
+    CCROSS_EVAP_TARGET_T: 9.17
   response: |-
     7CC04614C8395
     7DF02011F
@@ -7472,7 +7472,7 @@ test_cases:
     7EE0441314BE5
     7EA0441314B4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.17
+    CCROSS_EVAP_TARGET_T: 9.17
   response: |-
     7CC04614C8395
     7DF020121
@@ -7489,7 +7489,7 @@ test_cases:
     7E80741870105870000
     7EA0741870105760000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.2
+    CCROSS_EVAP_TARGET_T: 9.2
   response: |-
     7CC04614C8398
     7DF02010C
@@ -7507,7 +7507,7 @@ test_cases:
     7E803410F48
     7EE03410F48
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.21
+    CCROSS_EVAP_TARGET_T: 9.21
   response: |-
     7CC04614C8399
     7DF02010C
@@ -7525,7 +7525,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.23
+    CCROSS_EVAP_TARGET_T: 9.23
   response: |-
     7CC04614C839B
     7DF02010C
@@ -7549,7 +7549,7 @@ test_cases:
     7EA04411F1946
     7EE04411F196C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.23
+    CCROSS_EVAP_TARGET_T: 9.23
   response: |-
     7CC04614C839B
     7DF02011F
@@ -7563,7 +7563,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.24
+    CCROSS_EVAP_TARGET_T: 9.24
   response: |-
     7CC04614C839C
     7DF02010F
@@ -7590,7 +7590,7 @@ test_cases:
     7EA074187010C840000
     7E8074187010C840000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.29
+    CCROSS_EVAP_TARGET_T: 9.29
   response: |-
     7CC04614C83A1
     7DF020187
@@ -7615,7 +7615,7 @@ test_cases:
     7EA03410F5B
     7EE03410F5B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.3
+    CCROSS_EVAP_TARGET_T: 9.3
   response: |-
     7CC04614C83A2
     7C003221041
@@ -7625,7 +7625,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.31
+    CCROSS_EVAP_TARGET_T: 9.31
   response: |-
     7CC04614C83A3
     7C003221041
@@ -7645,7 +7645,7 @@ test_cases:
     7DF020110
     7E804411005CA
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.36
+    CCROSS_EVAP_TARGET_T: 9.36
   response: |-
     7CC04614C83A8
     7DF02011F
@@ -7666,7 +7666,7 @@ test_cases:
     7EA0741870108F70000
     7E80741870109D70000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.37
+    CCROSS_EVAP_TARGET_T: 9.37
   response: |-
     7CC04614C83A9
     7DF02010C
@@ -7678,7 +7678,7 @@ test_cases:
     7EE03410D37
     7E803410D37
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.48
+    CCROSS_EVAP_TARGET_T: 9.48
   response: |-
     7CC04614C83B4
     7DF02010C
@@ -7715,7 +7715,7 @@ test_cases:
     7EA074187010B880000
     7E8074187010B8F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.51
+    CCROSS_EVAP_TARGET_T: 9.51
   response: |-
     7CC04614C83B7
     7C003221041
@@ -7733,7 +7733,7 @@ test_cases:
     7E80441314B61
     7EA0441314B61
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7CC04614C83BB
     7DF020105
@@ -7747,7 +7747,7 @@ test_cases:
     7EE04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7CC04614C83BB
     7DF02010C
@@ -7784,7 +7784,7 @@ test_cases:
     7EA074187010C920000
     7E8074187010C940000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7CC04614C83BB
     7DF02010C
@@ -7802,7 +7802,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7CC04614C83BB
     7DF02011F
@@ -7810,7 +7810,7 @@ test_cases:
     7EE04411F2281
     7E804411F2246
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.56
+    CCROSS_EVAP_TARGET_T: 9.56
   response: |-
     7CC04614C83BC
     7C003221041
@@ -7820,7 +7820,7 @@ test_cases:
     7E803410F57
     7EA03410F56
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.56
+    CCROSS_EVAP_TARGET_T: 9.56
   response: |-
     7CC04614C83BC
     7DF02010C
@@ -7892,7 +7892,7 @@ test_cases:
     7E8074187010C970000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.56
+    CCROSS_EVAP_TARGET_T: 9.56
   response: |-
     7CC04614C83BC
     7DF02010C
@@ -7910,7 +7910,7 @@ test_cases:
     7E803410F54
     7EA03410F54
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.56
+    CCROSS_EVAP_TARGET_T: 9.56
   response: |-
     7CC04614C83BC
     7DF020121
@@ -7925,7 +7925,7 @@ test_cases:
     7EA074187010BD90000
     7E8074187010BF60000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.57
+    CCROSS_EVAP_TARGET_T: 9.57
   response: |-
     7CC04614C83BD
     7DF02010D
@@ -7941,7 +7941,7 @@ test_cases:
     7DF020110
     7E80441100065
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.57
+    CCROSS_EVAP_TARGET_T: 9.57
   response: |-
     7CC04614C83BD
     7DF02011F
@@ -7962,7 +7962,7 @@ test_cases:
     7E8074187010C990000
     7EA074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.57
+    CCROSS_EVAP_TARGET_T: 9.57
   response: |-
     7CC04614C83BD
     7DF020121
@@ -7987,7 +7987,7 @@ test_cases:
     7E804410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.57
+    CCROSS_EVAP_TARGET_T: 9.57
   response: |-
     7CC04614C83BD
     7DF020187
@@ -8000,7 +8000,7 @@ test_cases:
     7EE03410581
     7E803410580
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7C003221041
@@ -8012,7 +8012,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF020105
@@ -8024,7 +8024,7 @@ test_cases:
     7EA04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02010D
@@ -8038,7 +8038,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02010D
@@ -8050,7 +8050,7 @@ test_cases:
     7E803410F56
     7EE03410F56
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02010F
@@ -8077,7 +8077,7 @@ test_cases:
     7E8074187010C960000
     7EA074187010C960000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF020110
@@ -8093,7 +8093,7 @@ test_cases:
     7EA0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF020110
@@ -8105,7 +8105,7 @@ test_cases:
     7EA04411F1E99
     7EE04411F1EC7
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02011F
@@ -8117,7 +8117,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02011F
@@ -8133,7 +8133,7 @@ test_cases:
     7E80441314B66
     7EE0441314BFF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF02011F
@@ -8154,7 +8154,7 @@ test_cases:
     7EA0741870105F10000
     7E807418701053C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7CC04614C83BE
     7DF020187
@@ -8171,7 +8171,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7CC04614C83BF
     7DF020105
@@ -8195,7 +8195,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7CC04614C83BF
     7DF02010C
@@ -8209,7 +8209,7 @@ test_cases:
     7EE03410D27
     7EA03410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.6
+    CCROSS_EVAP_TARGET_T: 9.6
   response: |-
     7CC04614C83C0
     7C003221041
@@ -8227,7 +8227,7 @@ test_cases:
     7EA03410F56
     7EE03410F56
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.6
+    CCROSS_EVAP_TARGET_T: 9.6
   response: |-
     7CC04614C83C0
     7DF020105
@@ -8251,7 +8251,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.6
+    CCROSS_EVAP_TARGET_T: 9.6
   response: |-
     7CC04614C83C0
     7DF02010F
@@ -8267,7 +8267,7 @@ test_cases:
     7E804411F25BF
     7EE04411F2600
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.6
+    CCROSS_EVAP_TARGET_T: 9.6
   response: |-
     7CC04614C83C0
     7DF02011F
@@ -8279,7 +8279,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.61
+    CCROSS_EVAP_TARGET_T: 9.61
   response: |-
     7CC04614C83C1
     7DF020105
@@ -8301,7 +8301,7 @@ test_cases:
     7E803410F4F
     7EE03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.61
+    CCROSS_EVAP_TARGET_T: 9.61
   response: |-
     7CC04614C83C1
     7DF02010F
@@ -8313,7 +8313,7 @@ test_cases:
     7DF020110
     7E8044110056D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.61
+    CCROSS_EVAP_TARGET_T: 9.61
   response: |-
     7CC04614C83C1
     7DF020131
@@ -8338,7 +8338,7 @@ test_cases:
     7E803410D1E
     7EE03410D1E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7C003221041
@@ -8348,7 +8348,7 @@ test_cases:
     7E803410F54
     7EE03410F54
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7C003221041
@@ -8368,7 +8368,7 @@ test_cases:
     7DF020110
     7E8044110012F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7C003221041
@@ -8382,7 +8382,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020105
@@ -8396,7 +8396,7 @@ test_cases:
     7EA04410C0000
     7E804410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020105
@@ -8410,7 +8410,7 @@ test_cases:
     7E804410C1077
     7EE04410C1000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020105
@@ -8432,7 +8432,7 @@ test_cases:
     7EA03410F58
     7EE03410F58
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020105
@@ -8456,7 +8456,7 @@ test_cases:
     7DF020110
     7E80441100096
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020105
@@ -8497,7 +8497,7 @@ test_cases:
     7E8074187010C8D0000
     7EA074187010C8D0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010C
@@ -8534,7 +8534,7 @@ test_cases:
     7EA074187010C990000
     7E8074187010C9A0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010C
@@ -8554,7 +8554,7 @@ test_cases:
     7DF020110
     7E8044110012A
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010C
@@ -8578,7 +8578,7 @@ test_cases:
     7E804411F1F2A
     7EE04411F1F5F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010D
@@ -8590,7 +8590,7 @@ test_cases:
     7E803410F53
     7EA03410F53
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010F
@@ -8604,7 +8604,7 @@ test_cases:
     7E804411F22DB
     7EA04411F22E3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02010F
@@ -8616,7 +8616,7 @@ test_cases:
     7DF020110
     7E80441100073
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF02011F
@@ -8634,7 +8634,7 @@ test_cases:
     7E80441314B62
     7EA0441314B62
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020121
@@ -8655,7 +8655,7 @@ test_cases:
     7E80341057C
     7EE0341057C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7CC04614C83C2
     7DF020131
@@ -8666,7 +8666,7 @@ test_cases:
     7E80741870106100000
     7EA0741870105A50000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.66
+    CCROSS_EVAP_TARGET_T: 9.66
   response: |-
     7CC04614C83C6
     7C003221041
@@ -8674,7 +8674,7 @@ test_cases:
     7C80462104107
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.79
+    CCROSS_EVAP_TARGET_T: 9.79
   response: |-
     7CC04614C83D3
     7DF02010D
@@ -8688,7 +8688,7 @@ test_cases:
     7EA03410F59
     7EE03410F59
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.99
+    CCROSS_EVAP_TARGET_T: 9.99
   response: |-
     7CC04614C83E7
     7C003221041
@@ -8706,7 +8706,7 @@ test_cases:
     7EA0441314BAF
     7EE0441314C49
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.05
+    CCROSS_EVAP_TARGET_T: 10.05
   response: |-
     7CC04614C83ED
     7DF02010C
@@ -8738,7 +8738,7 @@ test_cases:
     7EE0441314C48
     7EA0441314BAE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.05
+    CCROSS_EVAP_TARGET_T: 10.05
   response: |-
     7CC04614C83ED
     7DF020110
@@ -8754,7 +8754,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.08
+    CCROSS_EVAP_TARGET_T: 10.08
   response: |-
     7CC04614C83F0
     7DF020187
@@ -8767,7 +8767,7 @@ test_cases:
     7E80341057F
     7EA0341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.09
+    CCROSS_EVAP_TARGET_T: 10.09
   response: |-
     7CC04614C83F1
     7DF02010F
@@ -8794,7 +8794,7 @@ test_cases:
     7E8074187010C8C0000
     7EA074187010C8C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8804,7 +8804,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8812,7 +8812,7 @@ test_cases:
     7DF020110
     7E804411004E3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8825,7 +8825,7 @@ test_cases:
     7EA074187010BEA0000
     7E8074187010B6C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8847,7 +8847,7 @@ test_cases:
     7EA03410F50
     7E803410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8867,7 +8867,7 @@ test_cases:
     7DF020110
     7E8044110048D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8891,7 +8891,7 @@ test_cases:
     7DF020110
     7E804411005C6
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8932,7 +8932,7 @@ test_cases:
     7EA074187010CA50000
     7E8074187010CA40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C003221041
@@ -8950,7 +8950,7 @@ test_cases:
     7EA03410F4E
     7EE03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7C8046210413D
@@ -8959,7 +8959,7 @@ test_cases:
     7EE03410D3D
     7E803410D3D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -8977,7 +8977,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9005,7 +9005,7 @@ test_cases:
     7E804411F1A0D
     7EA04411F1A13
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9041,7 +9041,7 @@ test_cases:
     7E80441314B87
     7EE0441314C20
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9082,7 +9082,7 @@ test_cases:
     7E8074187010AA30000
     7EA074187010A760000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9104,7 +9104,7 @@ test_cases:
     7E803410F4B
     7EA03410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9120,7 +9120,7 @@ test_cases:
     7EE03410D32
     7E803410D32
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9161,7 +9161,7 @@ test_cases:
     7E80741870107EB0000
     7C8046210412B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020105
@@ -9175,7 +9175,7 @@ test_cases:
     7EE04410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9212,7 +9212,7 @@ test_cases:
     7EA074187010CA40000
     7E8074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9244,7 +9244,7 @@ test_cases:
     7E80441314BA7
     7EA0441314BA7
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9281,7 +9281,7 @@ test_cases:
     7E8074187010CA30000
     7EA074187010CA40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9293,7 +9293,7 @@ test_cases:
     7E803410D28
     7EA03410D28
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9305,7 +9305,7 @@ test_cases:
     7EE03410D0F
     7E803410D0F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9377,7 +9377,7 @@ test_cases:
     7E8074187010C910000
     7EA074187010C8F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9405,7 +9405,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9440,7 +9440,7 @@ test_cases:
     7EA074187010A7E0000
     7E8074187010AA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9458,7 +9458,7 @@ test_cases:
     7E803410F4B
     7EE03410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010C
@@ -9472,7 +9472,7 @@ test_cases:
     7E803410D27
     7EE03410D27
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9484,7 +9484,7 @@ test_cases:
     7EE03410F4C
     7EA03410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9515,7 +9515,7 @@ test_cases:
     7E8074187010CA40000
     7EA074187010CA40000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9527,7 +9527,7 @@ test_cases:
     7EE03410F4B
     7E803410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9547,7 +9547,7 @@ test_cases:
     7EA04411F16DE
     7E804411F16D9
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9563,7 +9563,7 @@ test_cases:
     7DF020110
     7E804411003E8
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010D
@@ -9577,7 +9577,7 @@ test_cases:
     7DF020110
     7E804411005E2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010F
@@ -9589,7 +9589,7 @@ test_cases:
     7DF020110
     7E80441100485
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010F
@@ -9603,7 +9603,7 @@ test_cases:
     7E804411F1A4B
     7EA04411F1A51
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010F
@@ -9630,7 +9630,7 @@ test_cases:
     7EA074187010CA60000
     7E8074187010CA70000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02010F
@@ -9642,7 +9642,7 @@ test_cases:
     7DF020110
     7E80441100476
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020110
@@ -9654,7 +9654,7 @@ test_cases:
     7EE04411F123A
     7EA04411F121F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020110
@@ -9670,7 +9670,7 @@ test_cases:
     7EA0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020110
@@ -9680,7 +9680,7 @@ test_cases:
     7E804411F13EF
     7EA04411F13F3
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020110
@@ -9696,13 +9696,13 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020110
     7E8044110010F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02011F
@@ -9731,7 +9731,7 @@ test_cases:
     7E804410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02011F
@@ -9752,7 +9752,7 @@ test_cases:
     7EA074187010CA10000
     7E8074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02011F
@@ -9768,7 +9768,7 @@ test_cases:
     7EA0441314BA6
     7EE0441314C40
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02011F
@@ -9780,7 +9780,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF02011F
@@ -9788,7 +9788,7 @@ test_cases:
     7E804411F1E89
     7EE04411F1EBF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020121
@@ -9802,7 +9802,7 @@ test_cases:
     7E80441314B90
     7EE0441314C29
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020131
@@ -9823,7 +9823,7 @@ test_cases:
     7E804410C19CB
     7EE04410C1980
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7CC04614C83F2
     7DF020187
@@ -9836,7 +9836,7 @@ test_cases:
     7EE03410581
     7E803410581
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.48
+    CCROSS_EVAP_TARGET_T: 7.48
   response: |-
     7DF020105
     7CC04614C82EC
@@ -9877,7 +9877,7 @@ test_cases:
     7EA074187010C970000
     7E8074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.51
+    CCROSS_EVAP_TARGET_T: 8.51
   response: |-
     7DF020105
     7CC04614C8353
@@ -9885,7 +9885,7 @@ test_cases:
     7E803410571
     7EE03410571
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.58
+    CCROSS_EVAP_TARGET_T: 9.58
   response: |-
     7DF020105
     7E80341057F
@@ -9897,7 +9897,7 @@ test_cases:
     7E804410C0000
     7EA04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.46
+    CCROSS_EVAP_TARGET_T: 6.46
   response: |-
     7DF020105
     7EA03410579
@@ -9905,7 +9905,7 @@ test_cases:
     7CC04614C8286
     7E803410579
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.51
+    CCROSS_EVAP_TARGET_T: 9.51
   response: |-
     7DF020105
     7EA0341057E
@@ -9929,7 +9929,7 @@ test_cases:
     7DF020110
     7E804411003B1
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.16
+    CCROSS_EVAP_TARGET_T: 9.16
   response: |-
     7DF020105
     7EA0341057E
@@ -9937,7 +9937,7 @@ test_cases:
     7E80341057E
     7CC04614C8394
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7DF02010C
     7E804410C0000
@@ -9955,7 +9955,7 @@ test_cases:
     7EA03410F54
     7EE03410F54
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7DF02010C
     7E804410C0000
@@ -9975,7 +9975,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF02010C
     7EA04410C0000
@@ -9987,7 +9987,7 @@ test_cases:
     7EA03410D09
     7EE03410D09
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.8
+    CCROSS_EVAP_TARGET_T: 7.8
   response: |-
     7DF02010C
     7EA04410C1680
@@ -10007,7 +10007,7 @@ test_cases:
     7DF020110
     7E804411004C9
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.67
+    CCROSS_EVAP_TARGET_T: 9.67
   response: |-
     7DF02010C
     7EE04410C0000
@@ -10042,7 +10042,7 @@ test_cases:
     7EA074187010C7F0000
     7E8074187010C7F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02010D
     7E803410D00
@@ -10054,7 +10054,7 @@ test_cases:
     7EE03410F48
     7E803410F48
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.83
+    CCROSS_EVAP_TARGET_T: 8.83
   response: |-
     7DF02010D
     7E803410D0A
@@ -10085,7 +10085,7 @@ test_cases:
     7EA074187010C8B0000
     7E8074187010C890000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02010D
     7E803410D29
@@ -10093,7 +10093,7 @@ test_cases:
     7EE03410D29
     7CC04614C83F2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.75
+    CCROSS_EVAP_TARGET_T: 8.75
   response: |-
     7DF02010D
     7EA03410D2A
@@ -10107,7 +10107,7 @@ test_cases:
     7EA03410F50
     7E803410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.12
+    CCROSS_EVAP_TARGET_T: 9.12
   response: |-
     7DF02010D
     7EA03410D2C
@@ -10121,7 +10121,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7DF02010D
     7EA03410D36
@@ -10152,7 +10152,7 @@ test_cases:
     7EA074187010BF30000
     7E8074187010BE30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02010D
     7EA03410D38
@@ -10160,7 +10160,7 @@ test_cases:
     7EE03410D38
     7CC04614C83F2
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7DF02010D
     7EE03410D28
@@ -10174,7 +10174,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.07
+    CCROSS_EVAP_TARGET_T: 9.07
   response: |-
     7DF02010D
     7EE03410D38
@@ -10186,7 +10186,7 @@ test_cases:
     7EE03410F4C
     7E803410F4C
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.02
+    CCROSS_EVAP_TARGET_T: 8.02
   response: |-
     7DF02010F
     7CC04614C8322
@@ -10198,7 +10198,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.5
+    CCROSS_EVAP_TARGET_T: 6.5
   response: |-
     7DF02010F
     7E803410F4C
@@ -10225,7 +10225,7 @@ test_cases:
     7E80741870106770000
     7EA0741870105FE0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 5.1
+    CCROSS_EVAP_TARGET_T: 5.1
   response: |-
     7DF02010F
     7E803410F4F
@@ -10233,7 +10233,7 @@ test_cases:
     7CC04614C81FE
     7EE03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.49
+    CCROSS_EVAP_TARGET_T: 6.49
   response: |-
     7DF02010F
     7E803410F51
@@ -10241,7 +10241,7 @@ test_cases:
     7EA03410F51
     7EE03410F51
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.42
+    CCROSS_EVAP_TARGET_T: 8.42
   response: |-
     7DF02010F
     7E803410F54
@@ -10261,7 +10261,7 @@ test_cases:
     7E80441210000
     7EA0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF02010F
     7E803410F57
@@ -10271,7 +10271,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02010F
     7EA03410F4B
@@ -10281,7 +10281,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7DF02010F
     7EA03410F4F
@@ -10291,19 +10291,19 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7DF020110
     7CC04614C828B
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF020110
     7CC04614C83C2
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.95
+    CCROSS_EVAP_TARGET_T: 7.95
   response: |-
     7DF020110
     7E8044110002B
@@ -10319,7 +10319,7 @@ test_cases:
     7EA0441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.66
+    CCROSS_EVAP_TARGET_T: 8.66
   response: |-
     7DF020110
     7E8044110002B
@@ -10337,7 +10337,7 @@ test_cases:
     7EE0441314BE9
     7E80441314B50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.94
+    CCROSS_EVAP_TARGET_T: 8.94
   response: |-
     7DF020110
     7E8044110002B
@@ -10347,7 +10347,7 @@ test_cases:
     7E804411F099C
     7EA04411F099D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.95
+    CCROSS_EVAP_TARGET_T: 8.95
   response: |-
     7DF020110
     7E8044110002B
@@ -10370,7 +10370,7 @@ test_cases:
     7EA074187010C7B0000
     7E8074187010C7C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.98
+    CCROSS_EVAP_TARGET_T: 9.98
   response: |-
     7DF020110
     7E8044110002B
@@ -10393,7 +10393,7 @@ test_cases:
     7E8074187010C8D0000
     7EA074187010C8D0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF020110
     7E8044110002B
@@ -10409,7 +10409,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7DF020110
     7E8044110002E
@@ -10432,7 +10432,7 @@ test_cases:
     7EA074187010ADE0000
     7E8074187010B630000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF020110
     7E80441100291
@@ -10442,7 +10442,7 @@ test_cases:
     7EA04411F07F0
     7E804411F07EE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.83
+    CCROSS_EVAP_TARGET_T: 7.83
   response: |-
     7DF020110
     7E80441100323
@@ -10465,7 +10465,7 @@ test_cases:
     7EA0741870108EB0000
     7E80741870109080000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7DF02011F
     7CC04614C82BC
@@ -10486,7 +10486,7 @@ test_cases:
     7E80741870105550000
     7EA07418701055C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02011F
     7CC04614C83F2
@@ -10542,7 +10542,7 @@ test_cases:
     7EA074187010C8F0000
     7E8074187010C8F0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF02011F
     7E804411F06BF
@@ -10598,7 +10598,7 @@ test_cases:
     7EA074187010C800000
     7E8074187010C810000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.76
+    CCROSS_EVAP_TARGET_T: 7.76
   response: |-
     7DF02011F
     7EA04411F01D8
@@ -10616,7 +10616,7 @@ test_cases:
     7E80441314BDF
     7EE0441314C7A
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF02011F
     7EE04411F1431
@@ -10635,7 +10635,7 @@ test_cases:
     7E8074187010BB90000
     7EA074187010BDC0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.26
+    CCROSS_EVAP_TARGET_T: 7.26
   response: |-
     7DF02011F
     7EE04411F1645
@@ -10653,7 +10653,7 @@ test_cases:
     7E80441314B56
     7EE0441314BEF
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.62
+    CCROSS_EVAP_TARGET_T: 9.62
   response: |-
     7DF02011F
     7EE04411F2960
@@ -10674,7 +10674,7 @@ test_cases:
     7EA074187010C990000
     7E8074187010C970000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7
+    CCROSS_EVAP_TARGET_T: 7
   response: |-
     7DF020121
     7CC04614C82BC
@@ -10691,7 +10691,7 @@ test_cases:
     7E807418701092D0000
     7EA0741870109E30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7DF020121
     7E80441210000
@@ -10703,7 +10703,7 @@ test_cases:
     7EA0441314BC3
     7EE0441314C5D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.52
+    CCROSS_EVAP_TARGET_T: 6.52
   response: |-
     7DF020121
     7E80441210000
@@ -10720,7 +10720,7 @@ test_cases:
     7E8074187010CA10000
     7EA074187010CA10000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF020121
     7E80441210000
@@ -10735,7 +10735,7 @@ test_cases:
     7E8074187010CA30000
     7EA074187010CA30000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7DF020121
     7EA0441210000
@@ -10747,7 +10747,7 @@ test_cases:
     7E80441314B71
     7EE0441314C0B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF020131
     7CC04614C83F2
@@ -10755,7 +10755,7 @@ test_cases:
     7E80441314B84
     7EE0441314C1E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7DF020131
     7E80441314BB6
@@ -10766,7 +10766,7 @@ test_cases:
     7E8074187010C910000
     7EA074187010C900000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.18
+    CCROSS_EVAP_TARGET_T: 9.18
   response: |-
     7DF020131
     7EA0441314B34
@@ -10783,7 +10783,7 @@ test_cases:
     7EA0341057B
     7E80341057B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.23
+    CCROSS_EVAP_TARGET_T: 9.23
   response: |-
     7DF020131
     7EA0441314B4A
@@ -10794,28 +10794,28 @@ test_cases:
     7E8074187010C830000
     7EA074187010C830000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7DF020187
     7E807418701067F0000
     7EA0741870106710000
     7CC04614C82BB
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.5
+    CCROSS_EVAP_TARGET_T: 7.5
   response: |-
     7DF020187
     7E8074187010C9A0000
     7EA074187010C9A0000
     7CC04614C82EE
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.82
+    CCROSS_EVAP_TARGET_T: 9.82
   response: |-
     7DF020187
     7E8074187010CA40000
     7EA074187010CA60000
     7CC04614C83D6
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7E80341057B
     7EA0341057A
@@ -10852,7 +10852,7 @@ test_cases:
     7E8074187010C0C0000
     7EA074187010BEA0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7E80341057D
     7EA0341057D
@@ -10863,7 +10863,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.55
+    CCROSS_EVAP_TARGET_T: 9.55
   response: |-
     7E803410D00
     7EA03410D00
@@ -10874,7 +10874,7 @@ test_cases:
     7EA03410F5D
     7EE03410F5D
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.75
+    CCROSS_EVAP_TARGET_T: 6.75
   response: |-
     7E803410D3A
     7EE03410D3A
@@ -10884,7 +10884,7 @@ test_cases:
     7E803410F4B
     7EE03410F4B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.61
+    CCROSS_EVAP_TARGET_T: 9.61
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -10901,7 +10901,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.21
+    CCROSS_EVAP_TARGET_T: 7.21
   response: |-
     7E804410C0000
     7EE04410C0000
@@ -10964,7 +10964,7 @@ test_cases:
     7EE0441210000
     7E80441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7E8044110002B
     7CC04614C83F2
@@ -10977,14 +10977,14 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.04
+    CCROSS_EVAP_TARGET_T: 8.04
   response: |-
     7E80441210000
     7EA0441210000
     7EE0441210000
     7CC04614C8324
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.88
+    CCROSS_EVAP_TARGET_T: 8.88
   response: |-
     7E80441210000
     7EE0441210000
@@ -10997,7 +10997,7 @@ test_cases:
     7EA074187010C7A0000
     7E8074187010C790000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.45
+    CCROSS_EVAP_TARGET_T: 6.45
   response: |-
     7E80441314BC2
     7EA0441314BC2
@@ -11007,14 +11007,14 @@ test_cases:
     7E80741870108EB0000
     7EA0741870108A80000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.99
+    CCROSS_EVAP_TARGET_T: 6.99
   response: |-
     7E80441314C96
     7EA0441314C96
     7EE0441314D32
     7CC04614C82BB
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7E8074187010AF60000
     7EA074187010AD20000
@@ -11024,7 +11024,7 @@ test_cases:
     7E80341057F
     7EE0341057F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.1
+    CCROSS_EVAP_TARGET_T: 10.1
   response: |-
     7EA0341057C
     7CC04614C83F2
@@ -11043,7 +11043,7 @@ test_cases:
     7E803410F50
     7EA03410F50
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.18
+    CCROSS_EVAP_TARGET_T: 9.18
   response: |-
     7EA0341057D
     7EE0341057D
@@ -11058,7 +11058,7 @@ test_cases:
     7E803410D0F
     7EE03410D0F
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.12
+    CCROSS_EVAP_TARGET_T: 9.12
   response: |-
     7EA03410D00
     7E803410D00
@@ -11073,7 +11073,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.61
+    CCROSS_EVAP_TARGET_T: 8.61
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -11107,7 +11107,7 @@ test_cases:
     7EA074187010C800000
     7E8074187010C800000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 10.09
+    CCROSS_EVAP_TARGET_T: 10.09
   response: |-
     7EA04410C1480
     7E804410C14D3
@@ -11118,7 +11118,7 @@ test_cases:
     7E803410D30
     7EE03410D30
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 9.59
+    CCROSS_EVAP_TARGET_T: 9.59
   response: |-
     7EA04411F20AF
     7E804411F20A8
@@ -11129,7 +11129,7 @@ test_cases:
     7E80441210000
     7EE0441210000
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.57
+    CCROSS_EVAP_TARGET_T: 7.57
   response: |-
     7EE0341057E
     7E80341057E
@@ -11145,7 +11145,7 @@ test_cases:
     7EA03410D2E
     7EE03410D2E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 6.51
+    CCROSS_EVAP_TARGET_T: 6.51
   response: |-
     7EE0341057F
     7CC04614C828B
@@ -11164,7 +11164,7 @@ test_cases:
     7DF020110
     7E8044110002B
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 7.23
+    CCROSS_EVAP_TARGET_T: 7.23
   response: |-
     7EE0341057F
     7E80341057F
@@ -11185,7 +11185,7 @@ test_cases:
     7EA03410F4E
     7EE03410F4E
 - expected_values:
-    COROLLA_CROSS_EVAP_TARGET_T: 8.2
+    CCROSS_EVAP_TARGET_T: 8.2
   response: |-
     7EE0441314D34
     7E80441314C98

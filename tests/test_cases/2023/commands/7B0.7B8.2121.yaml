@@ -1,8 +1,8 @@
 command_id: 7B0.7B8.2121
 test_cases:
 - expected_values:
-    COROLLA_CROSS_VSS: 0
+    CCROSS_VSS: 0
   response: 7B803612100
 - expected_values:
-    COROLLA_CROSS_VSS: 87.75
+    CCROSS_VSS: 87.75
   response: 7B803612141
