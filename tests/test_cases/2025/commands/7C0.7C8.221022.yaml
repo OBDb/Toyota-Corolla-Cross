@@ -1,17 +1,14 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    TOYOTA_FLV: 4.48
-    TOYOTA_FUEL_LEVEL: 4.48
+    COROLLA_CROSS_FUEL_LEVEL: 4.48
   response: 7C80562102201C0
 - expected_values:
-    TOYOTA_FLV: 20.49
-    TOYOTA_FUEL_LEVEL: 20.49
+    COROLLA_CROSS_FUEL_LEVEL: 20.49
   response: 7C8056210220801
 - expected_values:
-    TOYOTA_FLV: 23.03
-    TOYOTA_FUEL_LEVEL: 23.03
+    COROLLA_CROSS_FUEL_LEVEL: 23.03
   response: 7C80562102208FF
 - expected_values:
-    TOYOTA_FUEL_LEVEL: 655.35
-  response: 7C805621022FFFF
+    COROLLA_CROSS_FUEL_LEVEL: 23.06
+  response: 7C8056210220902
