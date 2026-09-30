@@ -1,11 +1,11 @@
 command_id: 700.708.221017
 test_cases:
 - expected_values:
-    TOYOTA_INJ_VOL: 0
+    COROLLA_CROSS_INJ_VOL: 0
   response: '708056210170000'
 - expected_values:
-    TOYOTA_INJ_VOL: 4.95969
+    COROLLA_CROSS_INJ_VOL: 4.95969
   response: 708056210173DFF
 - expected_values:
-    TOYOTA_INJ_VOL: 6.21688
+    COROLLA_CROSS_INJ_VOL: 6.21688
   response: 708056210174DB6

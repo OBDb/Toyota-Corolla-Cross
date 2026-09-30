@@ -1,17 +1,17 @@
-command_id: 7D2.7DA.220103|fc=1
+command_id: 7D2.7DA.220103|fc=1,f=2023-
 test_cases:
 - expected_values:
-    TOYOTA_ODO_V2_V2: 29695
+    COROLLA_ODO_V2_V2: 29695
   response: 7DA07620103010073FF
 - expected_values:
-    TOYOTA_ODO_V2_V2: 29696
+    COROLLA_ODO_V2_V2: 29696
   response: 7DA0762010301007400
 - expected_values:
-    TOYOTA_ODO_V2_V2: 48879
+    COROLLA_ODO_V2_V2: 48879
   response: 7DA076201030100BEEF
 - expected_values:
-    TOYOTA_ODO_V2_V2: 65280
+    COROLLA_ODO_V2_V2: 65280
   response: 7DA076201030100FF00
 - expected_values:
-    TOYOTA_ODO_V2_V2: 65627
+    COROLLA_ODO_V2_V2: 65627
   response: 7DA076201030101005B
