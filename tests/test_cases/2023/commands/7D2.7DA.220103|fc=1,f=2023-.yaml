@@ -1,17 +1,17 @@
 command_id: 7D2.7DA.220103|fc=1,f=2023-
 test_cases:
 - expected_values:
-    COROLLA_CROSS_ODO_V2_V2: 29695
+    CCROSS_ODO_V2_V2: 29695
   response: 7DA07620103010073FF
 - expected_values:
-    COROLLA_CROSS_ODO_V2_V2: 29696
+    CCROSS_ODO_V2_V2: 29696
   response: 7DA0762010301007400
 - expected_values:
-    COROLLA_CROSS_ODO_V2_V2: 48879
+    CCROSS_ODO_V2_V2: 48879
   response: 7DA076201030100BEEF
 - expected_values:
-    COROLLA_CROSS_ODO_V2_V2: 65280
+    CCROSS_ODO_V2_V2: 65280
   response: 7DA076201030100FF00
 - expected_values:
-    COROLLA_CROSS_ODO_V2_V2: 65627
+    CCROSS_ODO_V2_V2: 65627
   response: 7DA076201030101005B

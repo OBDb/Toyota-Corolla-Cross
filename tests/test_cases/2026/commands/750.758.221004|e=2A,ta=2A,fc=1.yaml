@@ -1,10 +1,10 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    COROLLA_CROSS_TT_1: 18
-    COROLLA_CROSS_TT_2: 13
-    COROLLA_CROSS_TT_3: 19
-    COROLLA_CROSS_TT_4: 12
+    CCROSS_TT_1: 18
+    CCROSS_TT_2: 13
+    CCROSS_TT_3: 19
+    CCROSS_TT_4: 12
   response: |-
     7582A10086210043A35
     7582A213B3400000000

@@ -1,14 +1,14 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    COROLLA_CROSS_EOP: 2.57812
+    CCROSS_EOP: 2.57812
   response: '708056210740021'
 - expected_values:
-    COROLLA_CROSS_EOP: 99.92188
+    CCROSS_EOP: 99.92188
   response: 7080562107404FF
 - expected_values:
-    COROLLA_CROSS_EOP: 140
+    CCROSS_EOP: 140
   response: '708056210740700'
 - expected_values:
-    COROLLA_CROSS_EOP: 320.625
+    CCROSS_EOP: 320.625
   response: '708056210741008'

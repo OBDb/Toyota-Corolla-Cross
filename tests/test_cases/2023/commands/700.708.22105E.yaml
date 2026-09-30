@@ -1,8 +1,8 @@
 command_id: 700.708.22105E
 test_cases:
 - expected_values:
-    COROLLA_CROSS_ECU_INTERNAL_T: 13
+    CCROSS_ECU_INTERNAL_T: 13
   response: '7080462105E35'
 - expected_values:
-    COROLLA_CROSS_ECU_INTERNAL_T: 70
+    CCROSS_ECU_INTERNAL_T: 70
   response: 7080462105E6E

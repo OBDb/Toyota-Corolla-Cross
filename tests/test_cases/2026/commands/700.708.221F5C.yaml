@@ -1,14 +1,14 @@
 command_id: 700.708.221F5C
 test_cases:
 - expected_values:
-    COROLLA_CROSS_EOT_V2: 23
+    CCROSS_EOT_V2: 23
   response: 70804621F5C3F
 - expected_values:
-    COROLLA_CROSS_EOT_V2: 24
+    CCROSS_EOT_V2: 24
   response: 70804621F5C40
 - expected_values:
-    COROLLA_CROSS_EOT_V2: 25
+    CCROSS_EOT_V2: 25
   response: 70804621F5C41
 - expected_values:
-    COROLLA_CROSS_EOT_V2: 28
+    CCROSS_EOT_V2: 28
   response: 70804621F5C44

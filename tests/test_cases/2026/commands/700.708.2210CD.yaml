@@ -1,17 +1,17 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
-    COROLLA_CROSS_LFP: 277.7
+    CCROSS_LFP: 277.7
   response: 708056210CD8AD9
 - expected_values:
-    COROLLA_CROSS_LFP: 285.5
+    CCROSS_LFP: 285.5
   response: 708056210CD8B27
 - expected_values:
-    COROLLA_CROSS_LFP: 287.7
+    CCROSS_LFP: 287.7
   response: 708056210CD8B3D
 - expected_values:
-    COROLLA_CROSS_LFP: 317.2
+    CCROSS_LFP: 317.2
   response: 708056210CD8C64
 - expected_values:
-    COROLLA_CROSS_LFP: 624.6
+    CCROSS_LFP: 624.6
   response: 708056210CD9866
