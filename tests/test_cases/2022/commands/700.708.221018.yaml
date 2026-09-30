@@ -1,11 +1,11 @@
 command_id: 700.708.221018
 test_cases:
 - expected_values:
-    COROLLA_CROSS_INJECTOR_PORT: 0
+    CCROSS_INJECTOR_PORT: 0
   response: '708056210180000'
 - expected_values:
-    COROLLA_CROSS_INJECTOR_PORT: 4.811
+    CCROSS_INJECTOR_PORT: 4.811
   response: 7080562101812CB
 - expected_values:
-    COROLLA_CROSS_INJECTOR_PORT: 8.362
+    CCROSS_INJECTOR_PORT: 8.362
   response: 7080562101820AA

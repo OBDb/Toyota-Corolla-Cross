@@ -1,14 +1,14 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    COROLLA_CROSS_FUEL_LEVEL: 4.48
+    CCROSS_FUEL_LEVEL: 4.48
   response: 7C80562102201C0
 - expected_values:
-    COROLLA_CROSS_FUEL_LEVEL: 20.49
+    CCROSS_FUEL_LEVEL: 20.49
   response: 7C8056210220801
 - expected_values:
-    COROLLA_CROSS_FUEL_LEVEL: 23.03
+    CCROSS_FUEL_LEVEL: 23.03
   response: 7C80562102208FF
 - expected_values:
-    COROLLA_CROSS_FUEL_LEVEL: 23.06
+    CCROSS_FUEL_LEVEL: 23.06
   response: 7C8056210220902
