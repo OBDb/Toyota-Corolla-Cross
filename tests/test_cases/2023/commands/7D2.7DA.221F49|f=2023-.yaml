@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F49|f=2023-
 test_cases:
 - expected_values:
-    COROLLA_ACC_PEDAL_POS_1: 15.68627
+    COROLLA_CROSS_ACC_PEDAL_POS_1: 15.68627
   response: 7DA04621F4928
 - expected_values:
-    COROLLA_ACC_PEDAL_POS_1: 43.92157
+    COROLLA_CROSS_ACC_PEDAL_POS_1: 43.92157
   response: 7DA04621F4970

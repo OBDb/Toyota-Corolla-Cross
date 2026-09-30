@@ -118,8 +118,8 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "COROLLA_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
-    {"id": "COROLLA_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
+    {"id": "COROLLA_CROSS_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
+    {"id": "COROLLA_CROSS_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 3600, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
   "signals": [
@@ -164,18 +164,18 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1105"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_PM_ACCUMULATION_RAT_1", "path": "Engine", "fmt": { "len": 8, "max": 15, "mul": 2, "unit": "percent" }, "name": "PM accumulation ratio - bank 1"}
+    {"id": "COROLLA_CROSS_PM_ACCUMULATION_RAT_1", "path": "Engine", "fmt": { "len": 8, "max": 15, "mul": 2, "unit": "percent" }, "name": "PM accumulation ratio - bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112B"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_INJ_FEEDBACK_1", "path": "Engine", "fmt": {           "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 1"},
-    {"id": "COROLLA_INJ_FEEDBACK_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 2"},
-    {"id": "COROLLA_INJ_FEEDBACK_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 3"},
-    {"id": "COROLLA_INJ_FEEDBACK_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 4"}
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_1", "path": "Engine", "fmt": {           "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 1"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 2"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 3"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112C"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_INJ_VOLUME_TGT", "path": "Engine", "fmt": { "len": 16, "max": 15, "mul": 19531, "div": 1000000, "unit": "unknown" }, "name": "Injection volume - target"}
+    {"id": "COROLLA_CROSS_INJ_VOLUME_TGT", "path": "Engine", "fmt": { "len": 16, "max": 15, "mul": 19531, "div": 1000000, "unit": "unknown" }, "name": "Injection volume - target"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112F"}, "freq": 1,
   "signals": [
@@ -183,36 +183,36 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1131"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_CYL_1_INJ_VOLUME", "path": "Engine", "fmt": {           "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 1 injection volume"},
-    {"id": "COROLLA_CYL_2_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 2 injection volume"},
-    {"id": "COROLLA_CYL_3_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 3 injection volume"},
-    {"id": "COROLLA_CYL_4_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 4 injection volume"}
+    {"id": "COROLLA_CROSS_CYL_1_INJ_VOLUME", "path": "Engine", "fmt": {           "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 1 injection volume"},
+    {"id": "COROLLA_CROSS_CYL_2_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 2 injection volume"},
+    {"id": "COROLLA_CROSS_CYL_3_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 3 injection volume"},
+    {"id": "COROLLA_CROSS_CYL_4_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 4 injection volume"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "113C"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_FUEL_P_1", "path": "Fuel", "fmt": {           "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
-    {"id": "COROLLA_FUEL_P_2", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
-    {"id": "COROLLA_FUEL_P_3", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
-    {"id": "COROLLA_FUEL_P_4", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"}
+    {"id": "COROLLA_CROSS_FUEL_P_1", "path": "Fuel", "fmt": {           "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
+    {"id": "COROLLA_CROSS_FUEL_P_2", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
+    {"id": "COROLLA_CROSS_FUEL_P_3", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
+    {"id": "COROLLA_CROSS_FUEL_P_4", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "113E"}, "freq": 5,
   "signals": [
-    {"id": "COROLLA_FUEL_T_1", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
-    {"id": "COROLLA_FUEL_T_2", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
-    {"id": "COROLLA_FUEL_T_3", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
-    {"id": "COROLLA_FUEL_T_4", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"}
+    {"id": "COROLLA_CROSS_FUEL_T_1", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
+    {"id": "COROLLA_CROSS_FUEL_T_2", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
+    {"id": "COROLLA_CROSS_FUEL_T_3", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
+    {"id": "COROLLA_CROSS_FUEL_T_4", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1141"}, "freq": 5,
   "signals": [
-    {"id": "COROLLA_FUEL_RETURN_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel return temperature"}
+    {"id": "COROLLA_CROSS_FUEL_RETURN_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel return temperature"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "118B"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_INJ_VOLUME_1", "path": "Engine", "fmt": {           "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 1"},
-    {"id": "COROLLA_INJ_VOLUME_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 2"},
-    {"id": "COROLLA_INJ_VOLUME_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 3"},
-    {"id": "COROLLA_INJ_VOLUME_5", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 5"},
-    {"id": "COROLLA_INJ_VOLUME_6", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 6"}
+    {"id": "COROLLA_CROSS_INJ_VOLUME_1", "path": "Engine", "fmt": {           "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 1"},
+    {"id": "COROLLA_CROSS_INJ_VOLUME_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 2"},
+    {"id": "COROLLA_CROSS_INJ_VOLUME_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 3"},
+    {"id": "COROLLA_CROSS_INJ_VOLUME_5", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 5"},
+    {"id": "COROLLA_CROSS_INJ_VOLUME_6", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "119C"}, "freq": 5,
   "signals": [
@@ -220,39 +220,39 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11AF"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_2ND_TRUBOCHARGER_OUTLET_P", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure"}
+    {"id": "COROLLA_CROSS_2ND_TRUBOCHARGER_OUTLET_P", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11B8"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_INJ_FEEDBACK_1_700", "path": "Engine", "fmt": {           "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 1"},
-    {"id": "COROLLA_INJ_FEEDBACK_2_700", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 2"},
-    {"id": "COROLLA_INJ_FEEDBACK_3_700", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 3"},
-    {"id": "COROLLA_INJ_FEEDBACK_4_700", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 4"},
-    {"id": "COROLLA_INJ_FEEDBACK_5",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 5"},
-    {"id": "COROLLA_INJ_FEEDBACK_6",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 6"}
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_1_700", "path": "Engine", "fmt": {           "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 1"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_2_700", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 2"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_3_700", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 3"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_4_700", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 4"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_5",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 5"},
+    {"id": "COROLLA_CROSS_INJ_FEEDBACK_6",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11C4"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_FUEL_P_1_700", "path": "Fuel", "fmt": {           "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
-    {"id": "COROLLA_FUEL_P_2_700", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
-    {"id": "COROLLA_FUEL_P_3_700", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
-    {"id": "COROLLA_FUEL_P_4_700", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"},
-    {"id": "COROLLA_FUEL_P_5",     "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 5"},
-    {"id": "COROLLA_FUEL_P_6",     "path": "Fuel", "fmt": {"bix": 80, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 6"}
+    {"id": "COROLLA_CROSS_FUEL_P_1_700", "path": "Fuel", "fmt": {           "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
+    {"id": "COROLLA_CROSS_FUEL_P_2_700", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
+    {"id": "COROLLA_CROSS_FUEL_P_3_700", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
+    {"id": "COROLLA_CROSS_FUEL_P_4_700", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"},
+    {"id": "COROLLA_CROSS_FUEL_P_5",     "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 5"},
+    {"id": "COROLLA_CROSS_FUEL_P_6",     "path": "Fuel", "fmt": {"bix": 80, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11C5"}, "freq": 5,
   "signals": [
-    {"id": "COROLLA_FUEL_T_1_700", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
-    {"id": "COROLLA_FUEL_T_2_700", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
-    {"id": "COROLLA_FUEL_T_3_700", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
-    {"id": "COROLLA_FUEL_T_4_700", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"},
-    {"id": "COROLLA_FUEL_T_5",     "path": "Fuel", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 5"},
-    {"id": "COROLLA_FUEL_T_6",     "path": "Fuel", "fmt": {"bix": 40, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 6"}
+    {"id": "COROLLA_CROSS_FUEL_T_1_700", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
+    {"id": "COROLLA_CROSS_FUEL_T_2_700", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
+    {"id": "COROLLA_CROSS_FUEL_T_3_700", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
+    {"id": "COROLLA_CROSS_FUEL_T_4_700", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"},
+    {"id": "COROLLA_CROSS_FUEL_T_5",     "path": "Fuel", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 5"},
+    {"id": "COROLLA_CROSS_FUEL_T_6",     "path": "Fuel", "fmt": {"bix": 40, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11CD"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_1ST_TRUBOCHARGER_P", "path": "Battery", "fmt": {           "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "1st turbocharger outlet pressure, control valve"},
-    {"id": "COROLLA_2ND_TRUBOCHARGER_P", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure, control valve"}
+    {"id": "COROLLA_CROSS_1ST_TRUBOCHARGER_P", "path": "Battery", "fmt": {           "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "1st turbocharger outlet pressure, control valve"},
+    {"id": "COROLLA_CROSS_2ND_TRUBOCHARGER_P", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure, control valve"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "15E5"}, "freq": 1,
   "signals": [
@@ -440,129 +440,129 @@
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_ODO_V6", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "COROLLA_CROSS_ODO_V6", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "747", "rax": "74F", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_BAT_T_01", "path": "Battery", "fmt": {            "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 01"},
-    {"id": "COROLLA_BAT_T_02", "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 02"},
-    {"id": "COROLLA_BAT_T_03", "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 03"},
-    {"id": "COROLLA_BAT_T_04", "path": "Battery", "fmt": {"bix": 48,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 04"},
-    {"id": "COROLLA_BAT_T_05", "path": "Battery", "fmt": {"bix": 64,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 05"},
-    {"id": "COROLLA_BAT_T_06", "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 06"},
-    {"id": "COROLLA_BAT_T_07", "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 07"},
-    {"id": "COROLLA_BAT_T_08", "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 08"},
-    {"id": "COROLLA_BAT_T_09", "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 09"},
-    {"id": "COROLLA_BAT_T_10", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 10"},
-    {"id": "COROLLA_BAT_T_11", "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 11"},
-    {"id": "COROLLA_BAT_T_12", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 12"},
-    {"id": "COROLLA_BAT_T_13", "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 13"},
-    {"id": "COROLLA_BAT_T_14", "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 14"},
-    {"id": "COROLLA_BAT_T_15", "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 15"},
-    {"id": "COROLLA_BAT_T_16", "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 16"}
+    {"id": "COROLLA_CROSS_BAT_T_01", "path": "Battery", "fmt": {            "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 01"},
+    {"id": "COROLLA_CROSS_BAT_T_02", "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 02"},
+    {"id": "COROLLA_CROSS_BAT_T_03", "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 03"},
+    {"id": "COROLLA_CROSS_BAT_T_04", "path": "Battery", "fmt": {"bix": 48,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 04"},
+    {"id": "COROLLA_CROSS_BAT_T_05", "path": "Battery", "fmt": {"bix": 64,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 05"},
+    {"id": "COROLLA_CROSS_BAT_T_06", "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 06"},
+    {"id": "COROLLA_CROSS_BAT_T_07", "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 07"},
+    {"id": "COROLLA_CROSS_BAT_T_08", "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 08"},
+    {"id": "COROLLA_CROSS_BAT_T_09", "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 09"},
+    {"id": "COROLLA_CROSS_BAT_T_10", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 10"},
+    {"id": "COROLLA_CROSS_BAT_T_11", "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 11"},
+    {"id": "COROLLA_CROSS_BAT_T_12", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 12"},
+    {"id": "COROLLA_CROSS_BAT_T_13", "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 13"},
+    {"id": "COROLLA_CROSS_BAT_T_14", "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 14"},
+    {"id": "COROLLA_CROSS_BAT_T_15", "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 15"},
+    {"id": "COROLLA_CROSS_BAT_T_16", "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 16"}
   ]},
 { "hdr": "747", "rax": "74F", "dbg": true, "cmd": {"22": "1824"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_BAT_HEATER_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Battery heater temperature"}
+    {"id": "COROLLA_CROSS_BAT_HEATER_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Battery heater temperature"}
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "182E"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_HVBAT_C01_V", "path": "Battery.Cells", "fmt": {             "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #01 voltage"},
-    {"id": "COROLLA_HVBAT_C02_V", "path": "Battery.Cells", "fmt": {"bix": 16,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #02 voltage"},
-    {"id": "COROLLA_HVBAT_C03_V", "path": "Battery.Cells", "fmt": {"bix": 32,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #03 voltage"},
-    {"id": "COROLLA_HVBAT_C04_V", "path": "Battery.Cells", "fmt": {"bix": 48,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #04 voltage"},
-    {"id": "COROLLA_HVBAT_C05_V", "path": "Battery.Cells", "fmt": {"bix": 64,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #05 voltage"},
-    {"id": "COROLLA_HVBAT_C06_V", "path": "Battery.Cells", "fmt": {"bix": 80,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #06 voltage"},
-    {"id": "COROLLA_HVBAT_C07_V", "path": "Battery.Cells", "fmt": {"bix": 96,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #07 voltage"},
-    {"id": "COROLLA_HVBAT_C08_V", "path": "Battery.Cells", "fmt": {"bix": 112,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #08 voltage"},
-    {"id": "COROLLA_HVBAT_C09_V", "path": "Battery.Cells", "fmt": {"bix": 128,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #09 voltage"},
-    {"id": "COROLLA_HVBAT_C10_V", "path": "Battery.Cells", "fmt": {"bix": 144,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #10 voltage"},
-    {"id": "COROLLA_HVBAT_C11_V", "path": "Battery.Cells", "fmt": {"bix": 160,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #11 voltage"},
-    {"id": "COROLLA_HVBAT_C12_V", "path": "Battery.Cells", "fmt": {"bix": 176,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #12 voltage"},
-    {"id": "COROLLA_HVBAT_C13_V", "path": "Battery.Cells", "fmt": {"bix": 192,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #13 voltage"},
-    {"id": "COROLLA_HVBAT_C14_V", "path": "Battery.Cells", "fmt": {"bix": 208,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #14 voltage"},
-    {"id": "COROLLA_HVBAT_C15_V", "path": "Battery.Cells", "fmt": {"bix": 224,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #15 voltage"},
-    {"id": "COROLLA_HVBAT_C16_V", "path": "Battery.Cells", "fmt": {"bix": 240,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #16 voltage"},
-    {"id": "COROLLA_HVBAT_C17_V", "path": "Battery.Cells", "fmt": {"bix": 256,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #17 voltage"},
-    {"id": "COROLLA_HVBAT_C18_V", "path": "Battery.Cells", "fmt": {"bix": 272,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #18 voltage"},
-    {"id": "COROLLA_HVBAT_C19_V", "path": "Battery.Cells", "fmt": {"bix": 288,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #19 voltage"},
-    {"id": "COROLLA_HVBAT_C20_V", "path": "Battery.Cells", "fmt": {"bix": 304,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #20 voltage"},
-    {"id": "COROLLA_HVBAT_C21_V", "path": "Battery.Cells", "fmt": {"bix": 320,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #21 voltage"},
-    {"id": "COROLLA_HVBAT_C22_V", "path": "Battery.Cells", "fmt": {"bix": 336,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #22 voltage"},
-    {"id": "COROLLA_HVBAT_C23_V", "path": "Battery.Cells", "fmt": {"bix": 352,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #23 voltage"},
-    {"id": "COROLLA_HVBAT_C24_V", "path": "Battery.Cells", "fmt": {"bix": 368,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #24 voltage"},
-    {"id": "COROLLA_HVBAT_C25_V", "path": "Battery.Cells", "fmt": {"bix": 384,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #25 voltage"},
-    {"id": "COROLLA_HVBAT_C26_V", "path": "Battery.Cells", "fmt": {"bix": 400,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #26 voltage"},
-    {"id": "COROLLA_HVBAT_C27_V", "path": "Battery.Cells", "fmt": {"bix": 416,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #27 voltage"},
-    {"id": "COROLLA_HVBAT_C28_V", "path": "Battery.Cells", "fmt": {"bix": 432,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #28 voltage"},
-    {"id": "COROLLA_HVBAT_C29_V", "path": "Battery.Cells", "fmt": {"bix": 448,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #29 voltage"},
-    {"id": "COROLLA_HVBAT_C30_V", "path": "Battery.Cells", "fmt": {"bix": 464,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #30 voltage"},
-    {"id": "COROLLA_HVBAT_C31_V", "path": "Battery.Cells", "fmt": {"bix": 480,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #31 voltage"},
-    {"id": "COROLLA_HVBAT_C32_V", "path": "Battery.Cells", "fmt": {"bix": 496,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #32 voltage"},
-    {"id": "COROLLA_HVBAT_C33_V", "path": "Battery.Cells", "fmt": {"bix": 512,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #33 voltage"},
-    {"id": "COROLLA_HVBAT_C34_V", "path": "Battery.Cells", "fmt": {"bix": 528,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #34 voltage"},
-    {"id": "COROLLA_HVBAT_C35_V", "path": "Battery.Cells", "fmt": {"bix": 544,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #35 voltage"},
-    {"id": "COROLLA_HVBAT_C36_V", "path": "Battery.Cells", "fmt": {"bix": 560,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #36 voltage"},
-    {"id": "COROLLA_HVBAT_C37_V", "path": "Battery.Cells", "fmt": {"bix": 576,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #37 voltage"},
-    {"id": "COROLLA_HVBAT_C38_V", "path": "Battery.Cells", "fmt": {"bix": 592,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #38 voltage"},
-    {"id": "COROLLA_HVBAT_C39_V", "path": "Battery.Cells", "fmt": {"bix": 608,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #39 voltage"},
-    {"id": "COROLLA_HVBAT_C40_V", "path": "Battery.Cells", "fmt": {"bix": 624,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #40 voltage"},
-    {"id": "COROLLA_HVBAT_C41_V", "path": "Battery.Cells", "fmt": {"bix": 640,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #41 voltage"},
-    {"id": "COROLLA_HVBAT_C42_V", "path": "Battery.Cells", "fmt": {"bix": 656,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #42 voltage"},
-    {"id": "COROLLA_HVBAT_C43_V", "path": "Battery.Cells", "fmt": {"bix": 672,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #43 voltage"},
-    {"id": "COROLLA_HVBAT_C44_V", "path": "Battery.Cells", "fmt": {"bix": 688,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #44 voltage"},
-    {"id": "COROLLA_HVBAT_C45_V", "path": "Battery.Cells", "fmt": {"bix": 704,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #45 voltage"},
-    {"id": "COROLLA_HVBAT_C46_V", "path": "Battery.Cells", "fmt": {"bix": 720,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #46 voltage"},
-    {"id": "COROLLA_HVBAT_C47_V", "path": "Battery.Cells", "fmt": {"bix": 736,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #47 voltage"},
-    {"id": "COROLLA_HVBAT_C48_V", "path": "Battery.Cells", "fmt": {"bix": 752,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #48 voltage"},
-    {"id": "COROLLA_HVBAT_C49_V", "path": "Battery.Cells", "fmt": {"bix": 768,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #49 voltage"},
-    {"id": "COROLLA_HVBAT_C50_V", "path": "Battery.Cells", "fmt": {"bix": 784,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #50 voltage"},
-    {"id": "COROLLA_HVBAT_C51_V", "path": "Battery.Cells", "fmt": {"bix": 800,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #51 voltage"},
-    {"id": "COROLLA_HVBAT_C52_V", "path": "Battery.Cells", "fmt": {"bix": 816,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #52 voltage"},
-    {"id": "COROLLA_HVBAT_C53_V", "path": "Battery.Cells", "fmt": {"bix": 832,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #53 voltage"},
-    {"id": "COROLLA_HVBAT_C54_V", "path": "Battery.Cells", "fmt": {"bix": 848,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #54 voltage"},
-    {"id": "COROLLA_HVBAT_C55_V", "path": "Battery.Cells", "fmt": {"bix": 864,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #55 voltage"},
-    {"id": "COROLLA_HVBAT_C56_V", "path": "Battery.Cells", "fmt": {"bix": 880,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #56 voltage"},
-    {"id": "COROLLA_HVBAT_C57_V", "path": "Battery.Cells", "fmt": {"bix": 896,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #57 voltage"},
-    {"id": "COROLLA_HVBAT_C58_V", "path": "Battery.Cells", "fmt": {"bix": 912,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #58 voltage"},
-    {"id": "COROLLA_HVBAT_C59_V", "path": "Battery.Cells", "fmt": {"bix": 928,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #59 voltage"},
-    {"id": "COROLLA_HVBAT_C60_V", "path": "Battery.Cells", "fmt": {"bix": 944,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #60 voltage"},
-    {"id": "COROLLA_HVBAT_C61_V", "path": "Battery.Cells", "fmt": {"bix": 960,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #61 voltage"},
-    {"id": "COROLLA_HVBAT_C62_V", "path": "Battery.Cells", "fmt": {"bix": 976,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #62 voltage"},
-    {"id": "COROLLA_HVBAT_C63_V", "path": "Battery.Cells", "fmt": {"bix": 992,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #63 voltage"},
-    {"id": "COROLLA_HVBAT_C64_V", "path": "Battery.Cells", "fmt": {"bix": 1008, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #64 voltage"},
-    {"id": "COROLLA_HVBAT_C65_V", "path": "Battery.Cells", "fmt": {"bix": 1024, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #65 voltage"},
-    {"id": "COROLLA_HVBAT_C66_V", "path": "Battery.Cells", "fmt": {"bix": 1040, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #66 voltage"},
-    {"id": "COROLLA_HVBAT_C67_V", "path": "Battery.Cells", "fmt": {"bix": 1056, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #67 voltage"},
-    {"id": "COROLLA_HVBAT_C68_V", "path": "Battery.Cells", "fmt": {"bix": 1072, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #68 voltage"},
-    {"id": "COROLLA_HVBAT_C69_V", "path": "Battery.Cells", "fmt": {"bix": 1088, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #69 voltage"},
-    {"id": "COROLLA_HVBAT_C70_V", "path": "Battery.Cells", "fmt": {"bix": 1104, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #70 voltage"},
-    {"id": "COROLLA_HVBAT_C71_V", "path": "Battery.Cells", "fmt": {"bix": 1120, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #71 voltage"},
-    {"id": "COROLLA_HVBAT_C72_V", "path": "Battery.Cells", "fmt": {"bix": 1136, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #72 voltage"},
-    {"id": "COROLLA_HVBAT_C73_V", "path": "Battery.Cells", "fmt": {"bix": 1152, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #73 voltage"},
-    {"id": "COROLLA_HVBAT_C74_V", "path": "Battery.Cells", "fmt": {"bix": 1168, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #74 voltage"},
-    {"id": "COROLLA_HVBAT_C75_V", "path": "Battery.Cells", "fmt": {"bix": 1184, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #75 voltage"},
-    {"id": "COROLLA_HVBAT_C76_V", "path": "Battery.Cells", "fmt": {"bix": 1200, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #76 voltage"},
-    {"id": "COROLLA_HVBAT_C77_V", "path": "Battery.Cells", "fmt": {"bix": 1216, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #77 voltage"},
-    {"id": "COROLLA_HVBAT_C78_V", "path": "Battery.Cells", "fmt": {"bix": 1232, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #78 voltage"},
-    {"id": "COROLLA_HVBAT_C79_V", "path": "Battery.Cells", "fmt": {"bix": 1248, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #79 voltage"},
-    {"id": "COROLLA_HVBAT_C80_V", "path": "Battery.Cells", "fmt": {"bix": 1264, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #80 voltage"},
-    {"id": "COROLLA_HVBAT_C81_V", "path": "Battery.Cells", "fmt": {"bix": 1280, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #81 voltage"},
-    {"id": "COROLLA_HVBAT_C82_V", "path": "Battery.Cells", "fmt": {"bix": 1296, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #82 voltage"},
-    {"id": "COROLLA_HVBAT_C83_V", "path": "Battery.Cells", "fmt": {"bix": 1312, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #83 voltage"},
-    {"id": "COROLLA_HVBAT_C84_V", "path": "Battery.Cells", "fmt": {"bix": 1328, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #84 voltage"},
-    {"id": "COROLLA_HVBAT_C85_V", "path": "Battery.Cells", "fmt": {"bix": 1344, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #85 voltage"},
-    {"id": "COROLLA_HVBAT_C86_V", "path": "Battery.Cells", "fmt": {"bix": 1360, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #86 voltage"},
-    {"id": "COROLLA_HVBAT_C87_V", "path": "Battery.Cells", "fmt": {"bix": 1376, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #87 voltage"},
-    {"id": "COROLLA_HVBAT_C88_V", "path": "Battery.Cells", "fmt": {"bix": 1392, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #88 voltage"},
-    {"id": "COROLLA_HVBAT_C89_V", "path": "Battery.Cells", "fmt": {"bix": 1408, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #89 voltage"},
-    {"id": "COROLLA_HVBAT_C90_V", "path": "Battery.Cells", "fmt": {"bix": 1424, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #90 voltage"},
-    {"id": "COROLLA_HVBAT_C91_V", "path": "Battery.Cells", "fmt": {"bix": 1440, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #91 voltage"},
-    {"id": "COROLLA_HVBAT_C92_V", "path": "Battery.Cells", "fmt": {"bix": 1456, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #92 voltage"},
-    {"id": "COROLLA_HVBAT_C93_V", "path": "Battery.Cells", "fmt": {"bix": 1472, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #93 voltage"},
-    {"id": "COROLLA_HVBAT_C94_V", "path": "Battery.Cells", "fmt": {"bix": 1488, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #94 voltage"},
-    {"id": "COROLLA_HVBAT_C95_V", "path": "Battery.Cells", "fmt": {"bix": 1504, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #95 voltage"},
-    {"id": "COROLLA_HVBAT_C96_V", "path": "Battery.Cells", "fmt": {"bix": 1520, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #96 voltage"}
+    {"id": "COROLLA_CROSS_HVBAT_C01_V", "path": "Battery.Cells", "fmt": {             "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #01 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C02_V", "path": "Battery.Cells", "fmt": {"bix": 16,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #02 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C03_V", "path": "Battery.Cells", "fmt": {"bix": 32,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #03 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C04_V", "path": "Battery.Cells", "fmt": {"bix": 48,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #04 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C05_V", "path": "Battery.Cells", "fmt": {"bix": 64,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #05 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C06_V", "path": "Battery.Cells", "fmt": {"bix": 80,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #06 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C07_V", "path": "Battery.Cells", "fmt": {"bix": 96,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #07 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C08_V", "path": "Battery.Cells", "fmt": {"bix": 112,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #08 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C09_V", "path": "Battery.Cells", "fmt": {"bix": 128,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #09 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C10_V", "path": "Battery.Cells", "fmt": {"bix": 144,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #10 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C11_V", "path": "Battery.Cells", "fmt": {"bix": 160,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #11 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C12_V", "path": "Battery.Cells", "fmt": {"bix": 176,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #12 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C13_V", "path": "Battery.Cells", "fmt": {"bix": 192,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #13 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C14_V", "path": "Battery.Cells", "fmt": {"bix": 208,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #14 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C15_V", "path": "Battery.Cells", "fmt": {"bix": 224,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #15 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C16_V", "path": "Battery.Cells", "fmt": {"bix": 240,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #16 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C17_V", "path": "Battery.Cells", "fmt": {"bix": 256,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #17 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C18_V", "path": "Battery.Cells", "fmt": {"bix": 272,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #18 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C19_V", "path": "Battery.Cells", "fmt": {"bix": 288,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #19 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C20_V", "path": "Battery.Cells", "fmt": {"bix": 304,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #20 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C21_V", "path": "Battery.Cells", "fmt": {"bix": 320,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #21 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C22_V", "path": "Battery.Cells", "fmt": {"bix": 336,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #22 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C23_V", "path": "Battery.Cells", "fmt": {"bix": 352,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #23 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C24_V", "path": "Battery.Cells", "fmt": {"bix": 368,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #24 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C25_V", "path": "Battery.Cells", "fmt": {"bix": 384,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #25 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C26_V", "path": "Battery.Cells", "fmt": {"bix": 400,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #26 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C27_V", "path": "Battery.Cells", "fmt": {"bix": 416,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #27 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C28_V", "path": "Battery.Cells", "fmt": {"bix": 432,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #28 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C29_V", "path": "Battery.Cells", "fmt": {"bix": 448,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #29 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C30_V", "path": "Battery.Cells", "fmt": {"bix": 464,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #30 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C31_V", "path": "Battery.Cells", "fmt": {"bix": 480,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #31 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C32_V", "path": "Battery.Cells", "fmt": {"bix": 496,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #32 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C33_V", "path": "Battery.Cells", "fmt": {"bix": 512,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #33 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C34_V", "path": "Battery.Cells", "fmt": {"bix": 528,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #34 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C35_V", "path": "Battery.Cells", "fmt": {"bix": 544,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #35 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C36_V", "path": "Battery.Cells", "fmt": {"bix": 560,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #36 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C37_V", "path": "Battery.Cells", "fmt": {"bix": 576,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #37 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C38_V", "path": "Battery.Cells", "fmt": {"bix": 592,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #38 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C39_V", "path": "Battery.Cells", "fmt": {"bix": 608,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #39 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C40_V", "path": "Battery.Cells", "fmt": {"bix": 624,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #40 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C41_V", "path": "Battery.Cells", "fmt": {"bix": 640,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #41 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C42_V", "path": "Battery.Cells", "fmt": {"bix": 656,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #42 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C43_V", "path": "Battery.Cells", "fmt": {"bix": 672,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #43 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C44_V", "path": "Battery.Cells", "fmt": {"bix": 688,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #44 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C45_V", "path": "Battery.Cells", "fmt": {"bix": 704,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #45 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C46_V", "path": "Battery.Cells", "fmt": {"bix": 720,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #46 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C47_V", "path": "Battery.Cells", "fmt": {"bix": 736,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #47 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C48_V", "path": "Battery.Cells", "fmt": {"bix": 752,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #48 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C49_V", "path": "Battery.Cells", "fmt": {"bix": 768,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #49 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C50_V", "path": "Battery.Cells", "fmt": {"bix": 784,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #50 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C51_V", "path": "Battery.Cells", "fmt": {"bix": 800,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #51 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C52_V", "path": "Battery.Cells", "fmt": {"bix": 816,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #52 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C53_V", "path": "Battery.Cells", "fmt": {"bix": 832,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #53 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C54_V", "path": "Battery.Cells", "fmt": {"bix": 848,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #54 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C55_V", "path": "Battery.Cells", "fmt": {"bix": 864,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #55 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C56_V", "path": "Battery.Cells", "fmt": {"bix": 880,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #56 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C57_V", "path": "Battery.Cells", "fmt": {"bix": 896,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #57 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C58_V", "path": "Battery.Cells", "fmt": {"bix": 912,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #58 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C59_V", "path": "Battery.Cells", "fmt": {"bix": 928,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #59 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C60_V", "path": "Battery.Cells", "fmt": {"bix": 944,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #60 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C61_V", "path": "Battery.Cells", "fmt": {"bix": 960,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #61 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C62_V", "path": "Battery.Cells", "fmt": {"bix": 976,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #62 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C63_V", "path": "Battery.Cells", "fmt": {"bix": 992,  "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #63 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C64_V", "path": "Battery.Cells", "fmt": {"bix": 1008, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #64 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C65_V", "path": "Battery.Cells", "fmt": {"bix": 1024, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #65 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C66_V", "path": "Battery.Cells", "fmt": {"bix": 1040, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #66 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C67_V", "path": "Battery.Cells", "fmt": {"bix": 1056, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #67 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C68_V", "path": "Battery.Cells", "fmt": {"bix": 1072, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #68 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C69_V", "path": "Battery.Cells", "fmt": {"bix": 1088, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #69 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C70_V", "path": "Battery.Cells", "fmt": {"bix": 1104, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #70 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C71_V", "path": "Battery.Cells", "fmt": {"bix": 1120, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #71 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C72_V", "path": "Battery.Cells", "fmt": {"bix": 1136, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #72 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C73_V", "path": "Battery.Cells", "fmt": {"bix": 1152, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #73 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C74_V", "path": "Battery.Cells", "fmt": {"bix": 1168, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #74 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C75_V", "path": "Battery.Cells", "fmt": {"bix": 1184, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #75 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C76_V", "path": "Battery.Cells", "fmt": {"bix": 1200, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #76 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C77_V", "path": "Battery.Cells", "fmt": {"bix": 1216, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #77 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C78_V", "path": "Battery.Cells", "fmt": {"bix": 1232, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #78 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C79_V", "path": "Battery.Cells", "fmt": {"bix": 1248, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #79 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C80_V", "path": "Battery.Cells", "fmt": {"bix": 1264, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #80 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C81_V", "path": "Battery.Cells", "fmt": {"bix": 1280, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #81 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C82_V", "path": "Battery.Cells", "fmt": {"bix": 1296, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #82 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C83_V", "path": "Battery.Cells", "fmt": {"bix": 1312, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #83 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C84_V", "path": "Battery.Cells", "fmt": {"bix": 1328, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #84 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C85_V", "path": "Battery.Cells", "fmt": {"bix": 1344, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #85 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C86_V", "path": "Battery.Cells", "fmt": {"bix": 1360, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #86 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C87_V", "path": "Battery.Cells", "fmt": {"bix": 1376, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #87 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C88_V", "path": "Battery.Cells", "fmt": {"bix": 1392, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #88 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C89_V", "path": "Battery.Cells", "fmt": {"bix": 1408, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #89 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C90_V", "path": "Battery.Cells", "fmt": {"bix": 1424, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #90 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C91_V", "path": "Battery.Cells", "fmt": {"bix": 1440, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #91 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C92_V", "path": "Battery.Cells", "fmt": {"bix": 1456, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #92 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C93_V", "path": "Battery.Cells", "fmt": {"bix": 1472, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #93 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C94_V", "path": "Battery.Cells", "fmt": {"bix": 1488, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #94 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C95_V", "path": "Battery.Cells", "fmt": {"bix": 1504, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #95 voltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C96_V", "path": "Battery.Cells", "fmt": {"bix": 1520, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #96 voltage"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "15"}, "freq": 15,
   "signals": [
@@ -704,12 +704,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "48"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "COROLLA_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
-    {"id": "COROLLA_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
+    {"id": "COROLLA_CROSS_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
+    {"id": "COROLLA_CROSS_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "58"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "COROLLA_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
+    {"id": "COROLLA_CROSS_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -738,12 +738,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "COROLLA_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
-    {"id": "COROLLA_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
-    {"id": "COROLLA_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
-    {"id": "COROLLA_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
-    {"id": "COROLLA_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
-    {"id": "COROLLA_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
+    {"id": "COROLLA_CROSS_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
+    {"id": "COROLLA_CROSS_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
+    {"id": "COROLLA_CROSS_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
+    {"id": "COROLLA_CROSS_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
+    {"id": "COROLLA_CROSS_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
+    {"id": "COROLLA_CROSS_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -777,7 +777,7 @@
   ]},
 { "hdr": "7B3", "rax": "7BB", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "COROLLA_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
+    {"id": "COROLLA_CROSS_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "12"}, "freq": 1,
   "signals": [
@@ -862,8 +862,8 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "41"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
-    {"id": "COROLLA_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
+    {"id": "COROLLA_CROSS_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
+    {"id": "COROLLA_CROSS_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -877,11 +877,11 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "49"}, "freq": 0.25,
   "signals": [
-    {"id": "COROLLA_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
+    {"id": "COROLLA_CROSS_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "4A"}, "freq": 0.25,
   "signals": [
-    {"id": "COROLLA_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
+    {"id": "COROLLA_CROSS_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -897,11 +897,11 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "AF"}, "freq": 5,
   "signals": [
-    {"id": "COROLLA_GLASS_T", "path": "Engine", "fmt": { "len": 16, "max": 621, "min": -557, "mul": 9, "div": 500, "add": -557.8, "unit": "fahrenheit" }, "name": "Glass temperature"}
+    {"id": "COROLLA_CROSS_GLASS_T", "path": "Engine", "fmt": { "len": 16, "max": 621, "min": -557, "mul": 9, "div": 500, "add": -557.8, "unit": "fahrenheit" }, "name": "Glass temperature"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "B1"}, "freq": 1,
   "signals": [
-    {"id": "COROLLA_GLASS_HUMIDITY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Glass humidity"}
+    {"id": "COROLLA_CROSS_GLASS_HUMIDITY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Glass humidity"}
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
@@ -925,186 +925,186 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
+    {"id": "COROLLA_CROSS_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "COROLLA_CROSS_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
+    {"id": "COROLLA_CROSS_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
+    {"id": "COROLLA_CROSS_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1040"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
+    {"id": "COROLLA_CROSS_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
-    {"id": "COROLLA_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
+    {"id": "COROLLA_CROSS_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
+    {"id": "COROLLA_CROSS_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106A"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_REAR_MOTOR",              "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque, requested"},
-    {"id": "COROLLA_REAR_MOTOR_REGENERATIVE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque"}
+    {"id": "COROLLA_CROSS_REAR_MOTOR",              "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque, requested"},
+    {"id": "COROLLA_CROSS_REAR_MOTOR_REGENERATIVE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
-    {"id": "COROLLA_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
+    {"id": "COROLLA_CROSS_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
+    {"id": "COROLLA_CROSS_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
+    {"id": "COROLLA_CROSS_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1075"}, "freq": 0.1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_FR_WHEEL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "COROLLA_FL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "COROLLA_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
-    {"id": "COROLLA_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+    {"id": "COROLLA_CROSS_FR_WHEEL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "COROLLA_CROSS_FL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "COROLLA_CROSS_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
+    {"id": "COROLLA_CROSS_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
+    {"id": "COROLLA_CROSS_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A1"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_RPM", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Motor RPM"},
-    {"id": "COROLLA_TQ",  "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Motor torque"}
+    {"id": "COROLLA_CROSS_RPM", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Motor RPM"},
+    {"id": "COROLLA_CROSS_TQ",  "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Motor torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A2"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Rear motor speed"},
-    {"id": "COROLLA_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
+    {"id": "COROLLA_CROSS_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Rear motor speed"},
+    {"id": "COROLLA_CROSS_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A4"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
+    {"id": "COROLLA_CROSS_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
-    {"id": "COROLLA_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
-    {"id": "COROLLA_MAX_MOTOR_INVERTER_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum motor inverter temperature"}
+    {"id": "COROLLA_CROSS_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
+    {"id": "COROLLA_CROSS_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
+    {"id": "COROLLA_CROSS_MAX_MOTOR_INVERTER_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum motor inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A6"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
-    {"id": "COROLLA_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
+    {"id": "COROLLA_CROSS_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
+    {"id": "COROLLA_CROSS_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
-    {"id": "COROLLA_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
+    {"id": "COROLLA_CROSS_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
+    {"id": "COROLLA_CROSS_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
-    {"id": "COROLLA_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
-    {"id": "COROLLA_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
+    {"id": "COROLLA_CROSS_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
+    {"id": "COROLLA_CROSS_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
+    {"id": "COROLLA_CROSS_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
-    {"id": "COROLLA_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
+    {"id": "COROLLA_CROSS_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
+    {"id": "COROLLA_CROSS_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B2"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_INVRT_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Inverter coolant temperature"}
+    {"id": "COROLLA_CROSS_INVRT_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Inverter coolant temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1112"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_INVERTER_WATER_PMP", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 15259, "div": 5000000, "unit": "percent" }, "name": "Inverter water pump duty"}
+    {"id": "COROLLA_CROSS_INVERTER_WATER_PMP", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 15259, "div": 5000000, "unit": "percent" }, "name": "Inverter water pump duty"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111C"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_DC_DC_CONV_OUTPUT", "path": "Transmission", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "amps" }, "name": "DC-DC converter output current"}
+    {"id": "COROLLA_CROSS_DC_DC_CONV_OUTPUT", "path": "Transmission", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "amps" }, "name": "DC-DC converter output current"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111D"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_DC_DC_CONV_LOW_SIDE_V", "path": "Battery", "fmt": { "len": 8, "max": 19.92, "mul": 1953, "div": 25000, "unit": "volts" }, "name": "DC-DC converter low side voltage"}
+    {"id": "COROLLA_CROSS_DC_DC_CONV_LOW_SIDE_V", "path": "Battery", "fmt": { "len": 8, "max": 19.92, "mul": 1953, "div": 25000, "unit": "volts" }, "name": "DC-DC converter low side voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111E"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_DC_DC_CONV_HIGH_SIDE_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter high side voltage"}
+    {"id": "COROLLA_CROSS_DC_DC_CONV_HIGH_SIDE_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter high side voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
+    {"id": "COROLLA_CROSS_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15EE"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_12V_V_V2", "path": "Battery", "fmt": { "len": 8, "max": 80.2, "mul": 0.31448, "add": 0.0125, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "COROLLA_CROSS_12V_V_V2", "path": "Battery", "fmt": { "len": 8, "max": 80.2, "mul": 0.31448, "add": 0.0125, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15F7"}, "freq": 0.5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_12V_C", "path": "Battery", "fmt": { "len": 16, "max": 124, "min": -125, "mul": 38.147, "div": 10000, "add": -125, "unit": "amps" }, "name": "12V battery current"}
+    {"id": "COROLLA_CROSS_12V_C", "path": "Battery", "fmt": { "len": 16, "max": 124, "min": -125, "mul": 38.147, "div": 10000, "add": -125, "unit": "amps" }, "name": "12V battery current"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15F8"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_12V_T", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
+    {"id": "COROLLA_CROSS_12V_T", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1609"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
+    {"id": "COROLLA_CROSS_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_AUXILIARY_BAT",    "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
-    {"id": "COROLLA_HYBRID_BAT_1_FAN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
+    {"id": "COROLLA_CROSS_AUXILIARY_BAT",    "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
+    {"id": "COROLLA_CROSS_HYBRID_BAT_1_FAN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_HYBRID_BAT_T_1", "path": "Battery", "fmt": {           "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 1"},
-    {"id": "COROLLA_HYBRID_BAT_T_2", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 401, "min": -58, "mul": 9,   "div": 5,     "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 2"},
-    {"id": "COROLLA_HYBRID_BAT_T_3", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 3"}
+    {"id": "COROLLA_CROSS_HYBRID_BAT_T_1", "path": "Battery", "fmt": {           "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 1"},
+    {"id": "COROLLA_CROSS_HYBRID_BAT_T_2", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 401, "min": -58, "mul": 9,   "div": 5,     "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 2"},
+    {"id": "COROLLA_CROSS_HYBRID_BAT_T_3", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 3"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1829"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_HVBAT_MAX_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery maximum temperature"}
+    {"id": "COROLLA_CROSS_HVBAT_MAX_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery maximum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "182A"}, "freq": 1, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_HVBAT_MIN_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery minimum temperature"}
+    {"id": "COROLLA_CROSS_HVBAT_MIN_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery minimum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F05"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "COROLLA_CROSS_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "COROLLA_CROSS_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2023 },
   "signals": [
-    {"id": "COROLLA_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
+    {"id": "COROLLA_CROSS_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_AAT_7D2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
+    {"id": "COROLLA_CROSS_AAT_7D2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F49"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_ACC_PEDAL_POS_1", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 1"}
+    {"id": "COROLLA_CROSS_ACC_PEDAL_POS_1", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 1"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F4A"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_ACC_PEDAL_POS_2", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 2"}
+    {"id": "COROLLA_CROSS_ACC_PEDAL_POS_2", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 2"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "COROLLA_CROSS_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F9A"}, "freq": 0.5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "COROLLA_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
-    {"id": "COROLLA_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
+    {"id": "COROLLA_CROSS_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
+    {"id": "COROLLA_CROSS_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]}
 ]
 }
