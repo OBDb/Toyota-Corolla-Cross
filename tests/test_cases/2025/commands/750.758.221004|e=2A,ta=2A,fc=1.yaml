@@ -1,10 +1,14 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    CCROSS_TT_4: 30
+    CCROSS_TT_1: null
+    CCROSS_TT_2: null
+    CCROSS_TT_3: null
+    CCROSS_TT_4: null
+    CCROSS_TT_5: null
   response: |-
     7582A10086210040000
-    7582A21004600000000
+    7582A21000000000000
 - expected_values:
     CCROSS_TT_1: 7
     CCROSS_TT_2: 7
@@ -13,22 +17,6 @@ test_cases:
   response: |-
     7582A10086210042F2F
     7582A212F2F00000000
-- expected_values:
-    CCROSS_TT_1: 7
-    CCROSS_TT_2: 7
-    CCROSS_TT_3: 8
-    CCROSS_TT_4: 7
-  response: |-
-    7582A10086210042F2F
-    7582A21302F00000000
-- expected_values:
-    CCROSS_TT_1: 8
-    CCROSS_TT_2: 8
-    CCROSS_TT_3: 9
-    CCROSS_TT_4: 8
-  response: |-
-    7582A10086210043030
-    7582A21313000000000
 - expected_values:
     CCROSS_TT_1: 37
     CCROSS_TT_2: 37

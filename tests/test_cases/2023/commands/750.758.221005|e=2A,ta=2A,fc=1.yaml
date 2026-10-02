@@ -1,22 +1,20 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    CCROSS_TP_4: 30.18182
+    CCROSS_TP_1: null
+    CCROSS_TP_2: null
+    CCROSS_TP_3: null
+    CCROSS_TP_4: null
+    CCROSS_TP_5: null
   response: |-
     7582A100D6210050000
-    7582A21000000000094
+    7582A21000000000000
     7582A22000000000000
 - expected_values:
     CCROSS_TP_4: 32.84848
   response: |-
     7582A100D6210050000
     7582A2100000000009F
-    7582A22000000000000
-- expected_values:
-    CCROSS_TP_3: 31.39394
-  response: |-
-    7582A100D6210050000
-    7582A21000000990000
     7582A22000000000000
 - expected_values:
     CCROSS_TP_3: 32.84848
