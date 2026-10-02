@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F46|f=2023-
 test_cases:
 - expected_values:
-    CCROSS_AAT_7D2: 6
-  response: 7DA04621F462E
+    CCROSS_AAT_7D2: null
+  response: 7DA04621F4600
 - expected_values:
     CCROSS_AAT_7D2: 37
   response: 7DA04621F464D
