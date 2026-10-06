@@ -442,7 +442,7 @@
   "signals": [
     {"id": "CCROSS_ODO_V6", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "747", "rax": "74F", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2023 },
+{ "hdr": "747", "rax": "74F", "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_BAT_T_01", "path": "Battery", "fmt": {            "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 01"},
     {"id": "CCROSS_BAT_T_02", "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 02"},
@@ -942,7 +942,7 @@
     {"id": "CCROSS_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
     {"id": "CCROSS_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
@@ -953,7 +953,7 @@
     {"id": "CCROSS_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "CCROSS_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
@@ -971,7 +971,7 @@
   "signals": [
     {"id": "CCROSS_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
     {"id": "CCROSS_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
@@ -987,7 +987,7 @@
     {"id": "CCROSS_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
     {"id": "CCROSS_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
     {"id": "CCROSS_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
@@ -1006,7 +1006,7 @@
   "signals": [
     {"id": "CCROSS_INVERTER_WATER_PMP", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 15259, "div": 5000000, "unit": "percent" }, "name": "Inverter water pump duty"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111C"}, "freq": 1, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "111C"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_DC_DC_CONV_OUTPUT", "path": "Transmission", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "amps" }, "name": "DC-DC converter output current"}
   ]},
@@ -1018,7 +1018,7 @@
   "signals": [
     {"id": "CCROSS_DC_DC_CONV_HIGH_SIDE_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter high side voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1, "filter": { "from": 2023 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "111F"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "CCROSS_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
   ]},
