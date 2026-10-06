@@ -1,0 +1,6 @@
+command_id: 7D2.7DA.2210B0|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_VH_V_AFTER_BOOSTING: 200
+    CCROSS_VL_V_BEFORE_BOOSTING: 200.5
+  response: 7DA076210B001910190

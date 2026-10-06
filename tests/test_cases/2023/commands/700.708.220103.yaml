@@ -1,0 +1,8 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    CCROSS_ENG_ODO: 75743
+  response: 70807620103010127DF
+- expected_values:
+    CCROSS_ENG_ODO: 75744
+  response: '70807620103010127E0'

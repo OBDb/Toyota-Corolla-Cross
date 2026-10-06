@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221039|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_FRONT_REAR_MOTOR_TQ: -29.485
+  response: 7DA0762103921270CD3

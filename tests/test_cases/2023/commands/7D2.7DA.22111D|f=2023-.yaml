@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.22111D|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_DC_DC_CONV_LOW_SIDE_V: 14.0616
+  response: 7DA0462111DB4

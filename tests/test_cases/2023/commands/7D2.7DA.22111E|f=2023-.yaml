@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.22111E|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_DC_DC_CONV_HIGH_SIDE_V: 201.53807
+  response: 7DA0562111E0673

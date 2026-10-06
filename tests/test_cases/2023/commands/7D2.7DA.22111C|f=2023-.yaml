@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CCROSS_DC_DC_CONV_OUTPUT: 20.3125
   response: 7DA0462111C1A
+- expected_values:
+    CCROSS_DC_DC_CONV_OUTPUT: 28.125
+  response: 7DA0462111C24
