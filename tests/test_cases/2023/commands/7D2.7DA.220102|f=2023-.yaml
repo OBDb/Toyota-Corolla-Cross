@@ -1,0 +1,7 @@
+command_id: 7D2.7DA.220102|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_KEY_CYCLE: 7487
+  response: |-
+    7DA100A6201021D3F00
+    7DA21008C3901000000

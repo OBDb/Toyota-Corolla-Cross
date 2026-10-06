@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221112|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_INVERTER_WATER_PMP: 48.30999
+  response: 7DA056211123DD6
