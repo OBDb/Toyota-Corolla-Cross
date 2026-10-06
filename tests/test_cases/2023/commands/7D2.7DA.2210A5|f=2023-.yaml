@@ -1,0 +1,7 @@
+command_id: 7D2.7DA.2210A5|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_MAX_MOTOR_INVERTER_T: 90
+    CCROSS_MOTOR_INVERTER_T: 30
+    CCROSS_MOTOR_INVERTER_T_ON: 22
+  response: 7DA066210A5463E82
