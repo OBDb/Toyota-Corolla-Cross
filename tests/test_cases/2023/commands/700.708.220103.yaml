@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CCROSS_ENG_ODO: 75744
   response: '70807620103010127E0'
+- expected_values:
+    CCROSS_ENG_ODO: 75786
+  response: 708076201030101280A
