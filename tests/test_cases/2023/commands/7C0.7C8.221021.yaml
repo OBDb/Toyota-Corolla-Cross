@@ -1,8 +1,11 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    CCROSS_BATTERY_VOLTAGE_7C0: 0
+    CCROSS_BATTERY_VOLTAGE_7C0: null
   response: 7C80462102100
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 9.9
+  response: 7C80462102163
 - expected_values:
     CCROSS_BATTERY_VOLTAGE_7C0: 12.6
   response: |-
