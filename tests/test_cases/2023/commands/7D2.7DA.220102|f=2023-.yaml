@@ -10,3 +10,8 @@ test_cases:
   response: |-
     7DA100A6201021D4400
     7DA21009B7401000000
+- expected_values:
+    CCROSS_KEY_CYCLE: 7492
+  response: |-
+    7DA100A6201021D4400
+    7DA2102CCDD01000000
