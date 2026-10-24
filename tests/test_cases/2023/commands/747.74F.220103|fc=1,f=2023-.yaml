@@ -1,8 +1,8 @@
 command_id: 747.74F.220103|fc=1,f=2023-
 test_cases:
 - expected_values:
-    CCROSS_ODO_V6: 39052
-  response: 74F076201030100988C
+    CCROSS_ODO_V6: 31637
+  response: 74F0762010301007B95
 - expected_values:
     CCROSS_ODO_V6: 39168
   response: 74F0762010301009900
@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     CCROSS_ODO_V6: 65627
   response: 74F076201030101005B
+- expected_values:
+    CCROSS_ODO_V6: 16777215
+  response: 74F0762010303FFFFFF

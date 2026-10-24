@@ -1,0 +1,29 @@
+command_id: 7D2.7DA.221F4A|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 31.76471
+  response: 7DA04621F4A51
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 32.94118
+  response: 7DA04621F4A54
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 36.86275
+  response: 7DA04621F4A5E
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 38.82353
+  response: 7DA04621F4A63
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 40
+  response: 7DA04621F4A66
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 42.7451
+  response: 7DA04621F4A6D
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 44.31373
+  response: 7DA04621F4A71
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 46.27451
+  response: 7DA04621F4A76
+- expected_values:
+    CCROSS_ACC_PEDAL_POS_2: 50.58824
+  response: 7DA04621F4A81

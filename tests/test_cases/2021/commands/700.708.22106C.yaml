@@ -1,0 +1,14 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    CCROSS_DIST_SINCE_BAT_DISC: 3746
+  response: 7080562106C0EA2
+- expected_values:
+    CCROSS_DIST_SINCE_BAT_DISC: 17919
+  response: 7080562106C45FF
+- expected_values:
+    CCROSS_DIST_SINCE_BAT_DISC: 17920
+  response: 7080562106C4600
+- expected_values:
+    CCROSS_DIST_SINCE_BAT_DISC: 22003
+  response: 7080562106C55F3

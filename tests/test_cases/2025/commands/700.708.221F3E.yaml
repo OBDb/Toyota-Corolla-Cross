@@ -1,8 +1,8 @@
 command_id: 700.708.221F3E
 test_cases:
 - expected_values:
-    CCROSS_CAT_T_12: 80.2
-  response: 70805621F3E04B2
+    CCROSS_CAT_T_12: 66.6
+  response: 70805621F3E042A
 - expected_values:
     CCROSS_CAT_T_12: 523
   response: 70805621F3E15FE

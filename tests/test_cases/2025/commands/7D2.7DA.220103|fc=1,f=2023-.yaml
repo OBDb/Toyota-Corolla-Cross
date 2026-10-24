@@ -1,0 +1,29 @@
+command_id: 7D2.7DA.220103|fc=1,f=2023-
+test_cases:
+- expected_values:
+    CCROSS_ODO_V2_V2: 3829
+  response: 7DA0762010301000EF5
+- expected_values:
+    CCROSS_ODO_V2_V2: 3988
+  response: 7DA0762010301000F94
+- expected_values:
+    CCROSS_ODO_V2_V2: 3989
+  response: 7DA0762010301000F95
+- expected_values:
+    CCROSS_ODO_V2_V2: 3990
+  response: 7DA0762010301000F96
+- expected_values:
+    CCROSS_ODO_V2_V2: 4069
+  response: 7DA0762010301000FE5
+- expected_values:
+    CCROSS_ODO_V2_V2: 4947
+  response: 7DA0762010301001353
+- expected_values:
+    CCROSS_ODO_V2_V2: 692
+  response: 7DA07620103020002B4
+- expected_values:
+    CCROSS_ODO_V2_V2: 755
+  response: 7DA07620103020002F3
+- expected_values:
+    CCROSS_ODO_V2_V2: 756
+  response: 7DA07620103020002F4

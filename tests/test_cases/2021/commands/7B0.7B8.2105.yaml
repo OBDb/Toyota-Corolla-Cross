@@ -1,0 +1,22 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    CCROSS_DECEL: -3.35082
+    CCROSS_DECEL_2: -0.78424
+  response: 7B8056105687A00
+- expected_values:
+    CCROSS_DECEL: -0.07129
+    CCROSS_DECEL_2: 3.636
+  response: 7B80561057F993F
+- expected_values:
+    CCROSS_DECEL: 0.78424
+    CCROSS_DECEL_2: -2.63788
+  response: 7B8056105856D39
+- expected_values:
+    CCROSS_DECEL: 1.212
+    CCROSS_DECEL_2: -1.06941
+  response: 7B80561058878A1
+- expected_values:
+    CCROSS_DECEL: 2.21012
+    CCROSS_DECEL_2: -0.64165
+  response: 7B80561058F7B55

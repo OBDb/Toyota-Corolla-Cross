@@ -4,14 +4,17 @@ test_cases:
     CCROSS_FUEL_LEVEL: 4.48
   response: 7C80562102201C0
 - expected_values:
-    CCROSS_FUEL_LEVEL: 20.49
-  response: 7C8056210220801
+    CCROSS_FUEL_LEVEL: 5.8
+  response: 7C8056210220244
 - expected_values:
     CCROSS_FUEL_LEVEL: 23.03
   response: 7C80562102208FF
 - expected_values:
-    CCROSS_FUEL_LEVEL: 23.06
-  response: 7C8056210220902
+    CCROSS_FUEL_LEVEL: 30.72
+  response: 7C8056210220C00
+- expected_values:
+    CCROSS_FUEL_LEVEL: 36.25
+  response: 7C8056210220E29
 - expected_values:
     CCROSS_FUEL_LEVEL: null
   response: 7C805621022FFFF

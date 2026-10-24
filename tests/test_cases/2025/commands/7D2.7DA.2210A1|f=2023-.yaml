@@ -1,0 +1,68 @@
+command_id: 7D2.7DA.2210A1|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_RPM: -260
+    CCROSS_TQ: -17.875
+  response: |-
+    7DA100C6210A17EFC7F
+    7DA216A02007F710400
+- expected_values:
+    CCROSS_RPM: -2
+    CCROSS_TQ: -0.25
+  response: |-
+    7DA100C6210A17FFE80
+    7DA210002007FFE0400
+- expected_values:
+    CCROSS_RPM: -2
+    CCROSS_TQ: -0.125
+  response: |-
+    7DA100C6210A17FFE80
+    7DA210002007FFF0400
+- expected_values:
+    CCROSS_RPM: -1
+    CCROSS_TQ: -2.125
+  response: |-
+    7DA100C6210A17FFF7F
+    7DA21EB02007FEF0400
+- expected_values:
+    CCROSS_RPM: 0
+    CCROSS_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210002007FFF0400
+- expected_values:
+    CCROSS_RPM: 0
+    CCROSS_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210003007FFF0400
+- expected_values:
+    CCROSS_RPM: 0
+    CCROSS_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000400
+- expected_values:
+    CCROSS_RPM: 3463
+    CCROSS_TQ: 11.25
+  response: |-
+    7DA100C6210A18D8780
+    7DA21530202805A0400
+- expected_values:
+    CCROSS_RPM: 3796
+    CCROSS_TQ: -72
+  response: |-
+    7DA100C6210A18ED47D
+    7DA21A902017DC00400
+- expected_values:
+    CCROSS_RPM: 5153
+    CCROSS_TQ: -1.125
+  response: |-
+    7DA100C6210A194217F
+    7DA21F103027FF70400
+- expected_values:
+    CCROSS_RPM: 5588
+    CCROSS_TQ: 29.25
+  response: |-
+    7DA100C6210A195D480
+    7DA21DF030180EA0400

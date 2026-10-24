@@ -1,9 +1,9 @@
 command_id: 700.708.221043
 test_cases:
 - expected_values:
-    CCROSS_EWP_RPM: 225
-    CCROSS_EWP_TARGET_VSS: 250
-  response: 708056210430A09
+    CCROSS_EWP_RPM: 0
+    CCROSS_EWP_TARGET_VSS: 0
+  response: '708056210430000'
 - expected_values:
     CCROSS_EWP_RPM: 6375
     CCROSS_EWP_TARGET_VSS: 5425

@@ -1,0 +1,16 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    CCROSS_ABS_WARN: 0
+    CCROSS_BRAKE_WARN: 0
+    CCROSS_BUZZER: 0
+    CCROSS_ECB_WARN: 0
+    CCROSS_SLIP_WARN: 0
+  response: 7B804613D0000
+- expected_values:
+    CCROSS_ABS_WARN: 1
+    CCROSS_BRAKE_WARN: 1
+    CCROSS_BUZZER: 0
+    CCROSS_ECB_WARN: 1
+    CCROSS_SLIP_WARN: 0
+  response: 7B804613DC208

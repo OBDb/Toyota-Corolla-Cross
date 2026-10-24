@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.221F05|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_COOL_T: 34
+  response: 7DA04621F054A
+- expected_values:
+    CCROSS_COOL_T: 38
+  response: 7DA04621F054E
+- expected_values:
+    CCROSS_COOL_T: 82
+  response: 7DA04621F057A
+- expected_values:
+    CCROSS_COOL_T: 83
+  response: 7DA04621F057B
+- expected_values:
+    CCROSS_COOL_T: 84
+  response: 7DA04621F057C
+- expected_values:
+    CCROSS_COOL_T: 85
+  response: 7DA04621F057D
+- expected_values:
+    CCROSS_COOL_T: 86
+  response: 7DA04621F057E
+- expected_values:
+    CCROSS_COOL_T: 87
+  response: 7DA04621F057F
+- expected_values:
+    CCROSS_COOL_T: 88
+  response: 7DA04621F0580
+- expected_values:
+    CCROSS_COOL_T: 89
+  response: 7DA04621F0581
