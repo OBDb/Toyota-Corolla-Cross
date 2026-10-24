@@ -1,0 +1,14 @@
+command_id: 700.708.221017
+test_cases:
+- expected_values:
+    CCROSS_INJ_VOL: 2.86281
+  response: '708 05 62 10 17 23 C9 '
+- expected_values:
+    CCROSS_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    CCROSS_INJ_VOL: 0.79969
+  response: 7080562101709FF
+- expected_values:
+    CCROSS_INJ_VOL: 4.41938
+  response: 70805621017373E

@@ -1,0 +1,14 @@
+command_id: 700.708.221002
+test_cases:
+- expected_values:
+    CCROSS_12V_V: 12.52926
+  response: '708056210022818'
+- expected_values:
+    CCROSS_12V_V: 12.80758
+  response: 7080562100228FC
+- expected_values:
+    CCROSS_12V_V: 12.81247
+  response: '708056210022900'
+- expected_values:
+    CCROSS_12V_V: 14.06246
+  response: 708056210022D00

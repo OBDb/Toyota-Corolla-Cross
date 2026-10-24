@@ -24,3 +24,11 @@ test_cases:
   response: |-
     7582A10086220210201
     7582A21040300000000
+- expected_values:
+    CCROSS_TID_1: RL
+    CCROSS_TID_2: FL
+    CCROSS_TID_3: RR
+    CCROSS_TID_4: FR
+  response: |-
+    7582A10086220210301
+    7582A21040200000000

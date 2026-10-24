@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.221040|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_TRANSAXLE_OIL_T: 51
+  response: 7DA06621040A9F05B
+- expected_values:
+    CCROSS_TRANSAXLE_OIL_T: 43
+  response: 7DA06621040B40053
+- expected_values:
+    CCROSS_TRANSAXLE_OIL_T: 26
+  response: 7DA06621040C66042

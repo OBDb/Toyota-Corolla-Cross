@@ -1,0 +1,50 @@
+command_id: 7D2.7DA.221F9A|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_HVBAT_C: 5.1
+    CCROSS_HVBAT_V: 198
+  response: |-
+    7DA1009621F9A0E0031
+    7DA2180003300000000
+- expected_values:
+    CCROSS_HVBAT_C: 5.1
+    CCROSS_HVBAT_V: 199
+  response: |-
+    7DA1009621F9A0E0031
+    7DA21C0003300000000
+- expected_values:
+    CCROSS_HVBAT_C: 8
+    CCROSS_HVBAT_V: 200
+  response: |-
+    7DA1009621F9A0E0032
+    7DA2100005000000000
+- expected_values:
+    CCROSS_HVBAT_C: 4.7
+    CCROSS_HVBAT_V: 202
+  response: |-
+    7DA1009621F9A0E0032
+    7DA2180002F00000000
+- expected_values:
+    CCROSS_HVBAT_C: -11.7
+    CCROSS_HVBAT_V: 202
+  response: |-
+    7DA1009621F9A0E0032
+    7DA2180FF8B00000000
+- expected_values:
+    CCROSS_HVBAT_C: 0.5
+    CCROSS_HVBAT_V: 204
+  response: |-
+    7DA1009621F9A0E0033
+    7DA2100000500000000
+- expected_values:
+    CCROSS_HVBAT_C: -1.1
+    CCROSS_HVBAT_V: 205
+  response: |-
+    7DA1009621F9A0E0033
+    7DA2140FFF500000000
+- expected_values:
+    CCROSS_HVBAT_C: 8.7
+    CCROSS_HVBAT_V: 228
+  response: |-
+    7DA1009621F9A0E0039
+    7DA2100005700000000

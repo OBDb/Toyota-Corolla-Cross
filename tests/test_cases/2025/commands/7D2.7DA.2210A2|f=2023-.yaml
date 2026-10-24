@@ -1,0 +1,38 @@
+command_id: 7D2.7DA.2210A2|f=2023-
+test_cases:
+- expected_values:
+    CCROSS_RM_TQ: -0.125
+    CCROSS_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA210004007FFF0000
+- expected_values:
+    CCROSS_RM_TQ: 0
+    CCROSS_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA2100040080000000
+- expected_values:
+    CCROSS_RM_TQ: 0.25
+    CCROSS_RM_TQ_REQ: 1490
+  response: |-
+    7DA100C6210A285D280
+    7DA2100040080020400
+- expected_values:
+    CCROSS_RM_TQ: -0.5
+    CCROSS_RM_TQ_REQ: 2522
+  response: |-
+    7DA100C6210A289DA7F
+    7DA21F904007FFC0400
+- expected_values:
+    CCROSS_RM_TQ: 9.875
+    CCROSS_RM_TQ_REQ: 2806
+  response: |-
+    7DA100C6210A28AF680
+    7DA214E0400804F0400
+- expected_values:
+    CCROSS_RM_TQ: 0.375
+    CCROSS_RM_TQ_REQ: 3791
+  response: |-
+    7DA100C6210A28ECF80
+    7DA2100040080030400

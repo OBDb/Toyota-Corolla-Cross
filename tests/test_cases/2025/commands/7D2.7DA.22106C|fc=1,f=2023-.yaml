@@ -1,0 +1,22 @@
+command_id: 7D2.7DA.22106C|fc=1,f=2023-
+test_cases:
+- expected_values:
+    CCROSS_HVBAT_SOC_MAX: 50.5
+    CCROSS_HVBAT_SOC_MIN: 26.5
+  response: 7DA0662106C436535
+- expected_values:
+    CCROSS_HVBAT_SOC_MAX: 39
+    CCROSS_HVBAT_SOC_MIN: 34.5
+  response: 7DA0662106C4E4E45
+- expected_values:
+    CCROSS_HVBAT_SOC_MAX: 44.5
+    CCROSS_HVBAT_SOC_MIN: 25.5
+  response: 7DA0662106C595933
+- expected_values:
+    CCROSS_HVBAT_SOC_MAX: 73.5
+    CCROSS_HVBAT_SOC_MIN: 63.5
+  response: 7DA0662106C93937F
+- expected_values:
+    CCROSS_HVBAT_SOC_MAX: 73.5
+    CCROSS_HVBAT_SOC_MIN: 67
+  response: 7DA0662106C939386

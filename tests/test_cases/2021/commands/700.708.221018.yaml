@@ -1,0 +1,11 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    CCROSS_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    CCROSS_INJECTOR_PORT: 2.047
+  response: 7080562101807FF
+- expected_values:
+    CCROSS_INJECTOR_PORT: 7.977
+  response: 708056210181F29
