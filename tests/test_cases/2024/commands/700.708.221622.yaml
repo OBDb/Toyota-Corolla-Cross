@@ -1,8 +1,14 @@
 command_id: 700.708.221622
 test_cases:
 - expected_values:
+    CCROSS_TRANS_SHIFT_ST_RAT: 1.02778
+  response: '708056216221072'
+- expected_values:
     CCROSS_TRANS_SHIFT_ST_RAT: 1.2702
   response: '708056216221453'
+- expected_values:
+    CCROSS_TRANS_SHIFT_ST_RAT: 1.7941
+  response: 708056216221CB5
 - expected_values:
     CCROSS_TRANS_SHIFT_ST_RAT: 1.86686
   response: 708056216221DDF

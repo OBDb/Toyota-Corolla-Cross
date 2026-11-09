@@ -7,11 +7,20 @@ test_cases:
     CCROSS_V_BATSENS: 12.38025
   response: 708056215EE279E
 - expected_values:
+    CCROSS_V_BATSENS: 12.39734
+  response: 708056215EE27AC
+- expected_values:
     CCROSS_V_BATSENS: 12.40466
   response: 708056215EE27B2
 - expected_values:
     CCROSS_V_BATSENS: 12.42175
   response: 708056215EE27C0
+- expected_values:
+    CCROSS_V_BATSENS: 13.84264
+  response: 708056215EE2C4C
+- expected_values:
+    CCROSS_V_BATSENS: 14.12828
+  response: 708056215EE2D36
 - expected_values:
     CCROSS_V_BATSENS: 14.22349
   response: 708056215EE2D84

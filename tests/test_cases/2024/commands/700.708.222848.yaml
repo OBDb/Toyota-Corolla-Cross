@@ -1,6 +1,15 @@
 command_id: 700.708.222848
 test_cases:
 - expected_values:
+    CCROSS_EOP_CONTROL_VALVE: 576.32412
+  response: 708056228481D82
+- expected_values:
+    CCROSS_EOP_CONTROL_VALVE: 578.53664
+  response: 708056228481D9F
+- expected_values:
+    CCROSS_EOP_CONTROL_VALVE: 626.29663
+  response: '708056228482011'
+- expected_values:
     CCROSS_EOP_CONTROL_VALVE: 635.68077
   response: 70805622848208C
 - expected_values:

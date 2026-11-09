@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CCROSS_DIST_SINCE_BAT_DISC: 36759
   response: 7080562106C8F97
+- expected_values:
+    CCROSS_DIST_SINCE_BAT_DISC: 36760
+  response: 7080562106C8F98

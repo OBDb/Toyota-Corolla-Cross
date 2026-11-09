@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     CCROSS_ATF_T_PAN_V3: 22.5
   response: '708056216273E80'
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 29.375
+  response: '708056216274560'
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 33.125
+  response: '708056216274920'
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 34.375
+  response: 708056216274A60
