@@ -1,6 +1,11 @@
 command_id: 700.708.221059
 test_cases:
 - expected_values:
+    CCROSS_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059285128
+    7082151000000000000
+- expected_values:
     CCROSS_ACCEL_PEDAL: 0.00024
   response: |-
     708100A621059295128
@@ -15,6 +20,11 @@ test_cases:
   response: |-
     708100A621059396229
     7082151082300000000
+- expected_values:
+    CCROSS_ACCEL_PEDAL: 16.90165
+  response: |-
+    708100A621059416B28
+    70821510C9700000000
 - expected_values:
     CCROSS_ACCEL_PEDAL: 22.53545
   response: |-

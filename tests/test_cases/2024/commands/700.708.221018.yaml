@@ -7,11 +7,20 @@ test_cases:
     CCROSS_INJECTOR_PORT: 3.677
   response: 708056210180E5D
 - expected_values:
+    CCROSS_INJECTOR_PORT: 3.795
+  response: 708056210180ED3
+- expected_values:
     CCROSS_INJECTOR_PORT: 4.232
   response: '708056210181088'
 - expected_values:
     CCROSS_INJECTOR_PORT: 4.619
   response: 70805621018120B
 - expected_values:
+    CCROSS_INJECTOR_PORT: 7.015
+  response: 708056210181B67
+- expected_values:
     CCROSS_INJECTOR_PORT: 7.487
   response: 708056210181D3F
+- expected_values:
+    CCROSS_INJECTOR_PORT: 7.956
+  response: 708056210181F14

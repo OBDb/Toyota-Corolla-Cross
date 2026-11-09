@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     CCROSS_EOT_V2: 32
   response: 70804621F5C48
+- expected_values:
+    CCROSS_EOT_V2: 41
+  response: 70804621F5C51
+- expected_values:
+    CCROSS_EOT_V2: 45
+  response: 70804621F5C55
+- expected_values:
+    CCROSS_EOT_V2: 49
+  response: 70804621F5C59

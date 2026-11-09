@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     CCROSS_EXHAUST_VVT_TARGET_ANGLE_B1: 11.38511
   response: 70805621071048E
+- expected_values:
+    CCROSS_EXHAUST_VVT_TARGET_ANGLE_B1: 27.98434
+  response: 708056210710B32
+- expected_values:
+    CCROSS_EXHAUST_VVT_TARGET_ANGLE_B1: 32.67117
+  response: 708056210710D12

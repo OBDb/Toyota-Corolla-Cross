@@ -13,5 +13,14 @@ test_cases:
     CCROSS_BAT_CURRENT_700: 0.11206
   response: 708056215F7802A
 - expected_values:
+    CCROSS_BAT_CURRENT_700: 0.45525
+  response: 708056215F78084
+- expected_values:
+    CCROSS_BAT_CURRENT_700: 10.12179
+  response: 708056215F78A6B
+- expected_values:
+    CCROSS_BAT_CURRENT_700: 14.35066
+  response: 708056215F78EC0
+- expected_values:
     CCROSS_BAT_CURRENT_700: 18.86934
   response: 708056215F79361

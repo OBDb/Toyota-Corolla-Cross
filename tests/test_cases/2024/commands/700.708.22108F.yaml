@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CCROSS_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.05661
   response: 7080562108F2539
+- expected_values:
+    CCROSS_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.61325
+  response: 7080562108F2572

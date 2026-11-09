@@ -5,13 +5,25 @@ test_cases:
     CCROSS_EWP_TARGET_VSS: 250
   response: 708056210430A0A
 - expected_values:
+    CCROSS_EWP_RPM: 2950
+    CCROSS_EWP_TARGET_VSS: 2950
+  response: '708056210437676'
+- expected_values:
     CCROSS_EWP_RPM: 3175
     CCROSS_EWP_TARGET_VSS: 3175
   response: 708056210437F7F
 - expected_values:
+    CCROSS_EWP_RPM: 3225
+    CCROSS_EWP_TARGET_VSS: 3250
+  response: '708056210438281'
+- expected_values:
     CCROSS_EWP_RPM: 3400
     CCROSS_EWP_TARGET_VSS: 3400
   response: '708056210438888'
+- expected_values:
+    CCROSS_EWP_RPM: 3700
+    CCROSS_EWP_TARGET_VSS: 3625
+  response: '708056210439194'
 - expected_values:
     CCROSS_EWP_RPM: 4200
     CCROSS_EWP_TARGET_VSS: 3850

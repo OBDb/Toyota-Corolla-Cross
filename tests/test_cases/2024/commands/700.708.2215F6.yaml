@@ -5,3 +5,8 @@ test_cases:
   response: |-
     70810096215F6000057
     7082100003900000000
+- expected_values:
+    CCROSS_INITIAL_ENG_BAT_V_LO: 8.9
+  response: |-
+    70810096215F6000059
+    7082100003700000000

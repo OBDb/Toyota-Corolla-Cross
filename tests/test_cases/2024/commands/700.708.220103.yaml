@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CCROSS_ENG_ODO: 23273
   response: 7080762010302005AE9
+- expected_values:
+    CCROSS_ENG_ODO: 23274
+  response: 7080762010302005AEA
