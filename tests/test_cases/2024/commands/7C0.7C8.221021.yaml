@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 12.1
+  response: 7C80462102179
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 12.2
+  response: 7C8046210217A
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 13
+  response: 7C80462102182
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 13.5
+  response: 7C80462102187
+- expected_values:
+    CCROSS_BATTERY_VOLTAGE_7C0: 14.8
+  response: 7C80462102194

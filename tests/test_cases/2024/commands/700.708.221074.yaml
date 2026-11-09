@@ -1,0 +1,17 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    CCROSS_EOP: 96.40625
+  response: 7080562107404D2
+- expected_values:
+    CCROSS_EOP: 108.28125
+  response: 70805621074056A
+- expected_values:
+    CCROSS_EOP: 124.29688
+  response: '708056210740637'
+- expected_values:
+    CCROSS_EOP: 145.54688
+  response: '708056210740747'
+- expected_values:
+    CCROSS_EOP: 195.07812
+  response: 7080562107409C1

@@ -1,0 +1,17 @@
+command_id: 700.708.222827
+test_cases:
+- expected_values:
+    CCROSS_ELECTRIC_WATER_PUMP: 240
+  response: '7080462282706'
+- expected_values:
+    CCROSS_ELECTRIC_WATER_PUMP: 3160
+  response: 708046228274F
+- expected_values:
+    CCROSS_ELECTRIC_WATER_PUMP: 3400
+  response: '7080462282755'
+- expected_values:
+    CCROSS_ELECTRIC_WATER_PUMP: 3600
+  response: 708046228275A
+- expected_values:
+    CCROSS_ELECTRIC_WATER_PUMP: 3880
+  response: '7080462282761'

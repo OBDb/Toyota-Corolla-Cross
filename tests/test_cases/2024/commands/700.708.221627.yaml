@@ -1,0 +1,17 @@
+command_id: 700.708.221627
+test_cases:
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 14.375
+  response: '708056216273660'
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 17.5
+  response: '708056216273980'
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 18.75
+  response: 708056216273AC0
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 20.625
+  response: 708056216273CA0
+- expected_values:
+    CCROSS_ATF_T_PAN_V3: 22.5
+  response: '708056216273E80'

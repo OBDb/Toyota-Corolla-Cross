@@ -1,0 +1,7 @@
+command_id: 700.708.2215F6
+test_cases:
+- expected_values:
+    CCROSS_INITIAL_ENG_BAT_V_LO: 8.7
+  response: |-
+    70810096215F6000057
+    7082100003900000000

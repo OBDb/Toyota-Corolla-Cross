@@ -1,0 +1,17 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    CCROSS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.9865
+  response: '708056210620708'
+- expected_values:
+    CCROSS_EXHAUST_VVT_OCV_CONTROL_DUTY: 14.63035
+  response: 70805621062095D
+- expected_values:
+    CCROSS_EXHAUST_VVT_OCV_CONTROL_DUTY: 26.00748
+  response: 7080562106210A5
+- expected_values:
+    CCROSS_EXHAUST_VVT_OCV_CONTROL_DUTY: 26.0502
+  response: 7080562106210AC
+- expected_values:
+    CCROSS_EXHAUST_VVT_OCV_CONTROL_DUTY: 49.98245
+  response: 708056210621FFD

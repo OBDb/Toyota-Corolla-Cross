@@ -1,0 +1,17 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    CCROSS_CAT_T_12: 140.7
+  response: 70805621F3E070F
+- expected_values:
+    CCROSS_CAT_T_12: 315.6
+  response: 70805621F3E0DE4
+- expected_values:
+    CCROSS_CAT_T_12: 465.7
+  response: 70805621F3E13C1
+- expected_values:
+    CCROSS_CAT_T_12: 492.1
+  response: 70805621F3E14C9
+- expected_values:
+    CCROSS_CAT_T_12: 500.2
+  response: 70805621F3E151A

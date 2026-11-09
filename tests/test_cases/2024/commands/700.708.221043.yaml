@@ -1,0 +1,22 @@
+command_id: 700.708.221043
+test_cases:
+- expected_values:
+    CCROSS_EWP_RPM: 250
+    CCROSS_EWP_TARGET_VSS: 250
+  response: 708056210430A0A
+- expected_values:
+    CCROSS_EWP_RPM: 3175
+    CCROSS_EWP_TARGET_VSS: 3175
+  response: 708056210437F7F
+- expected_values:
+    CCROSS_EWP_RPM: 3400
+    CCROSS_EWP_TARGET_VSS: 3400
+  response: '708056210438888'
+- expected_values:
+    CCROSS_EWP_RPM: 4200
+    CCROSS_EWP_TARGET_VSS: 3850
+  response: 708056210439AA8
+- expected_values:
+    CCROSS_EWP_RPM: 3875
+    CCROSS_EWP_TARGET_VSS: 3875
+  response: 708056210439B9B
