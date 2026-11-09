@@ -1,0 +1,14 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    CCROSS_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708056210880000'
+- expected_values:
+    CCROSS_EXHAUST_VVT_ANGLE_B1: 0.11717
+  response: 70805621088000C
+- expected_values:
+    CCROSS_EXHAUST_VVT_ANGLE_B1: 8.3289
+  response: '708056210880355'
+- expected_values:
+    CCROSS_EXHAUST_VVT_ANGLE_B1: 11.37535
+  response: 70805621088048D

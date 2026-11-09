@@ -1,0 +1,17 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    CCROSS_FUEL_PUMP_DUTY_RATIO: 202.98781
+  response: 7080562106A0D01
+- expected_values:
+    CCROSS_FUEL_PUMP_DUTY_RATIO: 203.17073
+  response: 7080562106A0D04
+- expected_values:
+    CCROSS_FUEL_PUMP_DUTY_RATIO: 203.59756
+  response: 7080562106A0D0B
+- expected_values:
+    CCROSS_FUEL_PUMP_DUTY_RATIO: 208.65854
+  response: 7080562106A0D5E
+- expected_values:
+    CCROSS_FUEL_PUMP_DUTY_RATIO: 210.97561
+  response: 7080562106A0D84

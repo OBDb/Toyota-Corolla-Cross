@@ -1,0 +1,17 @@
+command_id: 700.708.221F5C
+test_cases:
+- expected_values:
+    CCROSS_EOT_V2: 15
+  response: 70804621F5C37
+- expected_values:
+    CCROSS_EOT_V2: 21
+  response: 70804621F5C3D
+- expected_values:
+    CCROSS_EOT_V2: 23
+  response: 70804621F5C3F
+- expected_values:
+    CCROSS_EOT_V2: 28
+  response: 70804621F5C44
+- expected_values:
+    CCROSS_EOT_V2: 32
+  response: 70804621F5C48

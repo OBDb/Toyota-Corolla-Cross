@@ -1,0 +1,5 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    CCROSS_EXHAUST_VVT_HOLD_LEARN_B1: 46.24158
+  response: 708056210891D9A
