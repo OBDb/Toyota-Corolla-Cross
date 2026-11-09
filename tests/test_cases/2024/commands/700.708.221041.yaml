@@ -4,3 +4,11 @@ test_cases:
     CCROSS_ECT_IGN: 14.375
     CCROSS_ECT_INIT: 14.375
   response: '708056210415757'
+- expected_values:
+    CCROSS_ECT_IGN: 45.625
+    CCROSS_ECT_INIT: 45.625
+  response: '708056210418989'
+- expected_values:
+    CCROSS_ECT_IGN: 45.625
+    CCROSS_ECT_INIT: 55
+  response: '708056210418998'

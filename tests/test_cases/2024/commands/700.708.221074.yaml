@@ -7,11 +7,20 @@ test_cases:
     CCROSS_EOP: 108.28125
   response: 70805621074056A
 - expected_values:
+    CCROSS_EOP: 108.98438
+  response: '708056210740573'
+- expected_values:
     CCROSS_EOP: 124.29688
   response: '708056210740637'
+- expected_values:
+    CCROSS_EOP: 125.3125
+  response: '708056210740644'
 - expected_values:
     CCROSS_EOP: 145.54688
   response: '708056210740747'
 - expected_values:
     CCROSS_EOP: 195.07812
   response: 7080562107409C1
+- expected_values:
+    CCROSS_EOP: 222.65625
+  response: 708056210740B22

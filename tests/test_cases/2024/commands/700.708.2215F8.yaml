@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CCROSS_BAT_T_700: 14.8
   response: 708056215F80224
+- expected_values:
+    CCROSS_BAT_T_700: 17.9
+  response: 708056215F80243
+- expected_values:
+    CCROSS_BAT_T_700: 18.2
+  response: 708056215F80246
+- expected_values:
+    CCROSS_BAT_T_700: 18.3
+  response: 708056215F80247

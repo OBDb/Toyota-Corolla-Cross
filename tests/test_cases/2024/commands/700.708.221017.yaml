@@ -10,8 +10,17 @@ test_cases:
     CCROSS_INJ_VOL: 1.01406
   response: 708056210170CAD
 - expected_values:
+    CCROSS_INJ_VOL: 1.50562
+  response: 7080562101712D2
+- expected_values:
+    CCROSS_INJ_VOL: 1.52688
+  response: '708056210171316'
+- expected_values:
     CCROSS_INJ_VOL: 2.26188
   response: 708056210171C46
 - expected_values:
     CCROSS_INJ_VOL: 2.86312
   response: 7080562101723CA
+- expected_values:
+    CCROSS_INJ_VOL: 2.99438
+  response: 70805621017256E

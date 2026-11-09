@@ -1,6 +1,9 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
+    CCROSS_LFP: 272.1
+  response: 708056210CD8AA1
+- expected_values:
     CCROSS_LFP: 290.6
   response: 708056210CD8B5A
 - expected_values:
@@ -12,6 +15,12 @@ test_cases:
 - expected_values:
     CCROSS_LFP: 319.6
   response: 708056210CD8C7C
+- expected_values:
+    CCROSS_LFP: 328.5
+  response: 708056210CD8CD5
+- expected_values:
+    CCROSS_LFP: 389.2
+  response: 708056210CD8F34
 - expected_values:
     CCROSS_LFP: 390.2
   response: 708056210CD8F3E
