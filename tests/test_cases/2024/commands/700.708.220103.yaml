@@ -12,3 +12,18 @@ test_cases:
 - expected_values:
     CCROSS_ENG_ODO: 23274
   response: 7080762010302005AEA
+- expected_values:
+    CCROSS_ENG_ODO: 23275
+  response: 7080762010302005AEB
+- expected_values:
+    CCROSS_ENG_ODO: 23276
+  response: 7080762010302005AEC
+- expected_values:
+    CCROSS_ENG_ODO: 23277
+  response: 7080762010302005AED
+- expected_values:
+    CCROSS_ENG_ODO: 23299
+  response: 7080762010302005B03
+- expected_values:
+    CCROSS_ENG_ODO: 23300
+  response: 7080762010302005B04

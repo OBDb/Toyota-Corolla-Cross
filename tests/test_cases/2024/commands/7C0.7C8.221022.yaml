@@ -1,20 +1,8 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    CCROSS_FUEL_LEVEL: 37.26
-  response: 7C8056210220E8E
-- expected_values:
-    CCROSS_FUEL_LEVEL: 37.33
-  response: 7C8056210220E95
-- expected_values:
-    CCROSS_FUEL_LEVEL: 37.72
-  response: 7C8056210220EBC
-- expected_values:
-    CCROSS_FUEL_LEVEL: 38.1
-  response: 7C8056210220EE2
-- expected_values:
-    CCROSS_FUEL_LEVEL: 38.21
-  response: 7C8056210220EED
+    CCROSS_FUEL_LEVEL: 33.99
+  response: 7C8056210220D47
 - expected_values:
     CCROSS_FUEL_LEVEL: 38.33
   response: 7C8056210220EF9
@@ -22,14 +10,8 @@ test_cases:
     CCROSS_FUEL_LEVEL: 38.5
   response: 7C8056210220F0A
 - expected_values:
-    CCROSS_FUEL_LEVEL: 38.74
-  response: 7C8056210220F22
-- expected_values:
-    CCROSS_FUEL_LEVEL: 40.44
-  response: 7C8056210220FCC
-- expected_values:
-    CCROSS_FUEL_LEVEL: 43.1
-  response: 7C80562102210D6
+    CCROSS_FUEL_LEVEL: 42.56
+  response: 7C80562102210A0
 - expected_values:
     CCROSS_FUEL_LEVEL: null
   response: 7C805621022FFFF

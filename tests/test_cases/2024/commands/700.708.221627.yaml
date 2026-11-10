@@ -4,23 +4,11 @@ test_cases:
     CCROSS_ATF_T_PAN_V3: 14.375
   response: '708056216273660'
 - expected_values:
-    CCROSS_ATF_T_PAN_V3: 17.5
-  response: '708056216273980'
+    CCROSS_ATF_T_PAN_V3: 36.875
+  response: 708056216274CE0
 - expected_values:
-    CCROSS_ATF_T_PAN_V3: 18.75
-  response: 708056216273AC0
+    CCROSS_ATF_T_PAN_V3: 40
+  response: '708056216275000'
 - expected_values:
-    CCROSS_ATF_T_PAN_V3: 20.625
-  response: 708056216273CA0
-- expected_values:
-    CCROSS_ATF_T_PAN_V3: 22.5
-  response: '708056216273E80'
-- expected_values:
-    CCROSS_ATF_T_PAN_V3: 29.375
-  response: '708056216274560'
-- expected_values:
-    CCROSS_ATF_T_PAN_V3: 33.125
-  response: '708056216274920'
-- expected_values:
-    CCROSS_ATF_T_PAN_V3: 34.375
-  response: 708056216274A60
+    CCROSS_ATF_T_PAN_V3: 75.625
+  response: 7080562162773A0
