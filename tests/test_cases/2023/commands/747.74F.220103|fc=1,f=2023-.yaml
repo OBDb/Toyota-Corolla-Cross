@@ -16,5 +16,5 @@ test_cases:
     CCROSS_ODO_V6: 65627
   response: 74F076201030101005B
 - expected_values:
-    CCROSS_ODO_V6: 16777215
+    CCROSS_ODO_V6: null
   response: 74F0762010303FFFFFF
