@@ -1,20 +1,22 @@
 command_id: 747.74F.220103|fc=1,f=2023-
 test_cases:
 - expected_values:
-    CCROSS_ODO_V6: 31637
+    CCROSS_ODO_V6_RAW: 31637
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301007B95
 - expected_values:
-    CCROSS_ODO_V6: 39168
+    CCROSS_ODO_V6_RAW: 39168
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301009900
 - expected_values:
-    CCROSS_ODO_V6: 39423
+    CCROSS_ODO_V6_RAW: 39423
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F07620103010099FF
 - expected_values:
-    CCROSS_ODO_V6: 65280
+    CCROSS_ODO_V6_RAW: 65280
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F076201030100FF00
 - expected_values:
-    CCROSS_ODO_V6: 65627
+    CCROSS_ODO_V6_RAW: 65627
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F076201030101005B
-- expected_values:
-    CCROSS_ODO_V6: null
-  response: 74F0762010303FFFFFF

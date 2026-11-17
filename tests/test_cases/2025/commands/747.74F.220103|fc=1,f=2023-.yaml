@@ -1,32 +1,42 @@
 command_id: 747.74F.220103|fc=1,f=2023-
 test_cases:
 - expected_values:
-    CCROSS_ODO_V6: 3829
+    CCROSS_ODO_V6_RAW: 3829
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301000EF5
 - expected_values:
-    CCROSS_ODO_V6: 3988
+    CCROSS_ODO_V6_RAW: 3988
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301000F94
 - expected_values:
-    CCROSS_ODO_V6: 3989
+    CCROSS_ODO_V6_RAW: 3989
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301000F95
 - expected_values:
-    CCROSS_ODO_V6: 3990
+    CCROSS_ODO_V6_RAW: 3990
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301000F96
 - expected_values:
-    CCROSS_ODO_V6: 4069
+    CCROSS_ODO_V6_RAW: 4069
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301000FE5
 - expected_values:
-    CCROSS_ODO_V6: 4947
+    CCROSS_ODO_V6_RAW: 4947
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301001353
 - expected_values:
-    CCROSS_ODO_V6: 4948
+    CCROSS_ODO_V6_RAW: 4948
+    CCROSS_ODO_V6_UNIT: KM
   response: 74F0762010301001354
 - expected_values:
-    CCROSS_ODO_V6: 692
+    CCROSS_ODO_V6_RAW: 692
+    CCROSS_ODO_V6_UNIT: MI
   response: 74F07620103020002B4
 - expected_values:
-    CCROSS_ODO_V6: 755
+    CCROSS_ODO_V6_RAW: 755
+    CCROSS_ODO_V6_UNIT: MI
   response: 74F07620103020002F3
 - expected_values:
-    CCROSS_ODO_V6: 756
+    CCROSS_ODO_V6_RAW: 756
+    CCROSS_ODO_V6_UNIT: MI
   response: 74F07620103020002F4
